@@ -321,9 +321,9 @@ spDALStoreGetUtilityAPIKey|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Dail
 
 spDALVendor|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Daily\Resources\handler\PurchaseRebatesGrid.ashx.cs|172|//        cmdTemp.CommandText = "spDALVendorInsertCSP";
 
-spDALVendor|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Daily\Resources\handler\PurchaseRebatesGrid.ashx.cs|172|//        cmdTemp.CommandText = "spDALVendorInsertCSP";
-
 spDALVendorInsert|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Daily\Resources\handler\PurchaseRebatesGrid.ashx.cs|172|//        cmdTemp.CommandText = "spDALVendorInsertCSP";
+
+spDALVendor|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Daily\Resources\handler\PurchaseRebatesGrid.ashx.cs|172|//        cmdTemp.CommandText = "spDALVendorInsertCSP";
 
 spBLGasNonPrivateGetRealtimeInventory|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Dashboard\Resources\Handler\GetRealtimeStoreSummary.ashx.cs|112|cmdTemp.CommandText = "spBLGasNonPrivateGetRealtimeInventory";
 
@@ -1336,6 +1336,1812 @@ spDALStoreEntityList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedure
 spGetInvoiceDataNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\qbo.spGetInvoiceDataNew.sql|6|CREATE PROCEDURE  [qbo].[spGetInvoiceDataNew]
 
 spStoreSettingSet|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\qbo.spStoreSettingSet.sql|6|CREATE PROCEDURE  [qbo].[spStoreSettingSet]
+
+getCurrentUserCRMData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.getCurrentUserCRMData.sql|5|CREATE PROCEDURE [unused].[getCurrentUserCRMData]
+
+getStoreGroceryLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.getStoreGroceryLog.sql|5|CREATE PROCEDURE [unused].[getStoreGroceryLog]  @storeID int, @dtStart smalldatetime, @dtEnd smalldatetime 
+
+getStoreGroceryLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.getStoreGroceryLog2.sql|5|CREATE PROCEDURE [unused].[getStoreGroceryLog2]  @storeID int, @dtStart smalldatetime, @dtEnd smalldatetime 
+
+getStoreGroceryLog2|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.getStoreGroceryLog2.sql|5|CREATE PROCEDURE [unused].[getStoreGroceryLog2]  @storeID int, @dtStart smalldatetime, @dtEnd smalldatetime 
+
+getStoreGroceryLog3|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.getStoreGroceryLog3.sql|6|CREATE PROCEDURE [unused].[getStoreGroceryLog3]  @storeID int, @dtStart smalldatetime, @dtEnd smalldatetime 
+
+getStoreGroceryLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.getStoreGroceryLog3.sql|6|CREATE PROCEDURE [unused].[getStoreGroceryLog3]  @storeID int, @dtStart smalldatetime, @dtEnd smalldatetime 
+
+getStoreGroceryLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.getStoreGroceryLog4.sql|6|CREATE PROCEDURE [unused].[getStoreGroceryLog4]  @storeID int, @dtStart smalldatetime, @dtEnd smalldatetime 
+
+getStoreGroceryLog4|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.getStoreGroceryLog4.sql|6|CREATE PROCEDURE [unused].[getStoreGroceryLog4]  @storeID int, @dtStart smalldatetime, @dtEnd smalldatetime 
+
+IsThisAMultipleStoreLogin|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.IsThisAMultipleStoreLogin.sql|5|CREATE PROCEDURE  [unused].[IsThisAMultipleStoreLogin]
+
+spAdminStoreEngagement|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spAdminStoreEngagement.sql|10|CREATE PROCEDURE [unused].[spAdminStoreEngagement]
+
+spAgentDetailsLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spAgentDetailsLog.sql|5|CREATE PROCEDURE   [unused].[spAgentDetailsLog]  @agentID int, @storeID int, @startDate smalldatetime, @endDate smalldatetime as 
+
+spAnalysisGroceryInventoryAtCostOpening|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spAnalysisGroceryInventoryAtCostOpening.sql|7|CREATE    PROCEDURE [unused].[spAnalysisGroceryInventoryAtCostOpening]
+
+spAnalysisGroceryInventoryAtCostReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spAnalysisGroceryInventoryAtCostReport.sql|6|CREATE   PROCEDURE [unused].[spAnalysisGroceryInventoryAtCostReport]
+
+spAnalysisGroceryInventoryAtRetailOpening|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spAnalysisGroceryInventoryAtRetailOpening.sql|5|CREATE  PROCEDURE [unused].[spAnalysisGroceryInventoryAtRetailOpening]
+
+spAnalysisGroceryInventoryAtRetailReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spAnalysisGroceryInventoryAtRetailReport.sql|5|CREATE  PROCEDURE [unused].[spAnalysisGroceryInventoryAtRetailReport]
+
+spAnalysisSalesDetails|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spAnalysisSalesDetails.sql|5|CREATE PROCEDURE [unused].[spAnalysisSalesDetails]
+
+spAnalysisVendorProductReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spAnalysisVendorProductReport.sql|5|CREATE PROCEDURE   [unused].[spAnalysisVendorProductReport]
+
+spAnalysisVendorProductReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spAnalysisVendorProductReportByCode.sql|5|CREATE PROCEDURE   [unused].[spAnalysisVendorProductReportByCode]
+
+spAnalysisVendorProductReportByCode|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spAnalysisVendorProductReportByCode.sql|5|CREATE PROCEDURE   [unused].[spAnalysisVendorProductReportByCode]
+
+spAppBatchProcessGetBatchID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spAppBatchProcessGetBatchID.sql|5|CREATE PROCEDURE [unused].[spAppBatchProcessGetBatchID]
+
+spBLAccountValidateExpired|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLAccountValidateExpired.sql|10|CREATE PROCEDURE [unused].[spBLAccountValidateExpired]
+
+spBLATMErrorFix|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLATMErrorFix.sql|10|CREATE PROCEDURE [unused].[spBLATMErrorFix]
+
+spBLBankAccountsInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLBankAccountsInsert.sql|10|CREATE PROCEDURE [unused].[spBLBankAccountsInsert]
+
+spBLBankCheckNoValidate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLBankCheckNoValidate.sql|5|CREATE PROCEDURE [unused].[spBLBankCheckNoValidate]
+
+spBLBankLogIsPayrollCheck|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLBankLogIsPayrollCheck.sql|6|CREATE PROCEDURE [unused].[spBLBankLogIsPayrollCheck]
+
+spBLBankTransferInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLBankTransferInsert.sql|10|CREATE PROCEDURE [unused].[spBLBankTransferInsert]
+
+spBLCarryforwardLottery|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLCarryforwardLottery.sql|5|CREATE PROCEDURE [unused].[spBLCarryforwardLottery]
+
+spBLCC2BankLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLCC2BankLog.sql|5|CREATE PROCEDURE  [unused].[spBLCC2BankLog] 
+
+spBLCC2CreateCredit|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLCC2CreateCredit.sql|10|CREATE PROCEDURE [unused].[spBLCC2CreateCredit]
+
+spDALBankDefaultAccount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLCC2CreateCredit.sql|48|EXEC [new].[spDALBankDefaultAccountFind]  @OutStatus = @IsSuccessful OUTPUT
+
+spBLCC2CreateCredits|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLCC2CreateCredits.sql|10|CREATE PROCEDURE [unused].[spBLCC2CreateCredits]
+
+spBLCC2CreateCredit|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLCC2CreateCredits.sql|10|CREATE PROCEDURE [unused].[spBLCC2CreateCredits]
+
+spDALBankDefaultAccount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLCC2CreateCredits.sql|37|EXEC spDALBankDefaultAccountFind @OutBankID = @intDefaultBankID OUTPUT
+
+spBLCC3BankLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLCC3BankLog.sql|5|CREATE PROCEDURE  [unused].[spBLCC3BankLog] 
+
+spBLCOMCheckBatchCreditDR|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLCOMCheckBatchCreditDR.sql|5|CREATE PROCEDURE [unused].[spBLCOMCheckBatchCreditDR]
+
+spBLComponentInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLComponentInsert.sql|5|CREATE PROC [unused].[spBLComponentInsert]
+
+spBLControlPointInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLControlPointInsert.sql|5|CREATE PROC [unused].[spBLControlPointInsert] 
+
+spBLCorpBankReportSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLCorpBankReportSummary.sql|5|CREATE PROCEDURE  [unused].[spBLCorpBankReportSummary]  
+
+spBLCorpBankStatementSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLCorpBankStatementSummary.sql|5|CREATE PROCEDURE  [unused].[spBLCorpBankStatementSummary]  
+
+spBLCorpIDByStore|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLCorpIDByStore.sql|10|CREATE PROCEDURE [unused].[spBLCorpIDByStore]
+
+spBLCorpSummaryGrocSalesRep|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLCorpSummaryGrocSalesRep.sql|5|CREATE PROCEDURE [unused].[spBLCorpSummaryGrocSalesRep]
+
+spBLCreditCard3OpBalance|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLCreditCard3OpBalance.sql|11|CREATE PROCEDURE [unused].[spBLCreditCard3OpBalance]
+
+spBLDailyGasSalesPrivateUnpaid|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLDailyGasSalesPrivateUnpaid.sql|10|CREATE PROCEDURE [unused].[spBLDailyGasSalesPrivateUnpaid]
+
+spBLDailyLotteryPreValidate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLDailyLotteryPreValidate.sql|10|CREATE PROCEDURE [unused].[spBLDailyLotteryPreValidate] 
+
+spBLDailyReportsNewStore|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLDailyReportsNewStore.sql|5|CREATE PROC [unused].[spBLDailyReportsNewStore]
+
+spDALDailyCheckCashingSalesInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLDailyReportsNewStore.sql|32|EXEC spDALDailyCheckCashingSalesInsert @InStoreID	 
+
+spBLDashGetStoresBySessionID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLDashGetStoresBySessionID.sql|5|CREATE PROC [unused].[spBLDashGetStoresBySessionID] 
+
+spBLEnterDataLocksInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLEnterDataLocksInsert.sql|5|CREATE PROC [unused].[spBLEnterDataLocksInsert]
+
+spBLExpenseCategoryDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLExpenseCategoryDelete.sql|7|CREATE PROC [unused].[spBLExpenseCategoryDelete]
+
+spBLFillDownLottery|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLFillDownLottery.sql|5|CREATE PROCEDURE [unused].[spBLFillDownLottery]
+
+spBLFinaliseGasInvoiceValidate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLFinaliseGasInvoiceValidate.sql|5|CREATE PROCEDURE  [unused].[spBLFinaliseGasInvoiceValidate] 
+
+SPBLFindDetailLogIDbyInvoice|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPBLFindDetailLogIDbyInvoice.sql|5|CREATE PROCEDURE  [unused].[SPBLFindDetailLogIDbyInvoice]
+
+spBLFindStoreAdmin|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLFindStoreAdmin.sql|7|CREATE procedure [unused].[spBLFindStoreAdmin]
+
+spBLFoodStampsCredit|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLFoodStampsCredit.sql|5|CREATE PROC [unused].[spBLFoodStampsCredit]
+
+spDALFoodStampsCreditInvoiceInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLFoodStampsCredit.sql|50|EXEC [dbo].[spDALFoodStampsCreditInvoiceInsert] 
+
+spBLFoundationNewStore|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLFoundationNewStore.sql|5|CREATE PROC [unused].[spBLFoundationNewStore]
+
+spDALUserInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLFoundationNewStore.sql|28|EXEC  spDALUserInsertNew   @intStatus OUT
+
+spBLFreeVersionSignUpActivationLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLFreeVersionSignUpActivationLog.sql|10|CREATE PROCEDURE [unused].[spBLFreeVersionSignUpActivationLog]
+
+spBLGasBillPayment|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasBillPayment.sql|7|CREATE PROCEDURE [unused].[spBLGasBillPayment]
+
+spBLGasCardSettlement|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasCardSettlement.sql|10|CREATE PROCEDURE [unused].[spBLGasCardSettlement]
+
+spBLGasCardUnSettle|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasCardUnSettle.sql|10|CREATE PROCEDURE [unused].[spBLGasCardUnSettle]
+
+spBLGasCCBatchLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasCCBatchLog.sql|10|CREATE PROCEDURE [unused].[spBLGasCCBatchLog]
+
+spBLGasGetCashCardsPrivateByPaymentID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasGetCashCardsPrivateByPaymentID.sql|8|CREATE PROCEDURE [unused].[spBLGasGetCashCardsPrivateByPaymentID]
+
+spBLGasGetCreditCardsPrivateByPaymentID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasGetCreditCardsPrivateByPaymentID.sql|13|CREATE PROCEDURE [unused].[spBLGasGetCreditCardsPrivateByPaymentID]
+
+spBLGasGetDailyTotals|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasGetDailyTotals.sql|11|CREATE PROCEDURE [unused].[spBLGasGetDailyTotals]
+
+spBLGasGetDeliveryGridCommissioned|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasGetDeliveryGridCommissioned.sql|5|CREATE PROCEDURE [unused].[spBLGasGetDeliveryGridCommissioned] 
+
+spBLGasGetDeliveryGridPrivateDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasGetDeliveryGridPrivateDelete.sql|5|CREATE PROCEDURE [unused].[spBLGasGetDeliveryGridPrivateDelete]
+
+spBLGasGetInvoiceGridCommissioned|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasGetInvoiceGridCommissioned.sql|5|CREATE PROCEDURE [unused].[spBLGasGetInvoiceGridCommissioned]
+
+spBLGasGetInvoicesForPaymentNonPrivate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasGetInvoicesForPaymentNonPrivate.sql|14|CREATE PROCEDURE [unused].[spBLGasGetInvoicesForPaymentNonPrivate]
+
+spBLGasGetInvoicesPrivateByPaymentID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasGetInvoicesPrivateByPaymentID.sql|13|CREATE PROCEDURE [unused].[spBLGasGetInvoicesPrivateByPaymentID]
+
+spBLGasGetPaymentDetails|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasGetPaymentDetails.sql|7|CREATE PROCEDURE [unused].[spBLGasGetPaymentDetails]
+
+spBLGasPayment|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasPayment.sql|5|CREATE PROCEDURE  [unused].[spBLGasPayment] 
+
+spBLGasPrivatePaymentUnsettleInvoice|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasPrivatePaymentUnsettleInvoice.sql|19|CREATE PROCEDURE [unused].[spBLGasPrivatePaymentUnsettleInvoice]
+
+spBLGasPrivateValidateIsPaid|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasPrivateValidateIsPaid.sql|9|CREATE PROCEDURE  [unused].[spBLGasPrivateValidateIsPaid] 
+
+spBLGasSettlement|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasSettlement.sql|13|CREATE PROCEDURE [unused].[spBLGasSettlement]
+
+spBLGasBillPayment|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasSettlement.sql|105|EXEC spBLGasBillPaymentPrivate @isSuccessful OUTPUT
+
+spBLGasPayment|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasSettlement.sql|125|EXEC spBLGasPaymentCCCreditLog @isSuccessful OUTPUT
+
+spBLGasPayment|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasSettlement.sql|138|EXECUTE spBLGasPaymentCCSettle @isSuccessful OUTPUT
+
+spBLGasPayment|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasSettlement.sql|146|EXECUTE spBLGasPaymentCashCardSettle @isSuccessful OUTPUT
+
+spBLGasPaymentInvoiceSettle|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasSettlement.sql|153|EXECUTE spBLGasPaymentInvoiceSettle @isSuccessful OUTPUT
+
+spBLGasPayment|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGasSettlement.sql|153|EXECUTE spBLGasPaymentInvoiceSettle @isSuccessful OUTPUT
+
+spBLGetAllStoresNeedThisGameNo|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGetAllStoresNeedThisGameNo.sql|5|CREATE PROCEDURE  [unused].[spBLGetAllStoresNeedThisGameNo]
+
+spBLGetAllUnsettledLotteryPacks|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGetAllUnsettledLotteryPacks.sql|5|CREATE PROCEDURE [unused].[spBLGetAllUnsettledLotteryPacks]
+
+spBLGetBankAccountByStore|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGetBankAccountByStore.sql|10|CREATE PROCEDURE [unused].[spBLGetBankAccountByStore]
+
+SPBLGetCurrentLockEndDate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPBLGetCurrentLockEndDate.sql|5|CREATE PROCEDURE  [unused].[SPBLGetCurrentLockEndDate]
+
+SPBLGetEmployeeImageValues|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPBLGetEmployeeImageValues.sql|5|CREATE PROCEDURE [unused].[SPBLGetEmployeeImageValues]
+
+spBLGetLicenseTypes|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGetLicenseTypes.sql|5|CREATE PROCEDURE [unused].[spBLGetLicenseTypes]
+
+spBLGraphGrocery|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGraphGrocery.sql|10|CREATE PROCEDURE [unused].[spBLGraphGrocery] 
+
+spBLGroceryGetPurchaseByCategory|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGroceryGetPurchaseByCategory.sql|13|CREATE PROCEDURE [unused].[spBLGroceryGetPurchaseByCategory]
+
+spBLGroceryGetPurchaseByItem|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGroceryGetPurchaseByItem.sql|6|CREATE PROCEDURE [unused].[spBLGroceryGetPurchaseByItem]
+
+spBLGroceryGetUnRetailedInvoices|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGroceryGetUnRetailedInvoices.sql|9|CREATE PROCEDURE [unused].[spBLGroceryGetUnRetailedInvoices]
+
+spBLGroceryInventoryAdjList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGroceryInventoryAdjList.sql|10|CREATE PROCEDURE [unused].[spBLGroceryInventoryAdjList]
+
+spBLGroceryPurchaseDeleteValidate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLGroceryPurchaseDeleteValidate.sql|10|CREATE PROCEDURE [unused].[spBLGroceryPurchaseDeleteValidate] 
+
+spBLHFLInvoicePreValidate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLHFLInvoicePreValidate.sql|10|CREATE PROCEDURE [unused].[spBLHFLInvoicePreValidate] 
+
+spBLIsActiveGameExist|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLIsActiveGameExist.sql|14|CREATE PROCEDURE [unused].[spBLIsActiveGameExist]
+
+spBLIsCarryForwardDateEligible|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLIsCarryForwardDateEligible.sql|5|CREATE PROCEDURE [unused].[spBLIsCarryForwardDateEligible]
+
+SPBLIsDeleteAllowedForThisLock|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPBLIsDeleteAllowedForThisLock.sql|5|CREATE PROCEDURE  [unused].[SPBLIsDeleteAllowedForThisLock] 
+
+spBLIsGamePackFillDownEligible|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLIsGamePackFillDownEligible.sql|5|CREATE PROCEDURE [unused].[spBLIsGamePackFillDownEligible]
+
+spBLIsPackUndoSoldOutEligible|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLIsPackUndoSoldOutEligible.sql|5|CREATE PROCEDURE [unused].[spBLIsPackUndoSoldOutEligible]
+
+spBLIsStoreToLotteryGameExist|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLIsStoreToLotteryGameExist.sql|6|CREATE PROCEDURE [unused].[spBLIsStoreToLotteryGameExist]
+
+IsThisAMultipleStoreLogin|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPBLIsThisAMultipleStoreLogin.sql|5|CREATE PROCEDURE  [unused].[SPBLIsThisAMultipleStoreLogin]
+
+SPBLIsThisAMultipleStoreLogin|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPBLIsThisAMultipleStoreLogin.sql|5|CREATE PROCEDURE  [unused].[SPBLIsThisAMultipleStoreLogin]
+
+spBLIsThisCheckNoExists|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLIsThisCheckNoExists.sql|5|CREATE PROCEDURE  [unused].[spBLIsThisCheckNoExists] 
+
+SPBLIsThisCreditCardExists|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPBLIsThisCreditCardExists.sql|5|CREATE PROCEDURE   [unused].[SPBLIsThisCreditCardExists]
+
+SPBLIsThisStoreAssignedPrimaryCreditCard|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPBLIsThisStoreAssignedPrimaryCreditCard.sql|5|CREATE PROCEDURE  [unused].[SPBLIsThisStoreAssignedPrimaryCreditCard]
+
+spBLLotteryDoesThisPhoneNoExists|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryDoesThisPhoneNoExists.sql|5|CREATE PROCEDURE  [unused].[spBLLotteryDoesThisPhoneNoExists] 
+
+spBLLotteryDoesThisUserExists|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryDoesThisUserExists.sql|5|CREATE PROCEDURE  [unused].[spBLLotteryDoesThisUserExists]
+
+spBLLotteryFindRecordUpdateStatus|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryFindRecordUpdateStatus.sql|5|CREATE PROCEDURE [unused].[spBLLotteryFindRecordUpdateStatus] 
+
+spBLLotteryGameUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryGameUpdate.sql|5|CREATE PROC [unused].[spBLLotteryGameUpdate]
+
+spDALGlobalLotteryGameUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryGameUpdate.sql|31|EXEC [V10].[spDALGlobalLotteryGameUpdate]      @OutStatus OUTPUT
+
+spBLLotteryImportGameToStore|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryImportGameToStore.sql|5|CREATE PROCEDURE [unused].[spBLLotteryImportGameToStore]
+
+spBLLotteryInitialInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryInitialInsert.sql|10|CREATE PROCEDURE [unused].[spBLLotteryInitialInsert]
+
+spBLLotteryInventoryInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryInventoryInsert.sql|5|CREATE PROCEDURE [unused].[spBLLotteryInventoryInsert]
+
+spBLLotteryIsActiveGameExist|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryIsActiveGameExist.sql|5|CREATE PROCEDURE [unused].[spBLLotteryIsActiveGameExist]
+
+spBLLotteryIsSalesPresent|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryIsSalesPresent.sql|10|CREATE PROCEDURE [unused].[spBLLotteryIsSalesPresent]
+
+spBLLotteryPrevDayRecCount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryPrevDayRecCount.sql|5|CREATE PROCEDURE   [unused].[spBLLotteryPrevDayRecCount]
+
+spBLLotteryTicketSalesGameFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryTicketSalesGameFind.sql|5|CREATE PROCEDURE   [unused].[spBLLotteryTicketSalesGameFind]
+
+spBLLotteryTicketSalesGenerateGrid|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryTicketSalesGenerateGrid.sql|5|CREATE PROCEDURE   [unused].[spBLLotteryTicketSalesGenerateGrid]
+
+spBLLotteryTodayRecCount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryTodayRecCount.sql|5|CREATE PROCEDURE   [unused].[spBLLotteryTodayRecCount]
+
+SPBLLotteryUpdateTodayGames|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPBLLotteryUpdateTodayGames.sql|5|CREATE PROCEDURE  [unused].[SPBLLotteryUpdateTodayGames]
+
+spBLLotteryValidateDailySales|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryValidateDailySales.sql|10|CREATE PROCEDURE [unused].[spBLLotteryValidateDailySales]
+
+spBLLotteryValidateDeleteGame|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryValidateDeleteGame.sql|5|CREATE PROCEDURE  [unused].[spBLLotteryValidateDeleteGame] 
+
+spBLLotteryValidateInitialInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLLotteryValidateInitialInsert.sql|10|CREATE PROCEDURE [unused].[spBLLotteryValidateInitialInsert]
+
+spBLMoneyOrderPreValidate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLMoneyOrderPreValidate.sql|10|CREATE PROCEDURE [unused].[spBLMoneyOrderPreValidate] 
+
+spBLNewAdminInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLNewAdminInsert.sql|5|CREATE PROC [unused].[spBLNewAdminInsert]
+
+spBLNotificationDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLNotificationDelete.sql|5|CREATE PROC [unused].[spBLNotificationDelete]
+
+spBLNotificationInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLNotificationInsert.sql|5|CREATE PROC [unused].[spBLNotificationInsert]
+
+spBLNotificationInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLNotificationInsertNew.sql|5|CREATE PROC [unused].[spBLNotificationInsertNew]
+
+spBLNotificationInsertNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLNotificationInsertNew.sql|5|CREATE PROC [unused].[spBLNotificationInsertNew]
+
+spBLNotificationUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLNotificationUpdate.sql|5|CREATE PROC [unused].[spBLNotificationUpdate]
+
+spBLPageList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLPageList.sql|5|CREATE PROC [unused].[spBLPageList]
+
+spBLPrePaidPhonePreValidate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLPrePaidPhonePreValidate.sql|10|CREATE PROCEDURE [unused].[spBLPrePaidPhonePreValidate] 
+
+spBLPurchaseInvoiceRetailingLogPURItemsByInVoiceID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLPurchaseInvoiceRetailingLogPURItemsByInVoiceID.sql|10|CREATE PROCEDURE [unused].[spBLPurchaseInvoiceRetailingLogPURItemsByInVoiceID]
+
+spBLPURRetailingSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLPURRetailingSummary.sql|10|CREATE PROCEDURE [unused].[spBLPURRetailingSummary]
+
+spBLRebateCPBSyncProgramsWithLocalStores|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLRebateCPBSyncProgramsWithLocalStores.sql|10|CREATE PROCEDURE [unused].[spBLRebateCPBSyncProgramsWithLocalStores]
+
+spBLRebateProgramByRetailLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLRebateProgramByRetailLog.sql|10|CREATE PROCEDURE [unused].[spBLRebateProgramByRetailLog]
+
+spBLRebateProgramLinkedItem|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLRebateProgramLinkedItem.sql|10|CREATE PROCEDURE [unused].[spBLRebateProgramLinkedItem]
+
+spBLRebateProviderLinkToVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLRebateProviderLinkToVendor.sql|10|CREATE PROCEDURE [unused].[spBLRebateProviderLinkToVendor]
+
+spBLSettingsWizardFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLSettingsWizardFind.sql|12|CREATE PROCEDURE [unused].[spBLSettingsWizardFind]
+
+spBLSettingsWizardUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLSettingsWizardUpdate.sql|13|CREATE PROCEDURE [unused].[spBLSettingsWizardUpdate]
+
+spBLSettleUnsettledLotteryPacks|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLSettleUnsettledLotteryPacks.sql|5|CREATE PROCEDURE [unused].[spBLSettleUnsettledLotteryPacks]
+
+spBLStoreLotteryGameDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLStoreLotteryGameDelete.sql|5|CREATE PROC [unused].[spBLStoreLotteryGameDelete]
+
+spBLStoreLotteryGameInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLStoreLotteryGameInsert.sql|5|CREATE PROC [unused].[spBLStoreLotteryGameInsert]
+
+spBLStoreLotteryGameUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLStoreLotteryGameUpdate.sql|5|CREATE PROC [unused].[spBLStoreLotteryGameUpdate]
+
+spBLStoreSettingsAssignEFTFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLStoreSettingsAssignEFTFind.sql|11|CREATE PROCEDURE [unused].[spBLStoreSettingsAssignEFTFind]
+
+spBLStoreSettingsAssignEFTUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLStoreSettingsAssignEFTUpdate.sql|12|CREATE PROCEDURE [unused].[spBLStoreSettingsAssignEFTUpdate]
+
+spBLStoreUpdateNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLStoreUpdateNew.sql|5|CREATE PROC [unused].[spBLStoreUpdateNew]
+
+spBLTeleCheckCredit|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLTeleCheckCredit.sql|5|CREATE PROC [unused].[spBLTeleCheckCredit]
+
+spDALTeleCheckCreditInvoiceInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLTeleCheckCredit.sql|50|EXEC [dbo].[spDALTeleCheckCreditInvoiceInsert] 
+
+spBLUndoSoldOut|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLUndoSoldOut.sql|5|CREATE PROCEDURE [unused].[spBLUndoSoldOut]
+
+spBLUpdateStartDate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLUpdateStartDate.sql|5|CREATE PROCEDURE [unused].[spBLUpdateStartDate]
+
+spBLUserUpdateNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLUserUpdateNew.sql|5|CREATE PROC [unused].[spBLUserUpdateNew]
+
+spBLValidateErrorLogID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLValidateErrorLogID.sql|5|CREATE PROCEDURE  [unused].[spBLValidateErrorLogID]
+
+SPBLValidatePrivateGasDelivery|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPBLValidatePrivateGasDelivery.sql|5|CREATE PROCEDURE  [unused].[SPBLValidatePrivateGasDelivery]
+
+spBLValidateRebateProgramToRetailLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLValidateRebateProgramToRetailLog.sql|10|CREATE PROCEDURE [unused].[spBLValidateRebateProgramToRetailLog]
+
+spBLVendorUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLVendorUpdate.sql|5|CREATE PROC  [unused].[spBLVendorUpdate]
+
+spBLViewStoreControlPointsUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLViewStoreControlPointsUpdate.sql|5|CREATE PROC [unused].[spBLViewStoreControlPointsUpdate]
+
+spBLViewStoreReminderDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLViewStoreReminderDelete.sql|5|CREATE PROC [unused].[spBLViewStoreReminderDelete]
+
+spBLViewStoreReminderInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLViewStoreReminderInsert.sql|5|CREATE PROC [unused].[spBLViewStoreReminderInsert]
+
+spBLViewStoreReminderInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLViewStoreReminderInsertNew.sql|5|CREATE PROC [unused].[spBLViewStoreReminderInsertNew]
+
+spBLViewStoreReminderInsertNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLViewStoreReminderInsertNew.sql|5|CREATE PROC [unused].[spBLViewStoreReminderInsertNew]
+
+spBLViewStoreReminderUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLViewStoreReminderUpdate.sql|5|CREATE PROC [unused].[spBLViewStoreReminderUpdate]
+
+spBLWicCard|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLWicCard.sql|5|CREATE PROC [unused].[spBLWicCard]
+
+spBOAddNewItemWeb|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBOAddNewItemWeb.sql|10|CREATE PROCEDURE [unused].[spBOAddNewItemWeb]
+
+spBregLoanAccountSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBregLoanAccountSummary.sql|5|CREATE PROCEDURE  [unused].[spBregLoanAccountSummary] @storeID int, @startDate smalldatetime, @endDate smalldatetime  AS
+
+spBregLoanDetailsLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBregLoanDetailsLog.sql|5|CREATE PROCEDURE [unused].[spBregLoanDetailsLog]  @accountID int, @storeID int, @startDate smalldatetime, @endDate smalldatetime as
+
+spCashAgentDetailsLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCashAgentDetailsLog.sql|5|CREATE PROCEDURE   [unused].[spCashAgentDetailsLog]  @InAgentID int, @InStoreID int, @InStartDate smalldatetime, @InEndDate smalldatetime as 
+
+spCashExpensesDetailsLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCashExpensesDetailsLog.sql|5|CREATE PROCEDURE   [unused].[spCashExpensesDetailsLog]  @InCategoryID int, @InStoreID int, @InStartDate smalldatetime, @InEndDate smalldatetime as 
+
+spCashExpensesSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCashExpensesSummary.sql|5|CREATE PROCEDURE   [unused].[spCashExpensesSummary]  @InStoreID int, @InStartDate smalldatetime, @InEndDate smalldatetime  AS
+
+spCheckCashingReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCheckCashingReport.sql|5|CREATE PROCEDURE  [unused].[spCheckCashingReport]   @storeid int,@dtStart  smalldatetime,@dtEnd smalldatetime  AS
+
+spCheckEmployeeInOut|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCheckEmployeeInOut.sql|5|CREATE PROCEDURE [unused].[spCheckEmployeeInOut]
+
+spCheckInOutEmployee|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCheckInOutEmployee.sql|5|CREATE PROCEDURE [unused].[spCheckInOutEmployee]
+
+spCODayReportScratchoffSalesLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCODayReportScratchoffSalesLog.sql|7|EXEC [v10].[spCODayReportScratchoffSalesLog]  @InSessionID = 'feca8498-37a0-4076-99d4-0566a0ae9126', @InReportStartDate = '01/18/2006', @InReportEndDate = '01/20/2006', @InReportStoreGroup = '', @InReportGroup='1'
+
+spCODayReportScratchoffSalesLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCODayReportScratchoffSalesLog.sql|10|CREATE PROCEDURE [unused].[spCODayReportScratchoffSalesLog]
+
+spCOLotteryBalance|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCOLotteryBalance.sql|5|CREATE PROCEDURE [unused].[spCOLotteryBalance]  
+
+spEWFGetStoreIDFromStoreNo|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCOLotteryBalance.sql|16|EXEC	[V10].[spEWFGetStoreIDFromStoreNo]
+
+spCommissionOpBal_NBNP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCommissionOpBal_NBNP.sql|5|CREATE PROCEDURE [unused].[spCommissionOpBal_NBNP]  @storeID int ,@dtStart smallDateTime AS
+
+spConsignmentFuelStoreList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spConsignmentFuelStoreList.sql|10|CREATE PROCEDURE [unused].[spConsignmentFuelStoreList]
+
+SPCPATM|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPATM.sql|5|CREATE PROCEDURE  [unused].[SPCPATM]
+
+SPCPCheckCashingBalance|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPCheckCashingBalance.sql|5|CREATE PROCEDURE  [unused].[SPCPCheckCashingBalance]
+
+SPCPCreditCardBalance|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPCreditCardBalance.sql|5|CREATE PROCEDURE  [unused].[SPCPCreditCardBalance]
+
+SPCPCurrentATMBalance|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPCurrentATMBalance.sql|5|CREATE PROCEDURE  [unused].[SPCPCurrentATMBalance]
+
+SPCPCustomerCredit|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPCustomerCredit.sql|5|CREATE PROCEDURE  [unused].[SPCPCustomerCredit]
+
+SPCPDayClosingShortOver|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPDayClosingShortOver.sql|5|CREATE PROCEDURE  [unused].[SPCPDayClosingShortOver]
+
+SPCPDieselGasShortOver|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPDieselGasShortOver.sql|5|CREATE PROCEDURE  [unused].[SPCPDieselGasShortOver]
+
+SPCPGasShortOver|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPGasShortOver.sql|5|CREATE PROCEDURE  [unused].[SPCPGasShortOver]
+
+SPCPGroceryInventory|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPGroceryInventory.sql|5|CREATE PROCEDURE  [unused].[SPCPGroceryInventory]
+
+SPCPLotteryInstantSales|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPLotteryInstantSales.sql|5|CREATE PROCEDURE   [unused].[SPCPLotteryInstantSales]
+
+SPCPLotterySettlements|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPLotterySettlements.sql|5|CREATE PROCEDURE  [unused].[SPCPLotterySettlements]
+
+SPCPLotteryTicketSales|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPLotteryTicketSales.sql|5|CREATE PROCEDURE  [unused].[SPCPLotteryTicketSales]
+
+SPCPPlusGasShortOver|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPPlusGasShortOver.sql|5|CREATE PROCEDURE  [unused].[SPCPPlusGasShortOver]
+
+SPCPRegularGasShortOver|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPRegularGasShortOver.sql|5|CREATE PROCEDURE  [unused].[SPCPRegularGasShortOver]
+
+SPCPSuperGasShortOver|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPSuperGasShortOver.sql|5|CREATE PROCEDURE  [unused].[SPCPSuperGasShortOver]
+
+SPCPTNRCCDiesel|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPTNRCCDiesel.sql|5|CREATE PROCEDURE   [unused].[SPCPTNRCCDiesel]
+
+SPCPTNRCCPlus|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPTNRCCPlus.sql|5|CREATE PROCEDURE   [unused].[SPCPTNRCCPlus]
+
+SPCPTNRCCRegular|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPTNRCCRegular.sql|5|CREATE PROCEDURE   [unused].[SPCPTNRCCRegular]
+
+SPCPTNRCCSuper|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPTNRCCSuper.sql|5|CREATE PROCEDURE   [unused].[SPCPTNRCCSuper]
+
+SPCPTotalGroceryInventory|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPTotalGroceryInventory.sql|5|CREATE PROCEDURE  [unused].[SPCPTotalGroceryInventory] 
+
+SPCPTotalShortOver|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPTotalShortOver.sql|5|CREATE PROCEDURE  [unused].[SPCPTotalShortOver]
+
+SPCPTView|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPCPTView.sql|6|CREATE PROCEDURE  [unused].[SPCPTView]
+
+spCreditCard2AnalysisLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCreditCard2AnalysisLog.sql|5|CREATE  PROCEDURE  [unused].[spCreditCard2AnalysisLog]
+
+spCreditCard2BatchAnalysisLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCreditCard2BatchAnalysisLog.sql|5|CREATE  PROCEDURE  [unused].[spCreditCard2BatchAnalysisLog]
+
+spCreditCard3AnalysisLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCreditCard3AnalysisLog.sql|5|CREATE  PROCEDURE  [unused].[spCreditCard3AnalysisLog]
+
+spCreditCard3BatchAnalysisLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCreditCard3BatchAnalysisLog.sql|5|CREATE  PROCEDURE  [unused].[spCreditCard3BatchAnalysisLog]
+
+spCStoreNotificationFindRecord|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCStoreNotificationFindRecord.sql|5|CREATE PROCEDURE [unused].[spCStoreNotificationFindRecord]
+
+spCUSTGetCheckCashingMappings|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCUSTGetCheckCashingMappings.sql|6|CREATE PROCEDURE [unused].[spCUSTGetCheckCashingMappings]
+
+spCustomerCreditAccountsData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spCustomerCreditAccountsData.sql|5|CREATE PROCEDURE  [unused].[spCustomerCreditAccountsData] @storeID int, @CustomerCreditID int AS
+
+spDALAdminByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALAdminByID.sql|5|CREATE PROC [unused].[spDALAdminByID]
+
+spDALAgentByStoreIDList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALAgentByStoreIDList.sql|5|CREATE PROC [unused].[spDALAgentByStoreIDList]
+
+spDALATMCashFromBankLogFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALATMCashFromBankLogFind.sql|5|CREATE PROCEDURE [unused].[spDALATMCashFromBankLogFind]
+
+spDALATMCashFromBankLogUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALATMCashFromBankLogUpdate.sql|5|CREATE PROCEDURE [unused].[spDALATMCashFromBankLogUpdate]
+
+spDALBankAccountByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankAccountByID.sql|5|CREATE PROC [unused].[spDALBankAccountByID]
+
+spDALBankAccountByStore|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankAccountByStore.sql|10|CREATE PROCEDURE [unused].[spDALBankAccountByStore]
+
+spDALBankAccountDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankAccountDelete.sql|5|CREATE PROCEDURE [unused].[spDALBankAccountDelete]
+
+spDALBankAccountDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankAccountDeleteNew.sql|5|CREATE PROC [unused].[spDALBankAccountDeleteNew]
+
+spDALBankAccountDeleteNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankAccountDeleteNew.sql|5|CREATE PROC [unused].[spDALBankAccountDeleteNew]
+
+spDALBankAccountFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankAccountFind.sql|5|CREATE PROCEDURE [unused].[spDALBankAccountFind]
+
+spDALBankAccountInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankAccountInsert.sql|5|CREATE PROCEDURE [unused].[spDALBankAccountInsert]
+
+spDALBankAccountInsertGrid|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankAccountInsertGrid.sql|5|CREATE PROC [unused].[spDALBankAccountInsertGrid]
+
+spDALBankAccountInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankAccountInsertGrid.sql|5|CREATE PROC [unused].[spDALBankAccountInsertGrid]
+
+spDALBankAccountUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankAccountUpdate.sql|5|CREATE PROCEDURE [unused].[spDALBankAccountUpdate]
+
+spDALBankAccountUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankAccountUpdateNew.sql|5|CREATE PROC [unused].[spDALBankAccountUpdateNew]
+
+spDALBankAccountUpdateNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankAccountUpdateNew.sql|5|CREATE PROC [unused].[spDALBankAccountUpdateNew]
+
+spDALBankDefaultBankAccountFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankDefaultBankAccountFind.sql|5|CREATE PROCEDURE  [unused].[spDALBankDefaultBankAccountFind]
+
+spDALBankFindRecord|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankFindRecord.sql|5|CREATE PROCEDURE [unused].[spDALBankFindRecord] 
+
+spDALBankLogDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankLogDelete.sql|5|CREATE PROCEDURE  [unused].[spDALBankLogDelete]
+
+spDALBankLogUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankLogUpdate.sql|5|CREATE PROCEDURE  [unused].[spDALBankLogUpdate]
+
+spDALCashDrawerList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCashDrawerList.sql|5|CREATE PROCEDURE [unused].[spDALCashDrawerList]
+
+spDALCashDrawLogFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCashDrawLogFind.sql|5|CREATE PROCEDURE [unused].[spDALCashDrawLogFind]
+
+spDALCashDrawLogUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCashDrawLogUpdate.sql|5|CREATE PROCEDURE [unused].[spDALCashDrawLogUpdate]
+
+spDALCC2BatchLogUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCC2BatchLogUpdate.sql|5|CREATE PROC [unused].[spDALCC2BatchLogUpdate]
+
+spDALCCBatchLogFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCCBatchLogFind.sql|5|CREATE PROCEDURE [unused].[spDALCCBatchLogFind]
+
+spDALCCBatchLogUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCCBatchLogUpdate.sql|5|CREATE PROCEDURE [unused].[spDALCCBatchLogUpdate]
+
+spDALCCCreditLogFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCCCreditLogFind.sql|5|CREATE PROCEDURE [unused].[spDALCCCreditLogFind]
+
+spDALCCCreditLogFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCCCreditLogFindID.sql|5|CREATE PROCEDURE  [unused].[spDALCCCreditLogFindID] 
+
+spDALCCCreditLogFindID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCCCreditLogFindID.sql|5|CREATE PROCEDURE  [unused].[spDALCCCreditLogFindID] 
+
+spDALCCCreditLogUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCCCreditLogUpdate.sql|5|CREATE PROCEDURE [unused].[spDALCCCreditLogUpdate]
+
+spDALCCDepositDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCCDepositDelete.sql|5|CREATE PROCEDURE [unused].[spDALCCDepositDelete]
+
+spDALCCDepositFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCCDepositFind.sql|5|CREATE PROCEDURE [unused].[spDALCCDepositFind]
+
+spDALCCDepositUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCCDepositUpdate.sql|5|CREATE PROCEDURE [unused].[spDALCCDepositUpdate]
+
+spDALCCMFBlogDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCCMFBlogDelete.sql|5|CREATE PROCEDURE [unused].[spDALCCMFBlogDelete]
+
+spDALCCMFBlogFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCCMFBlogFind.sql|5|CREATE PROCEDURE [unused].[spDALCCMFBlogFind]
+
+spDALCCMFBlogUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCCMFBlogUpdate.sql|5|CREATE PROCEDURE [unused].[spDALCCMFBlogUpdate]
+
+spDALCheckCashLogDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCheckCashLogDelete.sql|5|CREATE PROCEDURE [unused].[spDALCheckCashLogDelete]
+
+spDALCheckCashLogFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCheckCashLogFind.sql|5|CREATE PROCEDURE [unused].[spDALCheckCashLogFind]
+
+spDALCheckCashLogUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCheckCashLogUpdate.sql|5|CREATE PROCEDURE [unused].[spDALCheckCashLogUpdate]
+
+spDALCOAddExpenseCategoryToStore|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCOAddExpenseCategoryToStore.sql|5|CREATE PROC [unused].[spDALCOAddExpenseCategoryToStore]
+
+spDALCOExpensesByCorpStoreID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCOExpensesByCorpStoreID.sql|5|CREATE PROC [unused].[spDALCOExpensesByCorpStoreID]	
+
+spDALComCheckBatchLogFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALComCheckBatchLogFind.sql|5|CREATE PROCEDURE [unused].[spDALComCheckBatchLogFind]
+
+spDALComCheckBatchLogUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALComCheckBatchLogUpdate.sql|5|CREATE PROCEDURE [unused].[spDALComCheckBatchLogUpdate]
+
+spDALCOMCheckDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCOMCheckDelete.sql|5|CREATE PROCEDURE [unused].[spDALCOMCheckDelete]
+
+spDALComponentByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALComponentByID.sql|5|CREATE PROC [unused].[spDALComponentByID]
+
+spDALControlPointByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALControlPointByID.sql|5|CREATE PROC [unused].[spDALControlPointByID]
+
+spDALControlPointsDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALControlPointsDelete.sql|5|CREATE PROCEDURE [unused].[spDALControlPointsDelete]
+
+spDALControlPointsFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALControlPointsFind.sql|5|CREATE PROCEDURE [unused].[spDALControlPointsFind]
+
+spDALControlPointsInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALControlPointsInsert.sql|5|CREATE PROCEDURE [unused].[spDALControlPointsInsert]
+
+spDALControlPointsUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALControlPointsUpdate.sql|5|CREATE PROCEDURE [unused].[spDALControlPointsUpdate]
+
+spDALCreditCard2BatchList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCreditCard2BatchList.sql|5|CREATE PROC [unused].[spDALCreditCard2BatchList] 
+
+spDALCreditCard2Grid|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCreditCard2Grid.sql|7|CREATE PROC [unused].[spDALCreditCard2Grid]
+
+spDALCreditCard3Grid|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCreditCard3Grid.sql|7|CREATE PROC [unused].[spDALCreditCard3Grid]
+
+spDALCreditInvoiceFindBankLogID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCreditInvoiceFindBankLogID.sql|5|CREATE PROCEDURE  [unused].[spDALCreditInvoiceFindBankLogID] 
+
+spDALCreditInvoiceSalesList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCreditInvoiceSalesList.sql|5|CREATE PROCEDURE  [unused].[spDALCreditInvoiceSalesList]
+
+spDALCurrentStoreDates|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCurrentStoreDates.sql|5|CREATE PROC [unused].[spDALCurrentStoreDates]
+
+SPDALCustomerCreditAccount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPDALCustomerCreditAccount.sql|5|CREATE PROCEDURE  [unused].[SPDALCustomerCreditAccount]
+
+spDALCustomerCreditAccountInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCustomerCreditAccountInsert.sql|5|CREATE PROC [unused].[spDALCustomerCreditAccountInsert]
+
+spDALCustomerCreditAccountLogFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCustomerCreditAccountLogFind.sql|5|CREATE PROCEDURE [unused].[spDALCustomerCreditAccountLogFind]
+
+spDALCustomerCreditAccountLogFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCustomerCreditAccountLogFind.sql|5|CREATE PROCEDURE [unused].[spDALCustomerCreditAccountLogFind]
+
+spDALCustomerCreditAccountLogUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCustomerCreditAccountLogUpdate.sql|5|CREATE PROCEDURE [unused].[spDALCustomerCreditAccountLogUpdate]
+
+spDALCustomerCreditDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCustomerCreditDelete.sql|5|CREATE PROCEDURE [unused].[spDALCustomerCreditDelete]
+
+spDALCustomerCreditListByStoreID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALCustomerCreditListByStoreID.sql|5|CREATE PROC [unused].[spDALCustomerCreditListByStoreID]  
+
+spDALDailyATMSalesDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyATMSalesDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyATMSalesDelete]
+
+spDALDailyBillPaySalesDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyBillPaySalesDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyBillPaySalesDelete]
+
+spDALDailyBillPaySalesInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyBillPaySalesInsert.sql|5|CREATE PROCEDURE [unused].[spDALDailyBillPaySalesInsert]
+
+spDALDailyCheckCashingSalesDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyCheckCashingSalesDelete.sql|6|CREATE PROCEDURE [unused].[spDALDailyCheckCashingSalesDelete]
+
+spDALDailyCollectionsDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyCollectionsDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyCollectionsDelete]
+
+spDALDailyFoodStampSalesDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyFoodStampSalesDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyFoodStampSalesDelete]
+
+spDALDailyGasSalesNonPrivateDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyGasSalesNonPrivateDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyGasSalesNonPrivateDelete]
+
+spDALDailyGasSalesPrivateDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyGasSalesPrivateDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyGasSalesPrivateDelete]
+
+spDALDailyHFLSalesDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyHFLSalesDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyHFLSalesDelete]
+
+spDALDailyList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyList.sql|7|CREATE procedure [unused].[spDALDailyList]
+
+spDALDailyLotterySalesDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyLotterySalesDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyLotterySalesDelete]
+
+spDALDailyMO2SalesDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyMO2SalesDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyMO2SalesDelete]
+
+spDALDailyMoneyTransfer2SalesDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyMoneyTransfer2SalesDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyMoneyTransfer2SalesDelete]
+
+spDALDailyMoneyTransfer2SalesInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyMoneyTransfer2SalesInsert.sql|5|CREATE PROCEDURE [unused].[spDALDailyMoneyTransfer2SalesInsert]
+
+spDALDailyMoneyTransferSalesDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyMoneyTransferSalesDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyMoneyTransferSalesDelete]
+
+spDALDailyMoneyTransferSalesInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyMoneyTransferSalesInsert.sql|5|CREATE PROCEDURE [unused].[spDALDailyMoneyTransferSalesInsert]
+
+spDALDailyMOSalesDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyMOSalesDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyMOSalesDelete]
+
+spDALDailyMOSalesInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyMOSalesInsert.sql|5|CREATE PROCEDURE [unused].[spDALDailyMOSalesInsert]
+
+spDALDailyMOSalesUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyMOSalesUpdate.sql|5|CREATE PROCEDURE [unused].[spDALDailyMOSalesUpdate]
+
+spDALDailyPOSCategoryDataFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyPOSCategoryDataFind.sql|10|CREATE PROCEDURE [unused].[spDALDailyPOSCategoryDataFind]
+
+spDALDailyPOSCategoryDataInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyPOSCategoryDataInsert.sql|10|CREATE PROCEDURE [unused].[spDALDailyPOSCategoryDataInsert] 
+
+spDALDailyPrePaidPhoneSalesDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyPrePaidPhoneSalesDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyPrePaidPhoneSalesDelete]
+
+spDALDailyReportComponentDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyReportComponentDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyReportComponentDelete]
+
+spDALDailyReportCountAlert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyReportCountAlert.sql|10|CREATE PROCEDURE [unused].[spDALDailyReportCountAlert]
+
+spDALDailyReportDateAlert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyReportDateAlert.sql|10|CREATE PROCEDURE [unused].[spDALDailyReportDateAlert]
+
+spDALDailyReportsDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyReportsDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyReportsDelete]
+
+spDALDailySalesReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailySalesReport.sql|7|CREATE PROC [unused].[spDALDailySalesReport]
+
+spDALDailySummaryRpt|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailySummaryRpt.sql|5|CREATE PROCEDURE [unused].[spDALDailySummaryRpt] 
+
+spDALDailyTeleCheckSalesDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyTeleCheckSalesDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyTeleCheckSalesDelete]
+
+spDALDailyTeleCheckSalesFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyTeleCheckSalesFind.sql|5|CREATE PROCEDURE [unused].[spDALDailyTeleCheckSalesFind]
+
+spDALDailyTotalsDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyTotalsDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyTotalsDelete]
+
+spDALDailyWicCardSalesDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyWicCardSalesDelete.sql|5|CREATE PROCEDURE [unused].[spDALDailyWicCardSalesDelete]
+
+spDALDailyWicCardSalesFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDailyWicCardSalesFind.sql|5|CREATE PROCEDURE [unused].[spDALDailyWicCardSalesFind]
+
+spDALDeleteFoodStampsInvoices|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDeleteFoodStampsInvoices.sql|5|CREATE PROC [unused].[spDALDeleteFoodStampsInvoices]
+
+spDALBankLogDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDeleteFoodStampsInvoices.sql|20|EXEC [new].[spDALBankLogDelete] @intStatus OUT
+
+spDALDirectCheckExpensesFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALDirectCheckExpensesFind.sql|5|CREATE PROC [unused].[spDALDirectCheckExpensesFind] 
+
+spDALEmployeeAdd|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeeAdd.sql|5|CREATE PROCEDURE [unused].[spDALEmployeeAdd]
+
+spDALEmployeeCheckInOut|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeeCheckInOut.sql|5|CREATE PROCEDURE [unused].[spDALEmployeeCheckInOut]
+
+spDALEmployeeDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeeDelete.sql|5|CREATE PROCEDURE [unused].[spDALEmployeeDelete]
+
+spDALEmployeeInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeeInsert.sql|5|CREATE PROCEDURE [unused].[spDALEmployeeInsert]
+
+spDALEmployeeListByStoreID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeeListByStoreID.sql|5|CREATE PROCEDURE [unused].[spDALEmployeeListByStoreID]
+
+spDALEmployeeShiftDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeeShiftDelete.sql|5|CREATE PROCEDURE [unused].[spDALEmployeeShiftDelete]
+
+spDALEmployeeShiftFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeeShiftFind.sql|5|CREATE PROCEDURE [unused].[spDALEmployeeShiftFind]
+
+spDALEmployeeShiftInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeeShiftInsert.sql|5|CREATE PROCEDURE [unused].[spDALEmployeeShiftInsert]
+
+spDALEmployeeShiftList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeeShiftList.sql|5|CREATE procedure [unused].[spDALEmployeeShiftList]
+
+spDALEmployeeShiftUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeeShiftUpdate.sql|5|CREATE PROCEDURE [unused].[spDALEmployeeShiftUpdate]
+
+spDALEmployeesInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeesInsert.sql|5|CREATE PROCEDURE [unused].[spDALEmployeesInsert]
+
+spDALEmployeesShiftInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeesShiftInsert.sql|5|CREATE procedure [unused].[spDALEmployeesShiftInsert]
+
+spDALEmployeesShiftUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeesShiftUpdate.sql|5|CREATE procedure [unused].[spDALEmployeesShiftUpdate]
+
+spDALEmployeesUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeesUpdate.sql|5|CREATE PROCEDURE [unused].[spDALEmployeesUpdate]
+
+spDALEmployeeUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeeUpdate.sql|5|CREATE PROCEDURE [unused].[spDALEmployeeUpdate]
+
+spDALEmployeeValidatePassword|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEmployeeValidatePassword.sql|5|CREATE PROCEDURE [unused].[spDALEmployeeValidatePassword]
+
+spDALEnterDataLocksByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEnterDataLocksByID.sql|5|CREATE PROC [unused].[spDALEnterDataLocksByID]
+
+spDALEPayEmployeeListByEmployeeID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEPayEmployeeListByEmployeeID.sql|7|CREATE PROCEDURE [unused].[spDALEPayEmployeeListByEmployeeID]
+
+spDALEPayEmployeeLoginReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEPayEmployeeLoginReport.sql|6|CREATE PROCEDURE [unused].[spDALEPayEmployeeLoginReport]
+
+spDALEPayEmployeePasswordUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEPayEmployeePasswordUpdate.sql|6|CREATE PROCEDURE [unused].[spDALEPayEmployeePasswordUpdate]
+
+spDALEpayEmployeeShiftUpdateTemp|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALEpayEmployeeShiftUpdateTemp.sql|5|CREATE procedure [unused].[spDALEpayEmployeeShiftUpdateTemp]
+
+spDALErrorLogDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALErrorLogDelete.sql|5|CREATE PROCEDURE [unused].[spDALErrorLogDelete]
+
+spDALErrorLogFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALErrorLogFind.sql|5|CREATE PROCEDURE [unused].[spDALErrorLogFind]
+
+spDALErrorLogListNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALErrorLogListNew.sql|5|CREATE PROC [unused].[spDALErrorLogListNew] 
+
+spDALErrorLogUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALErrorLogUpdate.sql|5|CREATE PROCEDURE [unused].[spDALErrorLogUpdate]
+
+spDALExpensesCategoryInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALExpensesCategoryInsert.sql|5|CREATE PROC [unused].[spDALExpensesCategoryInsert]
+
+spDALFindInvoicePaymentID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALFindInvoicePaymentID.sql|5|CREATE PROCEDURE  [unused].[spDALFindInvoicePaymentID]
+
+spDALFoodStampsCreditInvoiceDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALFoodStampsCreditInvoiceDelete.sql|5|CREATE PROCEDURE [unused].[spDALFoodStampsCreditInvoiceDelete]
+
+spDALFoodStampsCreditInvoiceFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALFoodStampsCreditInvoiceFind.sql|5|CREATE PROCEDURE [unused].[spDALFoodStampsCreditInvoiceFind]
+
+spDALFoodStampsCreditInvoiceUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALFoodStampsCreditInvoiceUpdate.sql|5|CREATE PROCEDURE [unused].[spDALFoodStampsCreditInvoiceUpdate]
+
+spDALFreeVersionSignUp|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALFreeVersionSignUpActivationCode.sql|10|CREATE PROCEDURE [unused].[spDALFreeVersionSignUpActivationCode]
+
+spDALFreeVersionSignUpActivationCode|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALFreeVersionSignUpActivationCode.sql|10|CREATE PROCEDURE [unused].[spDALFreeVersionSignUpActivationCode]
+
+spDALFreeVersionSignUp|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALFreeVersionSignUpActivationCodeValidate.sql|10|CREATE PROCEDURE [unused].[spDALFreeVersionSignUpActivationCodeValidate]
+
+spDALFreeVersionSignUpActivationCode|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALFreeVersionSignUpActivationCodeValidate.sql|10|CREATE PROCEDURE [unused].[spDALFreeVersionSignUpActivationCodeValidate]
+
+spDALFreeVersionSignUpActivationCodeValidate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALFreeVersionSignUpActivationCodeValidate.sql|10|CREATE PROCEDURE [unused].[spDALFreeVersionSignUpActivationCodeValidate]
+
+spDALGasAdjustmentsInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasAdjustmentsInsert.sql|5|CREATE PROCEDURE [unused].[spDALGasAdjustmentsInsert]
+
+spDALGasAdjustmentsUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasAdjustmentsUpdate.sql|5|CREATE PROCEDURE [unused].[spDALGasAdjustmentsUpdate]
+
+spDALGasBillNonPrivateDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasBillNonPrivateDelete.sql|5|CREATE PROCEDURE [unused].[spDALGasBillNonPrivateDelete]
+
+spDALGasBillNonPrivateFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasBillNonPrivateFind.sql|5|CREATE PROCEDURE [unused].[spDALGasBillNonPrivateFind]
+
+spDALGasBillNonPrivateInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasBillNonPrivateInsert.sql|5|CREATE PROCEDURE [unused].[spDALGasBillNonPrivateInsert]
+
+spDALGasBillNonPrivateUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasBillNonPrivateUpdate.sql|5|CREATE PROCEDURE [unused].[spDALGasBillNonPrivateUpdate]
+
+spDALGasBillPrivateDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasBillPrivateDelete.sql|5|CREATE PROCEDURE [unused].[spDALGasBillPrivateDelete]
+
+spDALGasBillPrivateFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasBillPrivateFind.sql|5|CREATE PROCEDURE [unused].[spDALGasBillPrivateFind]
+
+spDALGasBillPrivateInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasBillPrivateInsert.sql|5|CREATE PROCEDURE [unused].[spDALGasBillPrivateInsert]
+
+spDALGasBillPrivateUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasBillPrivateUpdate.sql|5|CREATE PROCEDURE [unused].[spDALGasBillPrivateUpdate]
+
+spDALGasCardSalesFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasCardSalesFind.sql|10|CREATE PROCEDURE [unused].[spDALGasCardSalesFind]
+
+spDALGasCardSalesUnsettled|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasCardSalesUnsettled.sql|10|CREATE PROCEDURE [unused].[spDALGasCardSalesUnsettled]
+
+spDALGasNonPrivateGetLastInvoice|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasNonPrivateGetLastInvoice.sql|10|CREATE PROCEDURE [unused].[spDALGasNonPrivateGetLastInvoice]
+
+spDALGasPrivateNonFinalizedInvoiceList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasPrivateNonFinalizedInvoiceList.sql|10|CREATE   PROCEDURE  [unused].[spDALGasPrivateNonFinalizedInvoiceList]
+
+spDALGasPurchaseInvoiceNonPrivateDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasPurchaseInvoiceNonPrivateDelete.sql|5|CREATE PROCEDURE [unused].[spDALGasPurchaseInvoiceNonPrivateDelete]
+
+spDALGasPurchaseInvoiceNonPrivateFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasPurchaseInvoiceNonPrivateFind.sql|5|CREATE PROCEDURE [unused].[spDALGasPurchaseInvoiceNonPrivateFind]
+
+spDALGasPurchaseInvoicePrivateDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasPurchaseInvoicePrivateDelete.sql|5|CREATE PROCEDURE [unused].[spDALGasPurchaseInvoicePrivateDelete]
+
+spDALGasStoreSettings|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasStoreSettings.sql|5|CREATE PROCEDURE  [unused].[spDALGasStoreSettings] 
+
+spDALGasTNRCDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGasTNRCDelete.sql|5|CREATE PROCEDURE [unused].[spDALGasTNRCDelete]
+
+spDALGetCC2ListByStoreID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetCC2ListByStoreID.sql|5|CREATE PROCEDURE [unused].[spDALGetCC2ListByStoreID]
+
+spDALGetCCSettings|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetCCSettings.sql|5|CREATE PROCEDURE  [unused].[spDALGetCCSettings]
+
+spDALGetCSPAcctNoFromStoreID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetCSPAcctNoFromStoreID.sql|5|CREATE PROCEDURE [unused].[spDALGetCSPAcctNoFromStoreID]
+
+spDALGetCurBatchNoList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetCurBatchNoList.sql|5|CREATE PROCEDURE  [unused].[spDALGetCurBatchNoList] 
+
+spDALGetCurBatchNoList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetCurBatchNoListCC2.sql|5|CREATE PROCEDURE  [unused].[spDALGetCurBatchNoListCC2] 
+
+spDALGetCurBatchNoListCC2|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetCurBatchNoListCC2.sql|5|CREATE PROCEDURE  [unused].[spDALGetCurBatchNoListCC2] 
+
+spDALGetCurBatchNoList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetCurBatchNoListCC3.sql|5|CREATE PROCEDURE  [unused].[spDALGetCurBatchNoListCC3] 
+
+spDALGetCurBatchNoListCC3|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetCurBatchNoListCC3.sql|5|CREATE PROCEDURE  [unused].[spDALGetCurBatchNoListCC3] 
+
+spDALGetGasAdjustmentDate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetGasAdjustmentDate.sql|10|CREATE PROCEDURE [unused].[spDALGetGasAdjustmentDate]
+
+spDALGetHFLEFTDates|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetHFLEFTDates.sql|5|CREATE PROCEDURE  [unused].[spDALGetHFLEFTDates]  @storeID int  AS
+
+spDALGetLotteryGameDetails|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetLotteryGameDetails.sql|7|CREATE PROC [unused].[spDALGetLotteryGameDetails]
+
+spDALGetMaxCheckNoList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetMaxCheckNoList.sql|5|CREATE PROCEDURE  [unused].[spDALGetMaxCheckNoList]
+
+spDALGetPurchaseDetailIDList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetPurchaseDetailIDList.sql|5|CREATE PROCEDURE  [unused].[spDALGetPurchaseDetailIDList] 
+
+spDALGetPurchaseRetailingLogIDList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetPurchaseRetailingLogIDList.sql|5|CREATE PROCEDURE  [unused].[spDALGetPurchaseRetailingLogIDList]
+
+spDALGetSharedBankAccountByStoreID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetSharedBankAccountByStoreID.sql|5|CREATE PROCEDURE [unused].[spDALGetSharedBankAccountByStoreID]
+
+spDALGetStoreAccountsListByAccountID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGetStoreAccountsListByAccountID.sql|5|CREATE PROC [unused].[spDALGetStoreAccountsListByAccountID]
+
+spDALGlobalLotGameCount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGlobalLotGameCount.sql|5|CREATE PROCEDURE  [unused].[spDALGlobalLotGameCount]  
+
+spDALGlobalLotteryGames|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGlobalLotteryGames.sql|5|CREATE PROC [unused].[spDALGlobalLotteryGames]
+
+spDALGrocCountAdjustmentInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGrocCountAdjustmentInsert.sql|6|CREATE procedure  [unused].[spDALGrocCountAdjustmentInsert]
+
+spDALGroceryCategoryGrid|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGroceryCategoryGrid.sql|10|CREATE PROCEDURE [unused].[spDALGroceryCategoryGrid]
+
+spDALGroceryCountAdjustmentDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGroceryCountAdjustmentDelete.sql|5|CREATE PROCEDURE [unused].[spDALGroceryCountAdjustmentDelete]
+
+spDALGroceryCountAdjustmentFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGroceryCountAdjustmentFind.sql|5|CREATE PROCEDURE [unused].[spDALGroceryCountAdjustmentFind]
+
+spDALGroceryCountAdjustmentInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGroceryCountAdjustmentInsert.sql|5|CREATE PROCEDURE [unused].[spDALGroceryCountAdjustmentInsert]
+
+spDALGroceryCountAdjustmentUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGroceryCountAdjustmentUpdate.sql|5|CREATE PROCEDURE [unused].[spDALGroceryCountAdjustmentUpdate]
+
+spDALGroceryPaymentDataByInvoiceID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGroceryPaymentDataByInvoiceID.sql|5|CREATE PROCEDURE [unused].[spDALGroceryPaymentDataByInvoiceID]
+
+spDALGroceryTaxDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGroceryTaxDelete.sql|5|CREATE PROCEDURE [unused].[spDALGroceryTaxDelete]
+
+spDALGroceryVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALGroceryVendor.sql|10|CREATE PROCEDURE [unused].[spDALGroceryVendor] 
+
+spDALHFLInvoiceDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALHFLInvoiceDelete.sql|5|CREATE PROCEDURE [unused].[spDALHFLInvoiceDelete]
+
+spDALHFLInvoiceInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALHFLInvoiceInsert.sql|5|CREATE PROCEDURE [unused].[spDALHFLInvoiceInsert]
+
+spDALIntegrationKeyAddUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALIntegrationKeyAddUpdate.sql|5|CREATE PROCEDURE [unused].[spDALIntegrationKeyAddUpdate]
+
+spDALIntegrationKeyChangeStatus|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALIntegrationKeyChangeStatus.sql|5|CREATE PROCEDURE [unused].[spDALIntegrationKeyChangeStatus]
+
+spDALItemGroupDeleteNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALItemGroupDeleteNew.sql|5|CREATE procedure [unused].[spDALItemGroupDeleteNew]
+
+spDALItemReportingProgramGlobalDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALItemReportingProgramGlobalDelete.sql|5|CREATE PROCEDURE [unused].[spDALItemReportingProgramGlobalDelete]
+
+spDALItemReportingProgramGlobalFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALItemReportingProgramGlobalFind.sql|5|CREATE PROC [unused].[spDALItemReportingProgramGlobalFind]
+
+spDALItemReportingProgramGlobalInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALItemReportingProgramGlobalInsert.sql|5|CREATE PROC [unused].[spDALItemReportingProgramGlobalInsert]
+
+spDALItemReportingProgramGlobalList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALItemReportingProgramGlobalList.sql|5|CREATE PROC [unused].[spDALItemReportingProgramGlobalList]
+
+spDALItemReportingProgramGlobalUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALItemReportingProgramGlobalUpdate.sql|5|CREATE PROC [unused].[spDALItemReportingProgramGlobalUpdate]
+
+spDALJobberCardGetEFTDates|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALJobberCardGetEFTDates.sql|5|CREATE PROCEDURE  [unused].[spDALJobberCardGetEFTDates]  @storeID int  AS
+
+spDALListSelfCreditcard3|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALListSelfCreditcard3.sql|9|CREATE PROCEDURE [unused].[spDALListSelfCreditcard3]
+
+spDALLoanAccountByIDList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLoanAccountByIDList.sql|5|CREATE PROC [unused].[spDALLoanAccountByIDList]
+
+spDALLoanAccountLogCO|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLoanAccountLogCO.sql|10|CREATE PROCEDURE [unused].[spDALLoanAccountLogCO]
+
+spDALLoanDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLoanDelete.sql|5|CREATE PROCEDURE [unused].[spDALLoanDelete]
+
+spDALLoanRecievedInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLoanRecievedInsert.sql|5|CREATE PROC [unused].[spDALLoanRecievedInsert]
+
+spDALLockPeriodDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLockPeriodDelete.sql|5|CREATE PROCEDURE [unused].[spDALLockPeriodDelete]
+
+spDALLockPeriodFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLockPeriodFind.sql|5|CREATE PROCEDURE [unused].[spDALLockPeriodFind]
+
+spDALLockPeriodInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLockPeriodInsert.sql|5|CREATE PROCEDURE [unused].[spDALLockPeriodInsert]
+
+spDALLockPeriodUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLockPeriodUpdate.sql|5|CREATE PROCEDURE [unused].[spDALLockPeriodUpdate]
+
+spDALLotteryCreateNewGamePackRecord|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryCreateNewGamePackRecord.sql|5|CREATE PROCEDURE  [unused].[spDALLotteryCreateNewGamePackRecord] 
+
+spDALLotteryDailySalesReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryDailySalesReport.sql|5|CREATE PROC [unused].[spDALLotteryDailySalesReport]
+
+spDALLotteryDeliveryDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryDeliveryDelete.sql|5|CREATE PROCEDURE  [unused].[spDALLotteryDeliveryDelete]  
+
+spDALLotteryGameByNo|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryGameByNo.sql|5|CREATE PROC [unused].[spDALLotteryGameByNo]
+
+spDALLotteryGameGlobalUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryGameGlobalUpdate.sql|5|CREATE PROCEDURE [unused].[spDALLotteryGameGlobalUpdate] 
+
+spDALLotteryGameStoreInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryGameStoreInsert.sql|5|CREATE PROCEDURE  [unused].[spDALLotteryGameStoreInsert]
+
+spDALLotteryGetEFTDates|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryGetEFTDates.sql|5|CREATE PROCEDURE  [unused].[spDALLotteryGetEFTDates]  @storeID int  AS
+
+spDALLotteryInActivateDelivery|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryInActivateDelivery.sql|5|CREATE PROCEDURE  [unused].[spDALLotteryInActivateDelivery] 
+
+spDALLotteryInvoiceDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryInvoiceDelete.sql|5|CREATE PROCEDURE [unused].[spDALLotteryInvoiceDelete]
+
+spDALLotteryInvoiceInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryInvoiceInsert.sql|5|CREATE PROCEDURE [unused].[spDALLotteryInvoiceInsert]
+
+spDALLotteryIsThisPackActivated|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryIsThisPackActivated.sql|5|CREATE PROCEDURE  [unused].[spDALLotteryIsThisPackActivated] 
+
+spDALLotteryIsThisPackSettled|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryIsThisPackSettled.sql|5|CREATE PROCEDURE  [unused].[spDALLotteryIsThisPackSettled]
+
+spDALLotteryIsThisPackUsed|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryIsThisPackUsed.sql|5|CREATE PROCEDURE  [unused].[spDALLotteryIsThisPackUsed]
+
+spDALLotteryList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryList.sql|7|CREATE procedure [unused].[spDALLotteryList]
+
+spDALLotteryPackMoveToShelf|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryPackMoveToShelf.sql|6|CREATE PROCEDURE [unused].[spDALLotteryPackMoveToShelf]
+
+spDALLotterySalesOverview|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotterySalesOverview.sql|6|CREATE PROCEDURE [unused].[spDALLotterySalesOverview]
+
+spDALLotterySettingInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotterySettingInsert.sql|10|CREATE PROCEDURE [unused].[spDALLotterySettingInsert]
+
+spDALLotteryShiftDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryShiftDelete.sql|5|CREATE PROCEDURE [unused].[spDALLotteryShiftDelete]
+
+spDALLotteryShiftDetailDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryShiftDetailDelete.sql|5|CREATE PROCEDURE [unused].[spDALLotteryShiftDetailDelete]
+
+spDALLotteryShiftDetailFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryShiftDetailFind.sql|5|CREATE PROCEDURE [unused].[spDALLotteryShiftDetailFind]
+
+spDALLotteryShiftDetailInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryShiftDetailInsert.sql|5|CREATE PROCEDURE [unused].[spDALLotteryShiftDetailInsert]
+
+spDALLotteryShiftDetailUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryShiftDetailUpdate.sql|5|CREATE PROCEDURE [unused].[spDALLotteryShiftDetailUpdate]
+
+spDALLotteryShiftFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryShiftFind.sql|5|CREATE PROCEDURE [unused].[spDALLotteryShiftFind]
+
+spDALLotteryShiftInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryShiftInsert.sql|5|CREATE PROCEDURE [unused].[spDALLotteryShiftInsert]
+
+spDALLotteryShiftUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryShiftUpdate.sql|5|CREATE PROCEDURE [unused].[spDALLotteryShiftUpdate]
+
+spDALLotteryStoreGameDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryStoreGameDelete.sql|5|CREATE PROCEDURE  [unused].[spDALLotteryStoreGameDelete] 
+
+spDALLotteryStoreInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryStoreInsert.sql|5|CREATE PROCEDURE  [unused].[spDALLotteryStoreInsert] 
+
+spDALLotteryTicketDailySalesCount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryTicketDailySalesCount.sql|5|CREATE PROCEDURE  [unused].[spDALLotteryTicketDailySalesCount]
+
+spDALLotteryTicketDailySalesDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryTicketDailySalesDelete.sql|5|CREATE PROCEDURE   [unused].[spDALLotteryTicketDailySalesDelete]
+
+spDALLotteryTicketDailySalesFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryTicketDailySalesFind.sql|5|CREATE PROCEDURE   [unused].[spDALLotteryTicketDailySalesFind]
+
+spDALLotteryTicketDailySalesFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryTicketDailySalesFindByManualPackNo.sql|5|CREATE PROCEDURE   [unused].[spDALLotteryTicketDailySalesFindByManualPackNo]
+
+spDALLotteryTicketDailySalesFindByManualPackNo|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryTicketDailySalesFindByManualPackNo.sql|5|CREATE PROCEDURE   [unused].[spDALLotteryTicketDailySalesFindByManualPackNo]
+
+spDALLotteryTicketDailySalesFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryTicketDailySalesFindUpdateRecord.sql|5|CREATE PROCEDURE   [unused].[spDALLotteryTicketDailySalesFindUpdateRecord]
+
+spDALLotteryTicketDailySalesFindUpdateRecord|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryTicketDailySalesFindUpdateRecord.sql|5|CREATE PROCEDURE   [unused].[spDALLotteryTicketDailySalesFindUpdateRecord]
+
+spDALLotteryTicketDailySalesGetAvailable|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryTicketDailySalesGetAvailable.sql|5|CREATE PROCEDURE   [unused].[spDALLotteryTicketDailySalesGetAvailable]
+
+spDALLotteryTicketDailySalesInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryTicketDailySalesInsert.sql|5|CREATE PROCEDURE  [unused].[spDALLotteryTicketDailySalesInsert] 
+
+spDALLotteryTicketDailySalesUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryTicketDailySalesUpdate.sql|5|CREATE PROCEDURE   [unused].[spDALLotteryTicketDailySalesUpdate] 
+
+spDALLotteryTicketDelivery|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryTicketDeliveryFind.sql|5|CREATE PROCEDURE   [unused].[spDALLotteryTicketDeliveryFind] 
+
+spDALLotteryTicketDeliveryFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryTicketDeliveryFind.sql|5|CREATE PROCEDURE   [unused].[spDALLotteryTicketDeliveryFind] 
+
+spDALLotteryTicketDelivery|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryTicketDeliveryUpdate.sql|5|CREATE PROCEDURE  [unused].[spDALLotteryTicketDeliveryUpdate]
+
+spDALLotteryTicketDeliveryUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryTicketDeliveryUpdate.sql|5|CREATE PROCEDURE  [unused].[spDALLotteryTicketDeliveryUpdate]
+
+spDALLotteryUserInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALLotteryUserInsert.sql|6|CREATE PROCEDURE  [unused].[spDALLotteryUserInsert]
+
+spDALManageBankAccount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALManageBankAccount.sql|5|CREATE PROCEDURE [unused].[spDALManageBankAccount]
+
+spDALManageVendorProduct|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALManageVendorProduct.sql|6|CREATE PROCEDURE [unused].[spDALManageVendorProduct]
+
+spDALManageVendorProduct|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALManageVendorProductDelete.sql|6|CREATE PROCEDURE  [unused].[spDALManageVendorProductDelete] 
+
+spDALManageVendorProductDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALManageVendorProductDelete.sql|6|CREATE PROCEDURE  [unused].[spDALManageVendorProductDelete] 
+
+spDALManageVendorProduct|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALManageVendorProductFind.sql|7|CREATE PROCEDURE [unused].[spDALManageVendorProductFind]
+
+spDALManageVendorProductFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALManageVendorProductFind.sql|7|CREATE PROCEDURE [unused].[spDALManageVendorProductFind]
+
+spDALManageVendorProduct|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALManageVendorProductInsert.sql|7|CREATE PROCEDURE [unused].[spDALManageVendorProductInsert]
+
+spDALManageVendorProductInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALManageVendorProductInsert.sql|7|CREATE PROCEDURE [unused].[spDALManageVendorProductInsert]
+
+spDALManageVendorProduct|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALManageVendorProductUpdate.sql|6|CREATE PROC [unused].[spDALManageVendorProductUpdate]
+
+spDALManageVendorProductUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALManageVendorProductUpdate.sql|6|CREATE PROC [unused].[spDALManageVendorProductUpdate]
+
+spDALMO2EFTInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALMO2EFTInsert.sql|5|CREATE PROCEDURE  [unused].[spDALMO2EFTInsert] 
+
+spDALMO2GetCalcEFTData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALMO2GetCalcEFTData.sql|5|CREATE PROCEDURE  [unused].[spDALMO2GetCalcEFTData]  @storeID int, @fromDate smallDateTime, @toDate smalldatetime   AS
+
+spDALMO2GetEFTDates|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALMO2GetEFTDates.sql|5|CREATE PROCEDURE  [unused].[spDALMO2GetEFTDates]  @storeID int  AS
+
+spDALMobileAccountDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALMobileAccountDelete.sql|10|CREATE PROCEDURE [unused].[spDALMobileAccountDelete]
+
+spDALMobileAccountFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALMobileAccountFind.sql|10|CREATE PROCEDURE [unused].[spDALMobileAccountFind]
+
+spDALMobileQuickView|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALMobileQuickView.sql|10|CREATE PROCEDURE [unused].[spDALMobileQuickView]
+
+spEWFMobileGetUserEntityListFromSessionID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALMobileQuickView.sql|20|EXEC spEWFMobileGetUserEntityListFromSessionID @strStoreIDList OUT
+
+spDALMOEFTInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALMOEFTInsert.sql|5|CREATE PROCEDURE  [unused].[spDALMOEFTInsert] 
+
+spDALMOGetCalcEFTData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALMOGetCalcEFTData.sql|5|CREATE PROCEDURE  [unused].[spDALMOGetCalcEFTData]  @storeID int, @fromDate smallDateTime, @toDate smalldatetime   AS
+
+spDALMOGetEFTDates|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALMOGetEFTDates.sql|5|CREATE PROCEDURE  [unused].[spDALMOGetEFTDates]  @storeID int  AS
+
+spDALMOGetInvoiceData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALMOGetInvoiceData.sql|5|CREATE PROCEDURE  [unused].[spDALMOGetInvoiceData]  @storeID int, @fromDate smallDateTime, @toDate smalldatetime   AS
+
+spDALMultiStoreRptSales|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALMultiStoreRptSales.sql|14|CREATE PROCEDURE [unused].[spDALMultiStoreRptSales] 
+
+spDALNotificationByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALNotificationByID.sql|5|CREATE PROC [unused].[spDALNotificationByID] 
+
+spDALNotificationList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALNotificationList.sql|5|CREATE PROC [unused].[spDALNotificationList]
+
+spDALNotificationList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALNotificationListNew.sql|5|CREATE PROC [unused].[spDALNotificationListNew]
+
+spDALNotificationListNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALNotificationListNew.sql|5|CREATE PROC [unused].[spDALNotificationListNew]
+
+spDALNotificationRecipientsAdd|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALNotificationRecipientsAdd.sql|5|CREATE Procedure [unused].[spDALNotificationRecipientsAdd]
+
+spDALNotificationRecipientsDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALNotificationRecipientsDelete.sql|5|CREATE PROCEDURE [unused].[spDALNotificationRecipientsDelete]
+
+spDALNotificationRecipientsFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALNotificationRecipientsFind.sql|5|CREATE PROCEDURE [unused].[spDALNotificationRecipientsFind]
+
+spDALNotificationRecipientsUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALNotificationRecipientsUpdate.sql|5|CREATE Procedure [unused].[spDALNotificationRecipientsUpdate]
+
+spDALPageByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPageByID.sql|5|CREATE PROC [unused].[spDALPageByID]
+
+spDALPageIDFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPageIDFind.sql|10|CREATE PROCEDURE [unused].[spDALPageIDFind]
+
+spDALPrePaidPhoneGetEFTDates|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPrePaidPhoneGetEFTDates.sql|5|CREATE PROCEDURE  [unused].[spDALPrePaidPhoneGetEFTDates]  @storeID int  AS
+
+spDALPrePaidPhoneInvoiceDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPrePaidPhoneInvoiceDelete.sql|5|CREATE PROCEDURE [unused].[spDALPrePaidPhoneInvoiceDelete]
+
+spDALPrePaidPhoneInvoiceInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPrePaidPhoneInvoiceInsert.sql|5|CREATE PROCEDURE [unused].[spDALPrePaidPhoneInvoiceInsert]
+
+spDALPriceGrpListNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPriceGrpListNew.sql|5|CREATE PROC [unused].[spDALPriceGrpListNew]
+
+spDALProductPurchaseLogDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALProductPurchaseLogDelete.sql|5|CREATE PROCEDURE [unused].[spDALProductPurchaseLogDelete]
+
+spDALProductPurchaseLogFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALProductPurchaseLogFind.sql|5|CREATE PROCEDURE [unused].[spDALProductPurchaseLogFind]
+
+spDALProductPurchaseLogInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALProductPurchaseLogInsert.sql|5|CREATE PROCEDURE [unused].[spDALProductPurchaseLogInsert]
+
+spDALProductPurchaseLogUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALProductPurchaseLogUpdate.sql|5|CREATE PROCEDURE [unused].[spDALProductPurchaseLogUpdate]
+
+spDALProductSalesLogDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALProductSalesLogDelete.sql|5|CREATE PROCEDURE [unused].[spDALProductSalesLogDelete]
+
+spDALProductSalesLogInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALProductSalesLogInsert.sql|5|CREATE PROCEDURE [unused].[spDALProductSalesLogInsert]
+
+spDALProductSalesLogUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALProductSalesLogUpdate.sql|5|CREATE PROCEDURE [unused].[spDALProductSalesLogUpdate]
+
+SPDALProfitWithDrawer|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPDALProfitWithDrawer.sql|5|CREATE PROCEDURE  [unused].[SPDALProfitWithDrawer]
+
+spDALProfitWithdrawerByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALProfitWithdrawerByID.sql|5|CREATE PROC [unused].[spDALProfitWithdrawerByID]
+
+spDALPurchaseInvoiceCategoryFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoiceCategoryFind.sql|5|CREATE PROC [unused].[spDALPurchaseInvoiceCategoryFind]
+
+spDALPurchaseInvoiceDetails|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoiceDetails.sql|5|CREATE PROC [unused].[spDALPurchaseInvoiceDetails]
+
+spDALPurchaseInvoiceDetails|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoiceDetailsFind.sql|5|CREATE PROCEDURE [unused].[spDALPurchaseInvoiceDetailsFind]
+
+spDALPurchaseInvoiceDetailsFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoiceDetailsFind.sql|5|CREATE PROCEDURE [unused].[spDALPurchaseInvoiceDetailsFind]
+
+spDALPurchaseInvoiceDetails|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoiceDetailsInsert.sql|5|CREATE PROCEDURE [unused].[spDALPurchaseInvoiceDetailsInsert]
+
+spDALPurchaseInvoiceDetailsInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoiceDetailsInsert.sql|5|CREATE PROCEDURE [unused].[spDALPurchaseInvoiceDetailsInsert]
+
+spDALPurchaseInvoiceDetails|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoiceDetailsUpdate.sql|5|CREATE PROCEDURE [unused].[spDALPurchaseInvoiceDetailsUpdate]
+
+spDALPurchaseInvoiceDetailsUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoiceDetailsUpdate.sql|5|CREATE PROCEDURE [unused].[spDALPurchaseInvoiceDetailsUpdate]
+
+spDALPurchaseInvoiceLineItemsFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoiceLineItemsFind.sql|5|CREATE PROC [unused].[spDALPurchaseInvoiceLineItemsFind]
+
+spDALPurchaseInvoicePaymentDeleteByPurchaseID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoicePaymentDeleteByPurchaseID.sql|5|CREATE PROCEDURE  [unused].[spDALPurchaseInvoicePaymentDeleteByPurchaseID]
+
+spDALPurchaseInvoicePaymentFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoicePaymentFind.sql|5|CREATE PROCEDURE [unused].[spDALPurchaseInvoicePaymentFind]
+
+spDALPurchaseInvoicePaymentUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoicePaymentUpdate.sql|5|CREATE PROCEDURE [unused].[spDALPurchaseInvoicePaymentUpdate]
+
+spDALPurchaseInvoiceRetailingLogFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoiceRetailingLogFind.sql|5|CREATE PROCEDURE [unused].[spDALPurchaseInvoiceRetailingLogFind]
+
+spDALPurchaseInvoiceRetailingLogInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoiceRetailingLogInsert.sql|5|CREATE PROCEDURE [unused].[spDALPurchaseInvoiceRetailingLogInsert]
+
+spDALPurchaseInvoiceRetailingLogInventory|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoiceRetailingLogInventory.sql|10|CREATE PROCEDURE [unused].[spDALPurchaseInvoiceRetailingLogInventory]
+
+spDALPurchaseInvoiceRetailingLogUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseInvoiceRetailingLogUpdate.sql|5|CREATE PROCEDURE [unused].[spDALPurchaseInvoiceRetailingLogUpdate]
+
+spDALPurchaseItemFindByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseItemFindByID.sql|10|CREATE PROCEDURE [unused].[spDALPurchaseItemFindByID]
+
+spDALPurchaseVendorName|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchaseVendorName.sql|5|CREATE PROC [unused].[spDALPurchaseVendorName]
+
+spDALPurchasingInvoiceFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchasingInvoiceFind.sql|5|CREATE PROCEDURE [unused].[spDALPurchasingInvoiceFind]
+
+spDALPurchasingInvoiceUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPurchasingInvoiceUpdate.sql|5|CREATE PROCEDURE [unused].[spDALPurchasingInvoiceUpdate]
+
+spDALPURInvoiceRetailingLogInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPURInvoiceRetailingLogInsert.sql|10|CREATE PROCEDURE [unused].[spDALPURInvoiceRetailingLogInsert]
+
+spDALQQMapping|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALQQMapping.sql|10|CREATE PROCEDURE [unused].[spDALQQMapping]
+
+spDALRashueCardDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALRashueCardDelete.sql|5|CREATE PROCEDURE [unused].[spDALRashueCardDelete]
+
+spDALRashueCardInvoiceDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALRashueCardInvoiceDelete.sql|5|CREATE PROCEDURE [unused].[spDALRashueCardInvoiceDelete]
+
+spDALRashueCardInvoiceInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALRashueCardInvoiceInsert.sql|5|CREATE PROCEDURE [unused].[spDALRashueCardInvoiceInsert]
+
+spDALRebateCPBSettlementsByInvoiceDetails|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALRebateCPBSettlementsByInvoiceDetails.sql|10|CREATE PROCEDURE [unused].[spDALRebateCPBSettlementsByInvoiceDetails]
+
+spDALRebateProgramToItemsUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALRebateProgramToItemsUpdate.sql|10|CREATE PROCEDURE [unused].[spDALRebateProgramToItemsUpdate]
+
+spDALRebateReceivedUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALRebateReceivedUpdate.sql|10|CREATE PROCEDURE [unused].[spDALRebateReceivedUpdate]
+
+spDALRebateSettlementsByInvoicID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALRebateSettlementsByInvoicID.sql|10|CREATE PROCEDURE [unused].[spDALRebateSettlementsByInvoicID]
+
+spDALRebateSettlementsByReceivedID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALRebateSettlementsByReceivedID.sql|10|CREATE PROCEDURE [unused].[spDALRebateSettlementsByReceivedID]
+
+spDALRebateSettlementsByRetailLogAtTimeOfRetail|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALRebateSettlementsByRetailLogAtTimeOfRetail.sql|10|CREATE PROCEDURE [unused].[spDALRebateSettlementsByRetailLogAtTimeOfRetail]
+
+spDALRebateSettlementToProgramDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALRebateSettlementToProgramDelete.sql|10|CREATE PROCEDURE [unused].[spDALRebateSettlementToProgramDelete]
+
+spDALRegisterCashDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALRegisterCashDelete.sql|5|CREATE PROCEDURE [unused].[spDALRegisterCashDelete]
+
+spDALSaleTaxListRpt|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALSaleTaxListRpt.sql|5|CREATE PROC [unused].[spDALSaleTaxListRpt]
+
+spDALShiftSalesReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALShiftSalesReport.sql|7|CREATE PROC [unused].[spDALShiftSalesReport]
+
+spDALStoreAccountsDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreAccountsDelete.sql|5|CREATE PROC [unused].[spDALStoreAccountsDelete]
+
+spDALStoreAccountsFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreAccountsFind.sql|10|CREATE PROCEDURE [unused].[spDALStoreAccountsFind]
+
+spDALStoreByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreByID.sql|5|CREATE PROC [unused].[spDALStoreByID] 
+
+spDALStoreByStoreID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreByStoreID.sql|5|CREATE PROC [unused].[spDALStoreByStoreID]
+
+spDALStoreComponent|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreComponent.sql|5|CREATE PROCEDURE [unused].[spDALStoreComponent]
+
+spDALStoreControlPointsDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreControlPointsDelete.sql|5|CREATE PROCEDURE [unused].[spDALStoreControlPointsDelete]
+
+spDALStoreControlPointsFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreControlPointsFind.sql|5|CREATE PROCEDURE [unused].[spDALStoreControlPointsFind]
+
+spDALStoreControlPointsInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreControlPointsInsert.sql|5|CREATE PROCEDURE [unused].[spDALStoreControlPointsInsert]
+
+spDALStoreControlPointsUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreControlPointsUpdate.sql|5|CREATE PROCEDURE [unused].[spDALStoreControlPointsUpdate]
+
+spDALStoreCreditCardDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreCreditCardDelete.sql|5|CREATE PROCEDURE [unused].[spDALStoreCreditCardDelete]
+
+spDALStoreCreditCardInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreCreditCardInsert.sql|5|CREATE PROCEDURE [unused].[spDALStoreCreditCardInsert]
+
+spDALStoreCreditCardUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreCreditCardUpdate.sql|5|CREATE PROCEDURE [unused].[spDALStoreCreditCardUpdate]
+
+spDALStoreDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreDeleteNew.sql|5|CREATE PROC [unused].[spDALStoreDeleteNew]
+
+spDALStoreDeleteNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreDeleteNew.sql|5|CREATE PROC [unused].[spDALStoreDeleteNew]
+
+spDALStoreEngagementInterComio|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreEngagementInterComio.sql|10|CREATE PROCEDURE [unused].[spDALStoreEngagementInterComio]
+
+spDALStoreEngagementUpdatePOSDayClosing|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreEngagementUpdatePOSDayClosing.sql|10|CREATE PROCEDURE [unused].[spDALStoreEngagementUpdatePOSDayClosing]
+
+spDALStoreEntityList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreEntityList.sql|10|CREATE PROCEDURE [unused].[spDALStoreEntityList]
+
+spDALStoreEntityList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreEntityList.sql|10|CREATE PROCEDURE [unused].[spDALStoreEntityList]
+
+spDALStoreFindNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreFindNew.sql|5|CREATE PROC [unused].[spDALStoreFindNew]
+
+spDALStoreInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreInsert.sql|5|CREATE PROCEDURE [unused].[spDALStoreInsert]
+
+spDALStoreLotDeliveryCount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreLotDeliveryCount.sql|5|CREATE PROCEDURE  [unused].[spDALStoreLotDeliveryCount]  
+
+spDALStoreLotGameCount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreLotGameCount.sql|5|CREATE PROCEDURE  [unused].[spDALStoreLotGameCount]  
+
+spDALStoreLotteryGameByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreLotteryGameByID.sql|5|CREATE PROC [unused].[spDALStoreLotteryGameByID] 
+
+spDALStoreReminderDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreReminderDelete.sql|5|CREATE PROCEDURE  [unused].[spDALStoreReminderDelete]
+
+spDALStoreReminderFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreReminderFind.sql|5|CREATE PROCEDURE  [unused].[spDALStoreReminderFind]
+
+spDALStoreReminderInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreReminderInsert.sql|5|CREATE PROCEDURE  [unused].[spDALStoreReminderInsert]  
+
+spDALStoreReminderUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreReminderUpdate.sql|5|CREATE PROCEDURE  [unused].[spDALStoreReminderUpdate] 
+
+spDALStoreSettingsCheckStatus|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreSettingsCheckStatus.sql|9|CREATE PROCEDURE [unused].[spDALStoreSettingsCheckStatus]
+
+spDALStoreSettingsCheckUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreSettingsCheckUpdate.sql|6|CREATE PROCEDURE [unused].[spDALStoreSettingsCheckUpdate]
+
+spDALStoreSettingsGasUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreSettingsGasUpdate.sql|9|CREATE PROCEDURE [unused].[spDALStoreSettingsGasUpdate]
+
+spDALBankDefaultAccount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreSettingsGasUpdate.sql|36|EXECUTE [new].[spDALBankDefaultAccountUpdate] 
+
+spDALBankDefaultAccountUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreSettingsGasUpdate.sql|36|EXECUTE [new].[spDALBankDefaultAccountUpdate] 
+
+spDALBankDefaultAccount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreSettingsGasUpdate.sql|63|EXECUTE [new].[spDALBankDefaultAccountUpdate] 
+
+spDALBankDefaultAccountUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreSettingsGasUpdate.sql|63|EXECUTE [new].[spDALBankDefaultAccountUpdate] 
+
+spDALStoreSettingsGeneralFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreSettingsGeneralFind.sql|9|CREATE PROCEDURE [unused].[spDALStoreSettingsGeneralFind]
+
+spDALStoreSettingsGeneralUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreSettingsGeneralUpdate.sql|11|CREATE PROCEDURE [unused].[spDALStoreSettingsGeneralUpdate]
+
+spDALStoreUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreUpdate.sql|5|CREATE PROCEDURE [unused].[spDALStoreUpdate]
+
+spDALStoreUserFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreUserFind.sql|5|CREATE procedure [unused].[spDALStoreUserFind]
+
+spDALStoreUserUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALStoreUserUpdate.sql|5|CREATE procedure [unused].[spDALStoreUserUpdate]
+
+spDALTeleCheckCreditInvoiceDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALTeleCheckCreditInvoiceDelete.sql|5|CREATE PROCEDURE [unused].[spDALTeleCheckCreditInvoiceDelete]
+
+spDALTeleCheckCreditInvoiceUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALTeleCheckCreditInvoiceUpdate.sql|5|CREATE PROCEDURE [unused].[spDALTeleCheckCreditInvoiceUpdate]
+
+spDALTicketHistoryReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALTicketHistoryReport.sql|7|CREATE PROC [unused].[spDALTicketHistoryReport]
+
+spDALUnCreditedTelecheckList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALUnCreditedTelecheckList.sql|5|CREATE PROC [unused].[spDALUnCreditedTelecheckList]
+
+spDALUnCreditedWicCardList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALUnCreditedWicCardList.sql|5|CREATE PROC [unused].[spDALUnCreditedWicCardList]
+
+spDALUpdateStoreStatus|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALUpdateStoreStatus.sql|5|CREATE PROC [unused].[spDALUpdateStoreStatus]
+
+spDALUserFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALUserFind.sql|5|CREATE PROCEDURE [unused].[spDALUserFind]
+
+spDALUserGroupsNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALUserGroupsNew.sql|5|CREATE PROC [unused].[spDALUserGroupsNew]
+
+spDALUserInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALUserInsert.sql|5|CREATE PROCEDURE [unused].[spDALUserInsert]
+
+spDALUserList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALUserList.sql|5|CREATE PROC [unused].[spDALUserList]
+
+spDALUserStoreList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALUserStoreList.sql|5|CREATE PROC [unused].[spDALUserStoreList]
+
+spDALUserUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALUserUpdate.sql|6|CREATE PROCEDURE [unused].[spDALUserUpdate]
+
+spDALUserUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALUserUpdateByID.sql|5|CREATE PROC [unused].[spDALUserUpdateByID]
+
+spDALUserUpdateByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALUserUpdateByID.sql|5|CREATE PROC [unused].[spDALUserUpdateByID]
+
+spDALValidateCash|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALValidateCash.sql|5|CREATE PROCEDURE  [unused].[spDALValidateCash] 
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendor.sql|6|CREATE PROCEDURE   [unused].[spDALVendor]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendor.sql|6|CREATE PROCEDURE   [unused].[spDALVendor]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorDelete.sql|5|CREATE PROCEDURE [unused].[spDALVendorDelete]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorDelete.sql|5|CREATE PROCEDURE [unused].[spDALVendorDelete]
+
+spDALVendorDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorDelete.sql|5|CREATE PROCEDURE [unused].[spDALVendorDelete]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorFind.sql|5|CREATE PROCEDURE [unused].[spDALVendorFind]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorFind.sql|5|CREATE PROCEDURE [unused].[spDALVendorFind]
+
+spDALVendorFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorFind.sql|5|CREATE PROCEDURE [unused].[spDALVendorFind]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorInsert.sql|5|CREATE PROCEDURE [unused].[spDALVendorInsert]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorInsert.sql|5|CREATE PROCEDURE [unused].[spDALVendorInsert]
+
+spDALVendorInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorInsert.sql|5|CREATE PROCEDURE [unused].[spDALVendorInsert]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorProductDelete.sql|5|CREATE PROCEDURE [unused].[spDALVendorProductDelete]
+
+spDALVendorProductDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorProductDelete.sql|5|CREATE PROCEDURE [unused].[spDALVendorProductDelete]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorProductDelete.sql|5|CREATE PROCEDURE [unused].[spDALVendorProductDelete]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorProductFind.sql|5|CREATE PROCEDURE [unused].[spDALVendorProductFind]
+
+spDALVendorProductFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorProductFind.sql|5|CREATE PROCEDURE [unused].[spDALVendorProductFind]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorProductFind.sql|5|CREATE PROCEDURE [unused].[spDALVendorProductFind]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorProductInsert.sql|5|CREATE PROCEDURE [unused].[spDALVendorProductInsert]
+
+spDALVendorProductInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorProductInsert.sql|5|CREATE PROCEDURE [unused].[spDALVendorProductInsert]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorProductInsert.sql|5|CREATE PROCEDURE [unused].[spDALVendorProductInsert]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorProductUpdate.sql|5|CREATE PROCEDURE [unused].[spDALVendorProductUpdate]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorProductUpdate.sql|5|CREATE PROCEDURE [unused].[spDALVendorProductUpdate]
+
+spDALVendorProductUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorProductUpdate.sql|5|CREATE PROCEDURE [unused].[spDALVendorProductUpdate]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorUpdate.sql|5|CREATE PROCEDURE [unused].[spDALVendorUpdate]
+
+spDALVendorUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorUpdate.sql|5|CREATE PROCEDURE [unused].[spDALVendorUpdate]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorUpdate.sql|5|CREATE PROCEDURE [unused].[spDALVendorUpdate]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorUpdateNew.sql|5|CREATE PROCEDURE [unused].[spDALVendorUpdateNew]
+
+spDALVendorUpdateNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorUpdateNew.sql|5|CREATE PROCEDURE [unused].[spDALVendorUpdateNew]
+
+spDALVendorUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorUpdateNew.sql|5|CREATE PROCEDURE [unused].[spDALVendorUpdateNew]
+
+spDALVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorUpdateNew.sql|5|CREATE PROCEDURE [unused].[spDALVendorUpdateNew]
+
+spDALViewDirectCheckExpenses|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewDirectCheckExpenses.sql|10|CREATE PROC [unused].[spDALViewDirectCheckExpenses]
+
+spDALViewDirectLoanDeposit|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewDirectLoanDeposit.sql|7|CREATE PROC [unused].[spDALViewDirectLoanDeposit]
+
+spDALViewDirectLoanPayment|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewDirectLoanPayment.sql|8|CREATE PROC [unused].[spDALViewDirectLoanPayment]
+
+spDALViewStoreControlPoints|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewStoreControlPoints.sql|5|CREATE PROC [unused].[spDALViewStoreControlPoints]
+
+spDALViewStoreControlPoints|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewStoreControlPointsByID.sql|5|CREATE PROC [unused].[spDALViewStoreControlPointsByID]
+
+spDALViewStoreControlPointsByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewStoreControlPointsByID.sql|5|CREATE PROC [unused].[spDALViewStoreControlPointsByID]
+
+spDALViewStoreCreditCard2Find|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewStoreCreditCard2Find.sql|5|create procedure  [unused].[spDALViewStoreCreditCard2Find]
+
+spDALViewStoreCreditCard3Add|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewStoreCreditCard3Add.sql|5|create procedure [unused].[spDALViewStoreCreditCard3Add]
+
+spDALViewStoreCreditCard3Find|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewStoreCreditCard3Find.sql|5|create procedure  [unused].[spDALViewStoreCreditCard3Find]
+
+spDALViewStoreLocks|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewStoreLocks.sql|5|CREATE PROC [unused].[spDALViewStoreLocks]
+
+spDALViewStoreLocks|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewStoreLocksNew.sql|5|CREATE PROC [unused].[spDALViewStoreLocksNew]
+
+spDALViewStoreLocksNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewStoreLocksNew.sql|5|CREATE PROC [unused].[spDALViewStoreLocksNew]
+
+spDALViewStoreReminderByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewStoreReminderByID.sql|5|CREATE PROC [unused].[spDALViewStoreReminderByID]
+
+spDALViewStoreReminders|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewStoreReminders.sql|5|CREATE PROC [unused].[spDALViewStoreReminders]
+
+spDALViewStoreReminders|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewStoreRemindersNew.sql|5|CREATE PROC [unused].[spDALViewStoreRemindersNew]
+
+spDALViewStoreRemindersNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewStoreRemindersNew.sql|5|CREATE PROC [unused].[spDALViewStoreRemindersNew]
+
+spDALViewTeleCheckInvoicesNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewTeleCheckInvoicesNew.sql|5|CREATE PROC [unused].[spDALViewTeleCheckInvoicesNew]
+
+spDALViewWicCardInvoicesNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALViewWicCardInvoicesNew.sql|5|CREATE PROCEDURE [unused].[spDALViewWicCardInvoicesNew] 
+
+spDALWicCardCreditInvoiceDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALWicCardCreditInvoiceDelete.sql|5|CREATE PROCEDURE [unused].[spDALWicCardCreditInvoiceDelete]
+
+spDALWicCardCreditInvoiceUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALWicCardCreditInvoiceUpdate.sql|5|CREATE PROCEDURE [unused].[spDALWicCardCreditInvoiceUpdate]
+
+spDOStuff|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDOStuff.sql|10|CREATE PROCEDURE [unused].[spDOStuff]
+
+spDOStuff|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDOStuff.sql|13|EXEC spDOStuff2
+
+spDOStuff2|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDOStuff.sql|13|EXEC spDOStuff2
+
+spDOStuff|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDOStuff2.sql|10|CREATE PROCEDURE [unused].[spDOStuff2]
+
+spDOStuff2|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDOStuff2.sql|10|CREATE PROCEDURE [unused].[spDOStuff2]
+
+spDRGetRegisterOpeningValue|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDRGetRegisterOpeningValue.sql|5|CREATE PROCEDURE  [unused].[spDRGetRegisterOpeningValue]
+
+spDRGetZreading|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDRGetZreading.sql|5|CREATE PROCEDURE   [unused].[spDRGetZreading]
+
+spEmployeeGapReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEmployeeGapReport.sql|5|CREATE PROCEDURE [unused].[spEmployeeGapReport]
+
+spEmployeeLoginReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEmployeeLoginReport.sql|5|CREATE PROCEDURE [unused].[spEmployeeLoginReport]
+
+SPEmployeeShiftUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPEmployeeShiftUpdate.sql|5|CREATE PROCEDURE  [unused].[SPEmployeeShiftUpdate] 
+
+spEmployeeTimeSheet|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEmployeeTimeSheet.sql|5|CREATE PROCEDURE [unused].[spEmployeeTimeSheet]
+
+SPEnterDataLockValidate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPEnterDataLockValidate.sql|5|CREATE PROCEDURE  [unused].[SPEnterDataLockValidate]
+
+spEWFAdminPasswordFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFAdminPasswordFind.sql|5|create procedure [unused].[spEWFAdminPasswordFind]
+
+spEWFDALErrorLogAdd|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFDALErrorLogAdd.sql|5|CREATE PROCEDURE [unused].[spEWFDALErrorLogAdd]
+
+spEWFDALUSBKeyUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFDALUSBKeyUpdate.sql|5|CREATE PROCEDURE [unused].[spEWFDALUSBKeyUpdate]
+
+spEWFGetEntityDetailsFromEntityID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFGetEntityDetailsFromEntityID.sql|5|CREATE PROCEDURE [unused].[spEWFGetEntityDetailsFromEntityID]
+
+spEWFGetEntityDetailsListBySessionID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFGetEntityDetailsListBySessionID.sql|5|CREATE PROC [unused].[spEWFGetEntityDetailsListBySessionID] 
+
+spEWFGetEntityMenu|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFGetEntityMenu.sql|5|CREATE PROCEDURE [unused].[spEWFGetEntityMenu]
+
+spEWFGetEntityPage|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFGetEntityPage.sql|5|CREATE PROCEDURE [unused].[spEWFGetEntityPage]
+
+spEWFGetLoginAccountListByEntity|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFGetLoginAccountListByEntity.sql|5|CREATE PROCEDURE [unused].[spEWFGetLoginAccountListByEntity]
+
+spEWFGetLoginAccountUserInfoFromUserName|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFGetLoginAccountUserInfoFromUserName.sql|5|CREATE PROCEDURE [unused].[spEWFGetLoginAccountUserInfoFromUserName]
+
+spEWFGetUILoginEntityListByAccountID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFGetUILoginEntityListByAccountID.sql|5|CREATE PROC [unused].[spEWFGetUILoginEntityListByAccountID]
+
+spEWFGetUserEntityListByAccountID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFGetUserEntityListByAccountID.sql|5|CREATE PROC [unused].[spEWFGetUserEntityListByAccountID]
+
+spEWFGetUserEntityListFromAccountID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFGetUserEntityListFromAccountID.sql|5|CREATE PROC [unused].[spEWFGetUserEntityListFromAccountID] 
+
+spEWFIsSessionValid|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFIsSessionValid.sql|5|CREATE PROCEDURE [unused].[spEWFIsSessionValid]
+
+spEWFLoginAccountToEntityDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFLoginAccountToEntityDelete.sql|5|CREATE PROC [unused].[spEWFLoginAccountToEntityDelete]
+
+spEWFLoginAccountToSecurityGroupAdmin|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFLoginAccountToSecurityGroupAdmin.sql|5|CREATE PROCEDURE [unused].[spEWFLoginAccountToSecurityGroupAdmin]
+
+spEWFMenuAddNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFMenuAddNew.sql|5|CREATE PROCEDURE [unused].[spEWFMenuAddNew]
+
+spEWFMenuUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFMenuUpdate.sql|5|CREATE PROCEDURE [unused].[spEWFMenuUpdate]
+
+spEWFMobileAuthenticateLogin|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFMobileAuthenticateLogin.sql|5|CREATE PROCEDURE [unused].[spEWFMobileAuthenticateLogin]
+
+spEWFMobileUpdateSuccessfulLogin|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFMobileAuthenticateLogin.sql|80|EXEC spEWFMobileUpdateSuccessfulLogin @uiSessionID OUT,@intLoginAccountID
+
+spEWFMobileCreateAccount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFMobileCreateAccount.sql|10|CREATE PROCEDURE [unused].[spEWFMobileCreateAccount] 
+
+spEWFMobileGetLoginIDFromSessionID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFMobileGetLoginIDFromSessionID.sql|5|CREATE PROCEDURE [unused].[spEWFMobileGetLoginIDFromSessionID]
+
+spEWFMobileIsSessionValid|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFMobileIsSessionValid.sql|5|CREATE PROCEDURE [unused].[spEWFMobileIsSessionValid]
+
+spEWFMobileLogout|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFMobileLogout.sql|5|CREATE PROCEDURE [unused].[spEWFMobileLogout]
+
+spEWFMobileUpdateSuccessfulLogin|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFMobileUpdateSuccessfulLogin.sql|5|CREATE PROCEDURE [unused].[spEWFMobileUpdateSuccessfulLogin]
+
+spEWFPageAddNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFPageAddNew.sql|5|CREATE PROCEDURE [unused].[spEWFPageAddNew]
+
+spEWFPageUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFPageUpdate.sql|5|CREATE PROCEDURE [unused].[spEWFPageUpdate]
+
+spEWFSecurityGroupToMenu|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFSecurityGroupToMenu.sql|5|CREATE PROCEDURE [unused].[spEWFSecurityGroupToMenu]
+
+spEWFSecurityGroupToPage|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFSecurityGroupToPage.sql|5|CREATE PROCEDURE [unused].[spEWFSecurityGroupToPage]
+
+spEWFSessionAddNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFSessionAddNew.sql|5|CREATE PROCEDURE [unused].[spEWFSessionAddNew]
+
+spEWFUpdateLicenseType|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spEWFUpdateLicenseType.sql|5|CREATE PROCEDURE [unused].[spEWFUpdateLicenseType]
+
+spExpensesCatData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spExpensesCatData.sql|5|CREATE PROCEDURE [unused].[spExpensesCatData] @storeID int, @categoryID int  AS
+
+spExpensesDetailsLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spExpensesDetailsLog.sql|5|CREATE PROCEDURE   [unused].[spExpensesDetailsLog]  @categoryID int, @storeID int, @startDate smalldatetime, @endDate smalldatetime as 
+
+SPFindLotteryGameState|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPFindLotteryGameState.sql|5|CREATE PROCEDURE  [unused].[SPFindLotteryGameState]
+
+SPFoundationGetImage|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPFoundationGetImage.sql|5|CREATE PROCEDURE  [unused].[SPFoundationGetImage]
+
+SPFoundationUploadFingerPrint|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPFoundationUploadFingerPrint.sql|5|CREATE PROCEDURE  [unused].[SPFoundationUploadFingerPrint]
+
+SPFoundationUploadImage|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPFoundationUploadImage.sql|5|CREATE PROCEDURE  [unused].[SPFoundationUploadImage]
+
+spFreeSignUp|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spFreeSignUp.sql|5|CREATE procedure [unused].[spFreeSignUp]
+
+spGasInvoicePrivateCalcTotals|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGasInvoicePrivateCalcTotals.sql|5|CREATE PROCEDURE   [unused].[spGasInvoicePrivateCalcTotals] @storeID int, @bankLogID int  AS
+
+spGenerateBatchIDForProcess|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGenerateBatchIDForProcess.sql|12|CREATE PROCEDURE [unused].[spGenerateBatchIDForProcess]
+
+spGetActivatedPackCount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetActivatedPackCount.sql|5|CREATE PROCEDURE  [unused].[spGetActivatedPackCount]
+
+spGetBankAccountsData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetBankAccountsData.sql|5|CREATE PROCEDURE   [unused].[spGetBankAccountsData]  @storeID int, @AccountID int  AS
+
+spGetBatchIDList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetBatchIDList.sql|5|CREATE PROCEDURE [unused].[spGetBatchIDList]
+
+spGetBNPInvoiceDateInfo|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetBNPInvoiceDateInfo.sql|5|CREATE PROCEDURE [unused].[spGetBNPInvoiceDateInfo]  @storeID int  AS
+
+spGetCalendarData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetCalendarData.sql|5|CREATE PROCEDURE [unused].[spGetCalendarData] @storeID int, @inMonth int, @inYear int  AS
+
+spGetCashDrawersData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetCashDrawersData.sql|5|CREATE PROCEDURE   [unused].[spGetCashDrawersData]  @storeID int, @drawerID int AS
+
+spGetCategoryData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetCategoryData.sql|5|CREATE PROCEDURE  [unused].[spGetCategoryData] @storeID int, @categoryID int  AS
+
+spGetCategoryName|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetCategoryName.sql|6|CREATE procedure [unused].[spGetCategoryName] 
+
+spGetCatgList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetCatgList.sql|5|CREATE PROCEDURE  [unused].[spGetCatgList]  @storeID int  AS
+
+spGetCCBatchLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetCCBatchLog.sql|5|CREATE PROCEDURE [unused].[spGetCCBatchLog] @storeID int, @dtStart smalldatetime, @dtEnd smalldatetime  AS
+
+spGetCCBatchLogDuplicate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetCCBatchLogDuplicate.sql|6|CREATE procedure [unused].[spGetCCBatchLogDuplicate]
+
+spGetCCBatchLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetCCBatchLogDuplicate.sql|6|CREATE procedure [unused].[spGetCCBatchLogDuplicate]
+
+spGetCommissionAgentsData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetCommissionAgentsData.sql|5|CREATE PROCEDURE   [unused].[spGetCommissionAgentsData]  @storeID int, @agentID int AS
+
+spGetCommissionLogNBNP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetCommissionLogNBNP.sql|5|CREATE PROCEDURE [unused].[spGetCommissionLogNBNP] @storeID int, @dtStart smalldatetime, @dtEnd smalldatetime  AS
+
+spGetCompID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetCompID.sql|5|CREATE PROCEDURE  [unused].[spGetCompID]  AS
+
+spGetComponentID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetComponentID.sql|5|CREATE PROCEDURE [unused].[spGetComponentID] @ComponentName varchar(50) AS
+
+spGetCreditCardDefaultBankAccount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetCreditCardDefaultBankAccount.sql|5|CREATE PROCEDURE  [unused].[spGetCreditCardDefaultBankAccount]
+
+spGetCurrentATMData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetCurrentATMData.sql|5|CREATE PROCEDURE [unused].[spGetCurrentATMData] @storeID int, @reportDate smalldatetime AS
+
+spGetCurrentMOData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetCurrentMOData.sql|5|CREATE PROCEDURE [unused].[spGetCurrentMOData]  @storeID int, @reportDate smalldatetime  AS
+
+SPGetEmployeeFingerPrint|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPGetEmployeeFingerPrint.sql|5|CREATE PROCEDURE [unused].[SPGetEmployeeFingerPrint]
+
+SPGetEmployeeList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPGetEmployeeList.sql|5|CREATE PROCEDURE  [unused].[SPGetEmployeeList]
+
+spGetFoodStampsDetails|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetFoodStampsDetails.sql|5|CREATE PROCEDURE [unused].[spGetFoodStampsDetails]  @storeID int ,@dtStart smallDateTime AS
+
+spGetGallonsInTank|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetGallonsInTank.sql|5|CREATE PROCEDURE [unused].[spGetGallonsInTank] @storeID int
+
+spGetGallonsInTank|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetGallonsInTank_BP.sql|5|CREATE PROCEDURE [unused].[spGetGallonsInTank_BP]  @storeID int AS
+
+spGetGallonsInTank_BP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetGallonsInTank_BP.sql|5|CREATE PROCEDURE [unused].[spGetGallonsInTank_BP]  @storeID int AS
+
+spGetGlobalProperties|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetGlobalProperties.sql|5|CREATE PROCEDURE [unused].[spGetGlobalProperties] @storeID int  AS
+
+spGetGroceryCategories|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetGroceryCategories.sql|5|CREATE PROCEDURE [unused].[spGetGroceryCategories] @storeID int, @dtStart smalldatetime, @dtEnd smalldatetime  AS
+
+spGetGroceryItems|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetGroceryItems.sql|5|CREATE PROCEDURE   [unused].[spGetGroceryItems]  @storeID int  AS
+
+spGetGrocInvAdjCategories|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetGrocInvAdjCategories.sql|5|CREATE PROCEDURE  [unused].[spGetGrocInvAdjCategories] @storeID int, @adjType int   AS
+
+spGetGrocSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetGrocSummary.sql|5|CREATE PROCEDURE  [unused].[spGetGrocSummary] @storeID int, @startDate smalldatetime, @endDate smalldatetime  AS
+
+spGetGrocSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetGrocSummary1.sql|5|CREATE PROCEDURE  [unused].[spGetGrocSummary1] @storeID int, @startDate smalldatetime, @endDate smalldatetime  AS
+
+spGetGrocSummary1|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetGrocSummary1.sql|5|CREATE PROCEDURE  [unused].[spGetGrocSummary1] @storeID int, @startDate smalldatetime, @endDate smalldatetime  AS
+
+spGetGrocSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetGrocSummary2.sql|5|CREATE PROCEDURE  [unused].[spGetGrocSummary2]  @storeID int, @startDate smalldatetime, @endDate smalldatetime  AS
+
+spGetGrocSummary2|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetGrocSummary2.sql|5|CREATE PROCEDURE  [unused].[spGetGrocSummary2]  @storeID int, @startDate smalldatetime, @endDate smalldatetime  AS
+
+spGetHFLInvoiceData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetHFLInvoiceData.sql|5|CREATE PROCEDURE [unused].[spGetHFLInvoiceData]  @storeID int, @fromDate smallDateTime, @toDate smalldatetime   AS
+
+spGetItemRecord|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetItemRecord.sql|5|CREATE PROCEDURE  [unused].[spGetItemRecord]  
+
+spGetLoadDataNBP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetLoadDataNBP.sql|5|CREATE PROCEDURE [unused].[spGetLoadDataNBP] @storeID int, @loadID int  AS
+
+spGetloanAccountsData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetloanAccountsData.sql|5|CREATE PROCEDURE   [unused].[spGetloanAccountsData] @storeID int, @LoanID int  AS
+
+spGetLogNBNP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetLogNBNP.sql|5|CREATE PROCEDURE [unused].[spGetLogNBNP] @storeID int, @dtStart smalldatetime, @dtEnd smalldatetime AS
+
+spGetLotInvoiceData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetLotInvoiceData.sql|5|CREATE PROCEDURE [unused].[spGetLotInvoiceData] @storeID int, @fromDate smalldatetime, @toDate smalldatetime   AS
+
+spGetLotInvoiceDate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetLotInvoiceDate.sql|5|CREATE PROCEDURE [unused].[spGetLotInvoiceDate]  @storeID int  AS
+
+spGetLotteryData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetLotteryData.sql|5|CREATE PROCEDURE [unused].[spGetLotteryData] @storeID int, @repDate smalldatetime  AS
+
+spGetMO2Data|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetMO2Data.sql|5|CREATE PROCEDURE [unused].[spGetMO2Data] @storeID int  AS
+
+spGetMOData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetMOData.sql|5|CREATE PROCEDURE [unused].[spGetMOData] @storeID int  AS
+
+spGetMOInvoiceData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetMOInvoiceData.sql|5|CREATE PROCEDURE [unused].[spGetMOInvoiceData]  @storeID int, @fromDate smallDateTime, @toDate smalldatetime   AS
+
+spGetMOInvoiceDate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetMOInvoiceDate.sql|5|CREATE PROCEDURE [unused].[spGetMOInvoiceDate]  @storeID int  AS
+
+spGetMT2InvoiceData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetMT2InvoiceData.sql|5|CREATE PROCEDURE [unused].[spGetMT2InvoiceData]  @storeID int, @fromDate smallDateTime, @toDate smalldatetime   AS
+
+spGetMT2InvoiceDate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetMT2InvoiceDate.sql|5|CREATE PROCEDURE [unused].[spGetMT2InvoiceDate]  @storeID int  AS
+
+spGetMTInvoiceData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetMTInvoiceData.sql|6|CREATE PROCEDURE [unused].[spGetMTInvoiceData]  @storeID int, @fromDate smallDateTime, @toDate smalldatetime   AS
+
+spGetMTInvoiceDate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetMTInvoiceDate.sql|6|CREATE PROCEDURE [unused].[spGetMTInvoiceDate]  @storeID int  AS
+
+spGetNBNPInvoiceDateInfo|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetNBNPInvoiceDateInfo.sql|5|CREATE PROCEDURE [unused].[spGetNBNPInvoiceDateInfo]  @storeID int  AS
+
+spGetNonPrivateReportDateList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetNonPrivateReportDateList.sql|5|CREATE PROCEDURE [unused].[spGetNonPrivateReportDateList]
+
+spGetPhoneInvoiceData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetPhoneInvoiceData.sql|5|CREATE PROCEDURE [unused].[spGetPhoneInvoiceData]  @storeID int, @fromDate smallDateTime, @toDate smalldatetime   AS
+
+spGetPhoneInvoiceDate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetPhoneInvoiceDate.sql|5|CREATE PROCEDURE [unused].[spGetPhoneInvoiceDate]  @storeID int  AS
+
+spGetPriorCostBP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetPriorCostBP.sql|5|CREATE PROCEDURE [unused].[spGetPriorCostBP] @storeID int  AS
+
+spGetPriorCostNBP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetPriorCostNBP.sql|5|CREATE PROCEDURE [unused].[spGetPriorCostNBP] @storeID int  AS
+
+SPGetProductCodeList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPGetProductCodeList.sql|5|CREATE PROCEDURE  [unused].[SPGetProductCodeList] 
+
+spGetProfitBNP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetProfitBNP.sql|5|CREATE PROCEDURE [unused].[spGetProfitBNP] @storeID int  AS
+
+spGetProfitNBNP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetProfitNBNP.sql|5|CREATE PROCEDURE [unused].[spGetProfitNBNP] @storeID int  AS
+
+spGetProfitNBP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetProfitNBP.sql|5|CREATE PROCEDURE [unused].[spGetProfitNBP] @storeID int  AS
+
+spGetPurchaseIDList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetPurchaseIDList.sql|5|CREATE PROCEDURE [unused].[spGetPurchaseIDList] 
+
+spGetPurchaseLogBP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetPurchaseLogBP.sql|5|CREATE PROCEDURE [unused].[spGetPurchaseLogBP] @storeID int, @dtStart smalldatetime, @dtEnd smalldatetime AS
+
+spGetRCInvoiceData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetRCInvoiceData.sql|5|CREATE PROCEDURE [unused].[spGetRCInvoiceData]  @storeID int, @fromDate smalldatetime, @toDate smalldatetime   AS
+
+spGetRCInvoiceDateInfo|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetRCInvoiceDateInfo.sql|5|CREATE PROCEDURE [unused].[spGetRCInvoiceDateInfo]  @storeID int  AS
+
+spGetRepDt|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetRepDt.sql|5|CREATE PROCEDURE [unused].[spGetRepDt]  @storeID int  AS
+
+spGetReportOpBal|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetReportOpBal.sql|5|CREATE PROCEDURE [unused].[spGetReportOpBal] @storeID int ,@dtStart smallDateTime AS
+
+SPGetStoreControlPoints|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPGetStoreControlPoints.sql|5|CREATE PROCEDURE   [unused].[SPGetStoreControlPoints]
+
+spGetStoreList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetStoreList.sql|5|create procedure [unused].[spGetStoreList]
+
+SPGetStorePrimaryCreditCard|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPGetStorePrimaryCreditCard.sql|5|CREATE PROCEDURE   [unused].[SPGetStorePrimaryCreditCard]
+
+spGetStoreSettings|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetStoreSettings.sql|5|CREATE PROCEDURE [unused].[spGetStoreSettings] @storeID int AS
+
+spGetSummaryBNP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetSummaryBNP.sql|5|CREATE PROCEDURE  [unused].[spGetSummaryBNP] @storeID int  AS
+
+spGetSummaryBP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetSummaryBP.sql|5|CREATE PROCEDURE  [unused].[spGetSummaryBP] @storeID int  AS
+
+spGetSummaryNBNP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetSummaryNBNP.sql|5|CREATE PROCEDURE  [unused].[spGetSummaryNBNP] @storeID int  AS
+
+spGetSummaryNBP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetSummaryNBP.sql|5|CREATE PROCEDURE  [unused].[spGetSummaryNBP] @storeID int  AS
+
+spGetTDSummaryBNP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetTDSummaryBNP.sql|5|CREATE PROCEDURE [unused].[spGetTDSummaryBNP]  @storeID int  AS
+
+spGetTDSummaryBP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetTDSummaryBP.sql|5|CREATE PROCEDURE [unused].[spGetTDSummaryBP]  @storeID int  AS
+
+spGetTDSummaryNBNP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetTDSummaryNBNP.sql|5|CREATE PROCEDURE [unused].[spGetTDSummaryNBNP]  @storeID int  AS
+
+spGetTDSummaryNBP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetTDSummaryNBP.sql|5|CREATE PROCEDURE [unused].[spGetTDSummaryNBP]  @storeID int  AS
+
+spGetThisMonthDates|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetThisMonthDates.sql|5|CREATE PROCEDURE    [unused].[spGetThisMonthDates] @storeID int, @intMonth int, @intYear int  AS
+
+spGetUnpaidAmount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetUnpaidAmount.sql|5|CREATE PROCEDURE  [unused].[spGetUnpaidAmount]   @storeID int, @purchaseID int  AS
+
+spGetUnPostedActivatedDeliveries|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetUnPostedActivatedDeliveries.sql|5|CREATE PROCEDURE  [unused].[spGetUnPostedActivatedDeliveries] 
+
+spGetUnPostedActivatedDeliveryCount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetUnPostedActivatedDeliveryCount.sql|5|CREATE PROCEDURE  [unused].[spGetUnPostedActivatedDeliveryCount] 
+
+SPGetVendorCodeList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPGetVendorCodeList.sql|5|CREATE PROCEDURE [unused].[SPGetVendorCodeList] 
+
+spGetVendorData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetVendorData.sql|5|CREATE PROCEDURE [unused].[spGetVendorData] @storeID int, @vendorID int AS
+
+spGetVendorName|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGetVendorName.sql|5|CREATE procedure [unused].[spGetVendorName]
+
+SPGridBankAccount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPGridBankAccount.sql|5|CREATE PROCEDURE   [unused].[SPGridBankAccount]	
+
+spGridConfigureControlPoints|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGridConfigureControlPoints.sql|5|CREATE PROC [unused].[spGridConfigureControlPoints]
+
+SPGridCustomerCreditAccount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPGridCustomerCreditAccount.sql|5|CREATE PROCEDURE  [unused].[SPGridCustomerCreditAccount]
+
+SPGridLoanAccount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPGridLoanAccount.sql|5|CREATE PROCEDURE  [unused].[SPGridLoanAccount]
+
+spGridLoanAccountByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGridLoanAccountByID.sql|5|CREATE PROC [unused].[spGridLoanAccountByID]
+
+SPGridProfitWithDrawer|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPGridProfitWithDrawer.sql|5|CREATE PROCEDURE  [unused].[SPGridProfitWithDrawer]
+
+spGridStoreLotteryGameByID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGridStoreLotteryGameByID.sql|5|CREATE PROC [unused].[spGridStoreLotteryGameByID] 
+
+spGroceryCigInventory|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGroceryCigInventory.sql|5|CREATE PROCEDURE  [unused].[spGroceryCigInventory] @storeID int, @startDate smalldatetime, @endDate smalldatetime  AS
+
+spGroceryDetailsSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGroceryDetailsSummary.sql|5|CREATE PROCEDURE  [unused].[spGroceryDetailsSummary]  @storeID int, @dtStart smalldatetime  AS
+
+spGroceryProfitCategories|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGroceryProfitCategories.sql|5|CREATE PROCEDURE [unused].[spGroceryProfitCategories] @storeID int, @dtStart smalldatetime, @dtEnd smalldatetime  AS
+
+spGroceryReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGroceryReport.sql|5|CREATE PROCEDURE  [unused].[spGroceryReport]  @storeID  int, @startDate smalldatetime, @endDate smalldatetime as 
+
+spGrocerySysCountCalculate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGrocerySysCountCalculate.sql|6|CREATE  PROCEDURE [unused].[spGrocerySysCountCalculate] 
+
+spGroceryToDateSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGroceryToDateSummary.sql|5|CREATE PROCEDURE [unused].[spGroceryToDateSummary] @storeID int  AS
+
+spGrocProfitAdjustment|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spGrocProfitAdjustment.sql|5|CREATE  PROCEDURE  [unused].[spGrocProfitAdjustment]  @storeID int, @startDate smalldatetime, @endDate smalldatetime AS
+
+spHFLProfitReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spHFLProfitReport.sql|5|CREATE PROCEDURE  [unused].[spHFLProfitReport]   @storeid int,@dtStart  smalldatetime,@dtEnd smalldatetime  AS
+
+spJobberCashFlowData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spJobberCashFlowData.sql|5|CREATE PROCEDURE [unused].[spJobberCashFlowData]   @storeID int ,@startDate  smallDateTime, @endDate smalldatetime  AS
+
+SPJobberProfitReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPJobberProfitReport.sql|5|CREATE PROCEDURE  [unused].[SPJobberProfitReport]  @storeID int, @dtStart  smalldatetime, @dtEnd smalldatetime  AS
+
+SPLotteryGetDailyEntries|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPLotteryGetDailyEntries.sql|5|CREATE PROCEDURE  [unused].[SPLotteryGetDailyEntries]
+
+SPLotteryGetUnEnteredGames|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPLotteryGetUnEnteredGames.sql|5|CREATE PROCEDURE  [unused].[SPLotteryGetUnEnteredGames]
+
+SPLotteryShiftFindOpeningTicketNo|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPLotteryShiftFindOpeningTicketNo.sql|5|CREATE PROCEDURE  [unused].[SPLotteryShiftFindOpeningTicketNo]
+
+spLotteryTicketAnalysis|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spLotteryTicketAnalysis.sql|5|CREATE PROCEDURE  [unused].[spLotteryTicketAnalysis]
+
+spLotteryTicketDailySalesSetValues|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spLotteryTicketDailySalesSetValues.sql|5|CREATE  PROCEDURE [unused].[spLotteryTicketDailySalesSetValues] 
+
+spMobileControlPointReportCount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spMobileControlPointReportCount.sql|5|CREATE PROCEDURE  [unused].[spMobileControlPointReportCount]
+
+spEWFMobileGetUserEntityListFromSessionID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spMobileControlPointReportCount.sql|16|EXEC spEWFMobileGetUserEntityListFromSessionID @strStoreIDList OUT
+
+spMobileGetAssignedControlPoints|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spMobileGetAssignedControlPoints.sql|5|CREATE PROCEDURE  [unused].[spMobileGetAssignedControlPoints]
+
+spEWFMobileGetUserEntityListFromSessionID|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spMobileGetAssignedControlPoints.sql|12|EXEC spEWFMobileGetUserEntityListFromSessionID @strStoreIDList OUT
+
+spMT2CashFlowData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spMT2CashFlowData.sql|5|CREATE PROCEDURE [unused].[spMT2CashFlowData]  @storeID int ,@startDate smalldatetime, @endDate smalldatetime as 
+
+spMulitStoreFuelInventoryAtCostReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spMulitStoreFuelInventoryAtCostReport.sql|5|CREATE PROC [unused].[spMulitStoreFuelInventoryAtCostReport]
+
+spNEDailyReportGetData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spNEDailyReportGetData.sql|5|CREATE PROCEDURE    [unused].[spNEDailyReportGetData] 
+
+spNonBlendedNPG|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spNonBlendedNPG.sql|7|CREATE   PROCEDURE  [unused].[spNonBlendedNPG]  @storeID int, @reportDate smalldatetime AS
+
+spNotificationRecipientsGetList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spNotificationRecipientsGetList.sql|5|CREATE PROCEDURE [unused].[spNotificationRecipientsGetList]
+
+spOtherIncomeCashSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spOtherIncomeCashSummary.sql|5|CREATE PROCEDURE   [unused].[spOtherIncomeCashSummary]  @InStoreID int, @InStartDate smalldatetime, @InEndDate smalldatetime  AS
+
+spOtherIncomeProfitData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spOtherIncomeProfitData.sql|5|CREATE PROCEDURE [unused].[spOtherIncomeProfitData]  @storeID int, @startDate smalldatetime, @endDate smalldatetime   AS
+
+spPayrollSummaryReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spPayrollSummaryReport.sql|5|CREATE PROCEDURE [unused].[spPayrollSummaryReport]
+
+spRepCigOpeningInventory|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRepCigOpeningInventory.sql|5|CREATE PROCEDURE  [unused].[spRepCigOpeningInventory] 
+
+spReportGasInventoryAtCostOpening|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spReportGasInventoryAtCostOpening.sql|5|CREATE PROCEDURE [unused].[spReportGasInventoryAtCostOpening] 
+
+SPReportGasMonitoring|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPReportGasMonitoring.sql|6|CREATE  PROCEDURE  [unused].[SPReportGasMonitoring]
+
+spReportListDeliveriesByDate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spReportListDeliveriesByDate.sql|5|CREATE PROCEDURE  [unused].[spReportListDeliveriesByDate] 
+
+spReportLotteryInventory|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spReportLotteryInventory.sql|5|CREATE PROCEDURE  [unused].[spReportLotteryInventory]   
+
+SPReportLotteryShiftDetail|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPReportLotteryShiftDetail.sql|5|CREATE PROCEDURE  [unused].[SPReportLotteryShiftDetail]
+
+spReportStoreCurrentDates|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spReportStoreCurrentDates.sql|5|CREATE PROCEDURE  [unused].[spReportStoreCurrentDates] 
+
+SPRepProductPurchaseLogDetail|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPRepProductPurchaseLogDetail.sql|5|CREATE PROCEDURE  [unused].[SPRepProductPurchaseLogDetail] 
+
+SPRepProudctPurchaseSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPRepProudctPurchaseSummary.sql|5|CREATE PROCEDURE [unused].[SPRepProudctPurchaseSummary] 
+
+SPRepStoreCurrentBalances|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPRepStoreCurrentBalances.sql|5|CREATE PROCEDURE  [unused].[SPRepStoreCurrentBalances]
+
+spResetLottery|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spResetLottery.sql|10|CREATE PROCEDURE [unused].[spResetLottery]
+
+spRptAnalysisVendorProductReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptAnalysisVendorProductReport.sql|6|CREATE PROCEDURE   [unused].[spRptAnalysisVendorProductReport]
+
+spRptAnalysisVendorProductReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptAnalysisVendorProductReportByCode.sql|6|CREATE PROCEDURE   [unused].[spRptAnalysisVendorProductReportByCode]
+
+spRptAnalysisVendorProductReportByCode|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptAnalysisVendorProductReportByCode.sql|6|CREATE PROCEDURE   [unused].[spRptAnalysisVendorProductReportByCode]
+
+spRptBillPayAnalysis|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptBillPayAnalysis.sql|6|CREATE PROCEDURE  [unused].[spRptBillPayAnalysis] 
+
+spRptBLCC2OpBal|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptBLCC2OpBal.sql|11|CREATE PROCEDURE [unused].[spRptBLCC2OpBal]
+
+spRptBLCC3OpBal|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptBLCC3OpBal.sql|11|CREATE PROCEDURE [unused].[spRptBLCC3OpBal]
+
+spRptBLCreditCard2OpBalance|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptBLCreditCard2OpBalance.sql|11|CREATE PROCEDURE [unused].[spRptBLCreditCard2OpBalance]
+
+spRptBLCreditCard3OpBalance|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptBLCreditCard3OpBalance.sql|11|Create PROCEDURE [unused].[spRptBLCreditCard3OpBalance]
+
+spRptCashDrawDetailsLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptCashDrawDetailsLog.sql|6|CREATE PROCEDURE   [unused].[spRptCashDrawDetailsLog] 
+
+spRptCashDrawSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptCashDrawSummary.sql|6|CREATE PROCEDURE   [unused].[spRptCashDrawSummary]  
+
+SPRptCashExpensesLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPRptCashExpensesLog.sql|5|CREATE PROCEDURE   [unused].[SPRptCashExpensesLog]   @InStoreID  int, @InStartDate smalldatetime, @InEndDate smalldatetime as 
+
+spRptCCLoanAccountSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptCCLoanAccountSummary.sql|6|CREATE PROCEDURE  [unused].[spRptCCLoanAccountSummary] 
+
+spRptCCLoanDetailsLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptCCLoanDetailsLog.sql|6|CREATE PROCEDURE [unused].[spRptCCLoanDetailsLog] 
+
+spRPTComCheckCreditBatchSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRPTComCheckCreditBatchSummary.sql|8|CREATE PROCEDURE [unused].[spRPTComCheckCreditBatchSummary]
+
+spRPTComCheckCreditedBatched|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRPTComCheckCreditedBatched.sql|8|CREATE PROCEDURE [unused].[spRPTComCheckCreditedBatched]
+
+spRPTComCheckUnCreditedBatched|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRPTComCheckUnCreditedBatched.sql|8|CREATE PROCEDURE [unused].[spRPTComCheckUnCreditedBatched]
+
+spRptCommissionOpBal_NBNP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptCommissionOpBal_NBNP.sql|6|CREATE PROCEDURE [unused].[spRptCommissionOpBal_NBNP] 
+
+spRptCreditCard2AnalysisLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptCreditCard2AnalysisLog.sql|6|CREATE  PROCEDURE  [unused].[spRptCreditCard2AnalysisLog]
+
+spRptCreditCard2BalanceAnalysisLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptCreditCard2BalanceAnalysisLog.sql|6|CREATE  PROCEDURE  [unused].[spRptCreditCard2BalanceAnalysisLog]
+
+spRptCreditCard2BatchAnalysisLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptCreditCard2BatchAnalysisLog.sql|6|CREATE  PROCEDURE  [unused].[spRptCreditCard2BatchAnalysisLog]
+
+spRptCreditCard3AnalysisLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptCreditCard3AnalysisLog.sql|6|CREATE  PROCEDURE  [unused].[spRptCreditCard3AnalysisLog]
+
+spRptCreditCard3BalanceAnalysisLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptCreditCard3BalanceAnalysisLog.sql|6|CREATE  PROCEDURE  [unused].[spRptCreditCard3BalanceAnalysisLog]
+
+spRptCreditCard3BatchAnalysisLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptCreditCard3BatchAnalysisLog.sql|6|CREATE  PROCEDURE  [unused].[spRptCreditCard3BatchAnalysisLog]
+
+SPRptCreditCardAnalysisLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPRptCreditCardAnalysisLog.sql|6|CREATE  PROCEDURE  [unused].[SPRptCreditCardAnalysisLog]
+
+spRptCustCrAccountSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptCustCrAccountSummary.sql|6|CREATE PROCEDURE  [unused].[spRptCustCrAccountSummary] 
+
+spRptCustCrDetailsLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptCustCrDetailsLog.sql|6|CREATE PROCEDURE [unused].[spRptCustCrDetailsLog] 
+
+spRptDALAdditionalFunctionality|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptDALAdditionalFunctionality.sql|5|CREATE PROCEDURE [unused].[spRptDALAdditionalFunctionality]
+
+spRptDALComCheckOpBalance|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptDALComCheckOpBalance.sql|11|CREATE PROCEDURE [unused].[spRptDALComCheckOpBalance]
+
+spRptDALGroceryTaxFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptDALGroceryTaxFind.sql|6|CREATE PROCEDURE [unused].[spRptDALGroceryTaxFind]
+
+spRptDALGroceryTaxInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptDALGroceryTaxInsert.sql|6|CREATE PROCEDURE [unused].[spRptDALGroceryTaxInsert]
+
+spRptDALGroceryTaxUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptDALGroceryTaxUpdate.sql|6|CREATE PROCEDURE [unused].[spRptDALGroceryTaxUpdate]
+
+spRptDALManageBankAccount|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptDALManageBankAccount.sql|5|create PROCEDURE [unused].[spRptDALManageBankAccount]
+
+spRptDALStoreComponent|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptDALStoreComponent.sql|5|create PROCEDURE [unused].[spRptDALStoreComponent]
+
+spRptEmployeeLoginReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptEmployeeLoginReport.sql|6|CREATE PROCEDURE [unused].[spRptEmployeeLoginReport]
+
+spRptEmployeeTimeSheet|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptEmployeeTimeSheet.sql|6|CREATE PROCEDURE [unused].[spRptEmployeeTimeSheet]
+
+SPRptExpensesLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPRptExpensesLog.sql|5|CREATE PROCEDURE   [unused].[SPRptExpensesLog]   @InStoreID  int, @InStartDate smalldatetime, @InEndDate smalldatetime as 
+
+spRptGetCCBatchLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptGetCCBatchLog.sql|6|CREATE procedure [unused].[spRptGetCCBatchLog]
+
+spRptGetCommissionLogNBNP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptGetCommissionLogNBNP.sql|6|CREATE PROCEDURE [unused].[spRptGetCommissionLogNBNP] 
+
+spRptGetGlobalProperties|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptGetGlobalProperties.sql|6|CREATE PROCEDURE [unused].[spRptGetGlobalProperties]
+
+spRptGetLogNBNP|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptGetLogNBNP.sql|6|CREATE PROCEDURE [unused].[spRptGetLogNBNP]
+
+spRptGetLotOpBal|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptGetLotOpBal.sql|6|CREATE PROCEDURE [unused].[spRptGetLotOpBal] 
+
+spRptGetLotteryOpBal|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptGetLotteryOpBal.sql|6|CREATE PROCEDURE [unused].[spRptGetLotteryOpBal]
+
+spRptGetMO2OpBal|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptGetMO2OpBal.sql|6|CREATE PROCEDURE [unused].[spRptGetMO2OpBal] 
+
+spRptGetMoneyOrder1Balance|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptGetMoneyOrder1Balance.sql|6|CREATE PROCEDURE [unused].[spRptGetMoneyOrder1Balance]
+
+spRptGetOpBal|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptGetOpBal.sql|6|CREATE PROCEDURE [unused].[spRptGetOpBal]
+
+spRptGetStoreSettings|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptGetStoreSettings.sql|6|CREATE PROCEDURE [unused].[spRptGetStoreSettings] 
+
+spRptGroceryPurchasesByVendor|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptGroceryPurchasesByVendor.sql|5|CREATE PROCEDURE [unused].[spRptGroceryPurchasesByVendor]  
+
+spRptGroceryPurchasesPrimaryRegAll|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptGroceryPurchasesPrimaryRegAll.sql|5|CREATE PROCEDURE [unused].[spRptGroceryPurchasesPrimaryRegAll]
+
+spRptGroceryPurchasesPrimaryRegCashOnly|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptGroceryPurchasesPrimaryRegCashOnly.sql|6|CREATE PROCEDURE [unused].[spRptGroceryPurchasesPrimaryRegCashOnly]
+
+spRptGrocPurchases|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptGrocPurchases.sql|5|CREATE PROCEDURE [unused].[spRptGrocPurchases]  @storeid int,@dtStart  smalldatetime,@dtEnd smalldatetime  AS
+
+spRPTMoneyOrder1|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRPTMoneyOrder1.sql|6|CREATE PROCEDURE [unused].[spRPTMoneyOrder1]  
+
+spRPTMoneyOrder2|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRPTMoneyOrder2.sql|6|CREATE PROCEDURE [unused].[spRPTMoneyOrder2]  
+
+spRptMOReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptMOReport.sql|5|CREATE PROCEDURE [unused].[spRptMOReport]  @storeid int AS
+
+spRptOtherIncomeCashDetails|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptOtherIncomeCashDetails.sql|5|CREATE PROCEDURE   [unused].[spRptOtherIncomeCashDetails]   @InStoreID int, @InStartDate smalldatetime, @InEndDate smalldatetime as 
+
+spRptOtherIncomeLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptOtherIncomeLog.sql|5|CREATE PROCEDURE   [unused].[spRptOtherIncomeLog]     @agentID int, @storeID int, @startDate smalldatetime, @endDate smalldatetime as 
+
+spRptPayrollSummaryReport|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptPayrollSummaryReport.sql|6|CREATE PROCEDURE [unused].[spRptPayrollSummaryReport]
+
+spRptPrimaryRegExpensesDetailsLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptPrimaryRegExpensesDetailsLog.sql|6|CREATE PROCEDURE   [unused].[spRptPrimaryRegExpensesDetailsLog]
+
+spRptPrimaryRegExpensesSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptPrimaryRegExpensesSummary.sql|6|CREATE PROCEDURE   [unused].[spRptPrimaryRegExpensesSummary]  
+
+spRptProfitReportNPG|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptProfitReportNPG.sql|6|CREATE PROCEDURE [unused].[spRptProfitReportNPG] 
+
+spRptProfitReportPG|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptProfitReportPG.sql|6|CREATE PROCEDURE [unused].[spRptProfitReportPG]
+
+spRptVendorDetailsLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptVendorDetailsLog.sql|7|CREATE PROCEDURE   [unused].[spRptVendorDetailsLog]  
+
+spRptVendorDetailsLog|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptVendorDetailsLogByCode.sql|6|CREATE PROCEDURE   [unused].[spRptVendorDetailsLogByCode]  
+
+spRptVendorDetailsLogByCode|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptVendorDetailsLogByCode.sql|6|CREATE PROCEDURE   [unused].[spRptVendorDetailsLogByCode]  
+
+spRptVendorSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptVendorSummary.sql|6|CREATE PROCEDURE   [unused].[spRptVendorSummary] 
+
+spRptVendorSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptVendorSummaryByCode.sql|6|CREATE PROCEDURE   [unused].[spRptVendorSummaryByCode] 
+
+spRptVendorSummaryByCode|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spRptVendorSummaryByCode.sql|6|CREATE PROCEDURE   [unused].[spRptVendorSummaryByCode] 
+
+SPSetAdjMarkupOnGrocerySales|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPSetAdjMarkupOnGrocerySales.sql|6|CREATE  PROCEDURE  [unused].[SPSetAdjMarkupOnGrocerySales]
+
+SPSetShiftGapTime|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPSetShiftGapTime.sql|5|CREATE PROCEDURE   [unused].[SPSetShiftGapTime]
+
+spStoreLotteryGameInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spStoreLotteryGameInsert.sql|5|CREATE PROCEDURE [unused].[spStoreLotteryGameInsert]  @storeID int, @gameName nvarchar(250), 
+
+spSummaryGrocSalesRep|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spSummaryGrocSalesRep.sql|5|CREATE PROCEDURE [unused].[spSummaryGrocSalesRep] @storeID int, @startDate smalldatetime, @endDate smalldatetime as 
+
+spSummaryPrimGrocSalesRep|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spSummaryPrimGrocSalesRep.sql|5|CREATE PROCEDURE [unused].[spSummaryPrimGrocSalesRep] @storeID int, @startDate smalldatetime, @endDate smalldatetime as 
+
+spSummaryPrimGrocSalesRep|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spSummaryPrimGrocSalesRepCorp.sql|5|CREATE PROCEDURE [unused].[spSummaryPrimGrocSalesRepCorp] 
+
+spSummaryPrimGrocSalesRepCorp|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spSummaryPrimGrocSalesRepCorp.sql|5|CREATE PROCEDURE [unused].[spSummaryPrimGrocSalesRepCorp] 
+
+spTaxGroupDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spTaxGroupDelete.sql|7|CREATE PROCedure [unused].[spTaxGroupDelete]
+
+spTotalCreateCardsAMAX|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spTotalCreateCardsAMAX.sql|5|CREATE PROCEDURE [unused].[spTotalCreateCardsAMAX]  
+
+SPValidateDataLock|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPValidateDataLock.sql|5|CREATE PROCEDURE  [unused].[SPValidateDataLock]
+
+spVendorDetailPurRetRatio|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spVendorDetailPurRetRatio.sql|5|CREATE PROCEDURE [unused].[spVendorDetailPurRetRatio] @vendorID int, @storeID int, @startDate smalldatetime, @endDate smalldatetime as 
+
+spVendorDetailsLogByCode|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spVendorDetailsLogByCode.sql|5|CREATE PROCEDURE   [unused].[spVendorDetailsLogByCode]  
+
+spVendorPurRetRatio|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spVendorPurRetRatio.sql|5|CREATE PROCEDURE [unused].[spVendorPurRetRatio] @storeID int, @startDate smalldatetime, @endDate smalldatetime AS
+
+spVendorSummaryByCode|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spVendorSummaryByCode.sql|5|CREATE PROCEDURE   [unused].[spVendorSummaryByCode] 
+
+spViewActivationsByDate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spViewActivationsByDate.sql|5|CREATE PROCEDURE  [unused].[spViewActivationsByDate]
+
+spViewDeliveriesByDate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spViewDeliveriesByDate.sql|5|CREATE PROCEDURE  [unused].[spViewDeliveriesByDate]
+
+spViewGroceryAdjustments|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spViewGroceryAdjustments.sql|5|CREATE PROCEDURE [unused].[spViewGroceryAdjustments]  @storeID int, @adjType int   AS 
+
+spViewSettlementsByDate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spViewSettlementsByDate.sql|5|CREATE PROCEDURE  [unused].[spViewSettlementsByDate]
+
+SPViewUnCategorizedVendorRebates|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.SPViewUnCategorizedVendorRebates.sql|5|CREATE PROCEDURE  [unused].[SPViewUnCategorizedVendorRebates]
+
+_spAdminDeleteStoreData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused._spAdminDeleteStoreData.sql|5|CREATE PROCEDURE  [unused].[_spAdminDeleteStoreData]
+
+_spDailyCriticalTest|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused._spDailyCriticalTest.sql|5|CREATE PROCEDURE  [unused].[_spDailyCriticalTest]
+
+_TEMP_SliceOffMenus|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused._TEMP_SliceOffMenus.sql|5|CREATE PROCEDURE [unused].[_TEMP_SliceOffMenus]
+
+_TEMP_UpgradeStores|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused._TEMP_UpgradeStores.sql|5|CREATE PROCEDURE [unused].[_TEMP_UpgradeStores]
 
 spBLAgencyFeeReportAMAX|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spBLAgencyFeeReportAMAX.sql|10|CREATE PROCEDURE [V10].[spBLAgencyFeeReportAMAX]
 
@@ -2523,9 +4329,9 @@ spGridVendorInsert|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagemen
 
 spDALVendor|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\xml\COVendorsAddUpdateCorp.config|640|<procedureName>spDALVendorInsertCSP1</procedureName>
 
-spDALVendorInsert|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\xml\COVendorsAddUpdateCorp.config|640|<procedureName>spDALVendorInsertCSP1</procedureName>
-
 spDALVendor|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\xml\COVendorsAddUpdateCorp.config|640|<procedureName>spDALVendorInsertCSP1</procedureName>
+
+spDALVendorInsert|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\xml\COVendorsAddUpdateCorp.config|640|<procedureName>spDALVendorInsertCSP1</procedureName>
 
 spGridVendorInsert|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\xml\COVendorsAddUpdateCorp.config|641|--><!--spGridVendorInsert--><!--
 

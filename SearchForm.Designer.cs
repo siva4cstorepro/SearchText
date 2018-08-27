@@ -29,13 +29,10 @@
         private void InitializeComponent()
         {
             this.btnSearch = new System.Windows.Forms.Button();
-            this.chlboxIncludedFiles = new System.Windows.Forms.CheckedListBox();
             this.txtSearchText = new System.Windows.Forms.TextBox();
             this.lblSearchText = new System.Windows.Forms.Label();
             this.lblFileFolder = new System.Windows.Forms.Label();
             this.lblIncludedFileTypes = new System.Windows.Forms.Label();
-            this.lblExcludedFileTypes = new System.Windows.Forms.Label();
-            this.chklstBoxExcludedFileTypes = new System.Windows.Forms.CheckedListBox();
             this.lblSearchStatus = new System.Windows.Forms.Label();
             this.txtFolderPath = new System.Windows.Forms.TextBox();
             this.btnFileBrowser = new System.Windows.Forms.Button();
@@ -43,6 +40,7 @@
             this.bkgWorker = new System.ComponentModel.BackgroundWorker();
             this.btnFileName = new System.Windows.Forms.Button();
             this.fileDialogSearchText = new System.Windows.Forms.OpenFileDialog();
+            this.includedFileTypesTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btnSearch
@@ -54,29 +52,6 @@
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
-            // 
-            // chlboxIncludedFiles
-            // 
-            this.chlboxIncludedFiles.FormattingEnabled = true;
-            this.chlboxIncludedFiles.Items.AddRange(new object[] {
-            ".cs",
-            ".asax",
-            ".ashx",
-            ".asmx",
-            ".aspx",
-            ".config",
-            ".csproj",
-            ".css",
-            ".html",
-            ".js",
-            ".json",
-            ".xml",
-            ".xsl",
-            ".xslt"});
-            this.chlboxIncludedFiles.Location = new System.Drawing.Point(65, 177);
-            this.chlboxIncludedFiles.Name = "chlboxIncludedFiles";
-            this.chlboxIncludedFiles.Size = new System.Drawing.Size(314, 64);
-            this.chlboxIncludedFiles.TabIndex = 1;
             // 
             // txtSearchText
             // 
@@ -111,39 +86,6 @@
             this.lblIncludedFileTypes.Size = new System.Drawing.Size(89, 13);
             this.lblIncludedFileTypes.TabIndex = 6;
             this.lblIncludedFileTypes.Text = "Include File types";
-            // 
-            // lblExcludedFileTypes
-            // 
-            this.lblExcludedFileTypes.AutoSize = true;
-            this.lblExcludedFileTypes.Location = new System.Drawing.Point(62, 264);
-            this.lblExcludedFileTypes.Name = "lblExcludedFileTypes";
-            this.lblExcludedFileTypes.Size = new System.Drawing.Size(95, 13);
-            this.lblExcludedFileTypes.TabIndex = 13;
-            this.lblExcludedFileTypes.Text = "Excluded file types";
-            // 
-            // chklstBoxExcludedFileTypes
-            // 
-            this.chklstBoxExcludedFileTypes.FormattingEnabled = true;
-            this.chklstBoxExcludedFileTypes.Items.AddRange(new object[] {
-            ".bak",
-            ".bat",
-            ".bmp",
-            ".cache",
-            ".class",
-            ".copycomplete",
-            ".csr",
-            ".csv",
-            ".datasource",
-            ".db",
-            ".disco",
-            ".dll",
-            ".doc",
-            ".ds_store",
-            ".dtbcache"});
-            this.chklstBoxExcludedFileTypes.Location = new System.Drawing.Point(62, 280);
-            this.chklstBoxExcludedFileTypes.Name = "chklstBoxExcludedFileTypes";
-            this.chklstBoxExcludedFileTypes.Size = new System.Drawing.Size(314, 64);
-            this.chklstBoxExcludedFileTypes.TabIndex = 14;
             // 
             // lblSearchStatus
             // 
@@ -184,22 +126,27 @@
             this.btnFileName.UseVisualStyleBackColor = true;
             this.btnFileName.Click += new System.EventHandler(this.btnFileName_Click);
             // 
+            // includedFileTypesTextBox
+            // 
+            this.includedFileTypesTextBox.Location = new System.Drawing.Point(65, 185);
+            this.includedFileTypesTextBox.Name = "includedFileTypesTextBox";
+            this.includedFileTypesTextBox.Size = new System.Drawing.Size(278, 20);
+            this.includedFileTypesTextBox.TabIndex = 19;
+            // 
             // SearchForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(554, 496);
+            this.Controls.Add(this.includedFileTypesTextBox);
             this.Controls.Add(this.btnFileName);
             this.Controls.Add(this.btnFileBrowser);
             this.Controls.Add(this.txtFolderPath);
             this.Controls.Add(this.lblSearchStatus);
-            this.Controls.Add(this.chklstBoxExcludedFileTypes);
-            this.Controls.Add(this.lblExcludedFileTypes);
             this.Controls.Add(this.lblIncludedFileTypes);
             this.Controls.Add(this.lblFileFolder);
             this.Controls.Add(this.lblSearchText);
             this.Controls.Add(this.txtSearchText);
-            this.Controls.Add(this.chlboxIncludedFiles);
             this.Controls.Add(this.btnSearch);
             this.Name = "SearchForm";
             this.Text = "Search";
@@ -211,13 +158,10 @@
         #endregion
 
         private System.Windows.Forms.Button btnSearch;
-        private System.Windows.Forms.CheckedListBox chlboxIncludedFiles;
         private System.Windows.Forms.TextBox txtSearchText;
         private System.Windows.Forms.Label lblSearchText;
         private System.Windows.Forms.Label lblFileFolder;
         private System.Windows.Forms.Label lblIncludedFileTypes;
-        private System.Windows.Forms.Label lblExcludedFileTypes;
-        private System.Windows.Forms.CheckedListBox chklstBoxExcludedFileTypes;
         public System.Windows.Forms.Label lblSearchStatus;
         private System.Windows.Forms.TextBox txtFolderPath;
         private System.Windows.Forms.Button btnFileBrowser;
@@ -225,6 +169,7 @@
         private System.ComponentModel.BackgroundWorker bkgWorker;
         private System.Windows.Forms.Button btnFileName;
         private System.Windows.Forms.OpenFileDialog fileDialogSearchText;
+        private System.Windows.Forms.TextBox includedFileTypesTextBox;
     }
 }
 

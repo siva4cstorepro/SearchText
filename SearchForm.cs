@@ -27,7 +27,7 @@ namespace SearchText
             string strShowStatus = "";
 
             List<string> lstSearchText = null;
-            string strSearchFolder = "";
+            string strSearchFolder = @"C:\CSPData\Development\Rocket";
             string strIncludedExtensions = "";
             string strExcludedExtensions = "";
 
@@ -36,7 +36,7 @@ namespace SearchText
 
                 try
                 {
-                    string[] strArrSearchText = File.ReadAllLines(this.txtSearchText.Text);
+                    string[] strArrSearchText = File.ReadAllLines(txtSearchText.Text);
                     lstSearchText = new List<string>(strArrSearchText);
                 }
                 catch (IOException)
@@ -44,22 +44,22 @@ namespace SearchText
 
                 }
 
-                if (this.txtFolderPath.Text != null && this.txtFolderPath.Text != "")
+                if (txtFolderPath.Text != null && txtFolderPath.Text != "")
                 {
-                    strSearchFolder = this.txtFolderPath.Text;
+                    strSearchFolder = txtFolderPath.Text;
 
-                    if (this.chlboxIncludedFiles.Text != null && this.chlboxIncludedFiles.Text != "")
+                    if (includedFileTypesTextBox.Text != null && includedFileTypesTextBox.Text != "")
                     {
-                        strIncludedExtensions = this.chlboxIncludedFiles.Text;
+                        strIncludedExtensions = includedFileTypesTextBox.Text;
                     }
                     else
                     {
                         strIncludedExtensions = "*.*";
                     }
 
-                    if (this.chklstBoxExcludedFileTypes.Text != null && this.chklstBoxExcludedFileTypes.Text != "")
+                    if (includedFileTypesTextBox.Text != null && includedFileTypesTextBox.Text != "")
                     {
-                        strExcludedExtensions = this.chklstBoxExcludedFileTypes.Text;
+                        strExcludedExtensions = includedFileTypesTextBox.Text;
                     }
                     else
                     {
@@ -78,8 +78,8 @@ namespace SearchText
 
             searchTemp = new Search(inSearchText: lstSearchText
                                     , inSearchFolder: strSearchFolder
-                                    , inIncludedExtenstion: strIncludedExtensions
-                                    , inExcludedExtenstion: strExcludedExtensions);
+                                    , inIncludedExtension: strIncludedExtensions
+                                    , inExcludedExtension: strExcludedExtensions);
             searchTemp.OnProgressUpdate += updateStatus;
             bkgWorker.RunWorkerAsync(searchTemp);
         }

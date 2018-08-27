@@ -1,0 +1,2085 @@
+StoredProcedure|Path|LineNumber|Line
+spDALDataAnalyticsGetSalesSummary|C:\CSPData\Development\Rocket\API\Lambda\CSPDataAPI\Functions.cs|219459|cmdTemp.CommandText = "dbo.spDALDataAnalyticsGetSalesSummary";
+
+spDALDataAnalyticsGetSalesSummary|C:\CSPData\Development\Rocket\API\Lambda\CSPDataAPI\Functions.cs|251772|cmdTemp.CommandText = "dbo.spDALDataAnalyticsGetSalesSummaryAllStores";
+
+spDALDataAnalyticsGetSalesSummaryAllStores|C:\CSPData\Development\Rocket\API\Lambda\CSPDataAPI\Functions.cs|251773|cmdTemp.CommandText = "dbo.spDALDataAnalyticsGetSalesSummaryAllStores";
+
+spBLCSPDataAPIValidateAcctNo|C:\CSPData\Development\Rocket\API\Lambda\CSPDataAPI\Functions.cs|323545|cmdTemp.CommandText = "dbo.spBLCSPDataAPIValidateAcctNo";
+
+spBLPendingChangeBatchError|C:\CSPData\Development\Rocket\API\POSParser\Classes\DeadLetterDB.cs|25628|cmdTemp.CommandText = "spBLPendingChangeBatchError";
+
+spDALErrorLogInsert|C:\CSPData\Development\Rocket\API\POSParser\Classes\ErrorLog.cs|13964|cmdLogError.CommandText = "spDALErrorLogInsert";
+
+spBLLoggerCount|C:\CSPData\Development\Rocket\API\POSParser\Classes\FileUploadLogger.cs|16152|//    cmdLogger.CommandText = "spBLLoggerCount";
+
+spDALValidateFileUpload|C:\CSPData\Development\Rocket\API\POSParser\Classes\FileUploadLogger.cs|51331|//            cmdTemp.CommandText = "spDALValidateFileUpload";
+
+spDALValidateFileUpload|C:\CSPData\Development\Rocket\API\POSParser\Classes\FileUploadLogger.cs|102712|cmdTemp.CommandText = "spDALValidateFileUpload";
+
+spDALDBDailyEntryCCBatchExists|C:\CSPData\Development\Rocket\API\POSParser\Classes\GasSoldDB.cs|94031|cmdTemp.CommandText = "[v10].spDALDBDailyEntryCCBatchExists";
+
+spDALGetMaxPendingChangeID|C:\CSPData\Development\Rocket\API\POSParser\Classes\ItemSalesDB.cs|153216|cmdTemp.CommandText = "spDALGetMaxPendingChangeID";
+
+spBLPendingChangeBatchError|C:\CSPData\Development\Rocket\API\POSParser\Classes\ManifestAckDB.cs|28849|cmdTemp.CommandText = "spBLPendingChangeBatchError";
+
+spDALDBDailyHouseAccountLog|C:\CSPData\Development\Rocket\API\POSParser\Classes\MiscSalesParser.cs|454694|cmdTemp.CommandText = "spDALDBDailyHouseAccountLogInsert";
+
+spBLPendingChangeGetByBatch|C:\CSPData\Development\Rocket\API\POSParser\Classes\PendingChangeBatchDB.cs|12786|cmdPriceChange.CommandText = "[V10].spBLPendingChangeGetByBatch";
+
+spBLPendingChangeGetByBatch|C:\CSPData\Development\Rocket\API\POSParser\Classes\PendingPromotionDB.cs|12137|cmdPriceChange.CommandText = "spBLPendingChangeGetByBatch";
+
+spDALGetMaxPendingChangeID|C:\CSPData\Development\Rocket\API\POSParser\Classes\TransactionJournalEventDB.cs|400741|cmdTemp.CommandText = "spDALGetMaxPendingChangeID";
+
+spDALDBDailyHouseAccountLog|C:\CSPData\Development\Rocket\API\POSParser\Classes\Transaction\BusLogic\DBDailyHouseAccountLog.cs|7126|cmdTemp.CommandText = "spDALDBDailyHouseAccountLogInsert";
+
+spBLAutoSyncIndividualItem|C:\CSPData\Development\Rocket\API\POSParser\Classes\Transaction\CRUD\TransactionJournalEventDtlsSqlCRUD.cs|141867|cmdTemp.CommandText = "spBLAutoSyncIndividualItem";
+
+spINVIncrementForAllLinkedItem|C:\CSPData\Development\Rocket\Common\CSPBL\PURInvoiceRetailingLogDelete.cs|86939|cmdInvTemp.CommandText = "inv.spINVIncrementForAllLinkedItem";
+
+spDALPurchasingInvoiceGetDetails|C:\CSPData\Development\Rocket\Mobile\Server\csa\content\deliveryscan\resources\classes\getinvoicedetails.cs|15385|cmdTemp.CommandText = "[mob].[spDALPurchasingInvoiceGetDetails]";
+
+spDALPURInvoiceRetailingLogInsert|C:\CSPData\Development\Rocket\Mobile\Server\csa\content\deliveryscan\resources\classes\retailitem.cs|30943|cmdTemp.CommandText = "[V10].[spDALPURInvoiceRetailingLogInsertPreValues]";
+
+spBLPURRetailingPURToVendorLink|C:\CSPData\Development\Rocket\Mobile\Server\csa\content\deliveryscan\resources\classes\retailitem.cs|99888|//    cmdTemp.CommandText = "spBLPURRetailingPURToVendorLink";
+
+spBLInputFileDeliveryScanItemUpdate|C:\CSPData\Development\Rocket\Mobile\Server\csa\content\deliveryscan\resources\handler\addnewitemtoinvoice.ashx.cs|349027|cmdTemp.CommandText = "[mob].[spBLInputFileDeliveryScanItemUpdate]";
+
+spDALPurchasingInvoiceGetDetails|C:\CSPData\Development\Rocket\Mobile\Server\csa\content\deliveryscan\resources\handler\editinvoiceitemdetails.ashx.cs|135708|cmdTemp.CommandText = "[mob].[spDALPurchasingInvoiceGetDetails]";
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\Mobile\Server\csa\content\pricebook\resources\handler\addNewItem.ashx.cs|139061|cmdTemp.CommandText = "[mob].spBLPendingChangeCreateBatch";
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\Mobile\Server\csa\content\pricebook\resources\handler\addupdateitem.ashx.cs|126695|cmdTemp.CommandText = "[mob].spBLPendingChangeCreateBatch";
+
+spDALErrorLogInsert|C:\CSPData\Development\Rocket\Web\CSPWeb\Classes\DAL\ErrorLog.cs|48703|cmdTemp.CommandText = "spDALErrorLogInsert";
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\Web\CSPWeb\Classes\POSData\POSDataAccess.cs|156867|strStoredProcName = "[V10].[spDALDBDailyPayInOutAccountLogCustCreditTotal]";
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\Web\CSPWeb\Classes\POSData\POSDataAccess.cs|158699|strStoredProcName = "[V10].[spDALDBDailyPayInOutAccountLogCustCollectionTotal]";
+
+spDALDBDailyHouseAccountLog|C:\CSPData\Development\Rocket\Web\CSPWeb\Classes\POSData\POSDataAccess.cs|160510|strStoredProcName = "[V10].[spDALDBDailyHouseAccountLogLoanPaidTotal]";
+
+spDALDBDailyHouseAccountLog|C:\CSPData\Development\Rocket\Web\CSPWeb\Classes\POSData\POSDataAccess.cs|162320|strStoredProcName = "[V10].[spDALDBDailyHouseAccountLogLoanReceivedTotal]";
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\Web\CSPWeb\Classes\POSData\POSDataAccess.cs|164151|strStoredProcName = "[V10].[spDALDBDailyPayInOutAccountLogCashPurchaseTotal]";
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\Web\CSPWeb\Classes\POSData\POSDataAccess.cs|165985|strStoredProcName = "[V10].[spDALDBDailyPayInOutAccountLogPurchaseRebateTotal]";
+
+spDALGroceryCategoryUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Admin\Resources\handler\ManageStoreCategoriesAddUpdate.ashx.cs|132314|cmdAddData.CommandText = "[V10].[spDALGroceryCategoryUpdate]";
+
+spDALGroceryCategoryUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Admin\Resources\handler\ManageStoreCategoriesAddUpdate.ashx.cs|148619|cmdVendorTemp.CommandText = "spDALGroceryCategoryUpdateNew";
+
+spDALGroceryCategoryDeleteNew|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Admin\Resources\handler\ManageStoreCategoriesDelete.ashx.cs|26451|cmdCSPPOS.CommandText = "spDALGroceryCategoryDeleteNew";
+
+spTaxGroupDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Admin\Resources\handler\ManageStoreTaxGroupsDelete.ashx.cs|15718|cmdTemp.CommandText = "[dbo].spTaxGroupDelete";
+
+spTaxGroupDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Admin\Resources\handler\ManageStoreTaxGroupsDelete.ashx.cs|16038|cmdTemp.CommandText = "[dbo].spTaxGroupDelete";
+
+spDALDataprogramCorpGroupInsert|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\CO\Resources\Handler\CODataProgramCorpGroupQuickAdd.ashx.cs|13872|cmdTemp.CommandText = "[V10].[spDALDataprogramCorpGroupInsert]";
+
+spResetAmaxData|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Customizations\amaxqq.aspx.cs|201711|cmdTemp.CommandText = "spResetAmaxData";
+
+spDALVendorInsertCSP|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Daily\Resources\handler\PurchaseRebatesGrid.ashx.cs|62585|//        cmdTemp.CommandText = "spDALVendorInsertCSP";
+
+spDALStoreSettingPriceLevelUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Gas\Resources\Handler\GasStoreSetting.ashx.cs|231939|//                cmdTempPL.CommandText = "spDALStoreSettingPriceLevelUpdate";
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Grocery\Resources\Handler\RetailByItemForm.ashx.cs|124450|cmdTemp.CommandText = "spBOItemAddNewWeb";
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Grocery\Resources\Handler\RetailByItemForm.ashx.cs|124451|cmdTemp.CommandText = "spBOItemAddNewWeb";
+
+spBLPURStoreAddNew|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Grocery\Resources\Handler\RetailByItemForm.ashx.cs|176525|cmdPack.CommandText = "spBLPURStoreAddNew";
+
+spBLVendorGlobalGetByStoreVendorID|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Grocery\Resources\Handler\RetailByItemForm.ashx.cs|206377|cmdTemp.CommandText = "spBLVendorGlobalGetByStoreVendorID";
+
+spBLPromoItemListFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPromoItemListCreationItemSearch.aspx.cs|45694|cmdTemp.CommandText = "spBLPromoItemListFind";
+
+spBLPromoPendingChangeBatchAll|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSSentChanges.aspx.cs|129023|cmdTemp.CommandText = "[v10].spBLPromoPendingChangeBatchAll";
+
+spBLDeleteItemsBatchAll|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSSentChanges.aspx.cs|153235|cmdTemp.CommandText = "spBLDeleteItemsBatchAll";
+
+spDALCOAddUpdateCaseFromScheduler|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\COPOSSendSechduledCases.aspx.cs|55724|//            cmdTemp.CommandText = "[V10].spDALCOAddUpdateCaseFromScheduler";
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\handler\COPOSPurchaseCaseAddUpdate.ashx.cs|338005|cmdTemp.CommandText = "[V10].[spBOItemAddNewWeb]";
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\handler\COPOSPurchaseCaseAddUpdate.ashx.cs|338006|cmdTemp.CommandText = "[V10].[spBOItemAddNewWeb]";
+
+spBLCOFindPURPacksinAllZone|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\handler\COPOSPurchaseCaseUpdateZone.ashx.cs|171938|cmdPriceChange.CommandText = "[V10].[spBLCOFindPURPacksinAllZoneByCaseID]";
+
+spDALCOGetScheduledPurchaseCaseByScheduleID|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\handler\COPOSScheduledPurchaseCaseDetails.ashx.cs|20435|cmdPriceChange.CommandText = "[V10].[spDALCOGetScheduledPurchaseCaseByScheduleID]";
+
+spBLScheduleCreateCase|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\handler\COPOSSchedulePurchaseCase.ashx.cs|82121|cmdTemp.CommandText = "[V10].[spBLScheduleCreateCase]";
+
+spDALCOAddUpdateCaseFromScheduler|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\handler\COPOSSendSechduledCases.ashx.cs|22303|cmdTemp.CommandText = "[V10].spDALCOAddUpdateCaseFromScheduler";
+
+spDALPurchaseCaseStaggingGetItems|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\handler\COPOSUploadVendorPriceBook.ashx.cs|195160|cmdTemp.CommandText = "[pur].[spDALPurchaseCaseStaggingGetItems]";
+
+spBLScheduleCreateCase|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\handler\COPOSUploadVendorPriceBook.ashx.cs|335677|cmdTemp.CommandText = "[V10].[spBLScheduleCreateCase]";
+
+spDALCOAddUpdateCaseFromScheduler|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\handler\COPOSUploadVendorPriceBook.ashx.cs|368527|cmdTemp.CommandText = "[V10].[spDALCOAddUpdateCaseFromScheduler]";
+
+spBLPurchaseCaseStaggingNewItemsUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\handler\COPOSUploadVendorPriceBook.ashx.cs|559325|cmdTemp.CommandText = "[pur].[spBLPurchaseCaseStaggingNewItemsUpdate]";
+
+spDALPurchaseCaseStaggingNewItemsDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\handler\COPOSUploadVendorPriceBook.ashx.cs|606599|cmdTemp.CommandText = "[pur].[spDALPurchaseCaseStaggingNewItemsDelete]";
+
+spDALPurchaseCaseStaggingNewItemsDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\handler\COPOSUploadVendorPriceBook.ashx.cs|620442|cmdTemp.CommandText = "[pur].[spDALPurchaseCaseStaggingNewItemsDeleteOlderBatch]";
+
+spDALRetailZoneGetScheduledItemByScheduleID|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\handler\CORetailZoneScheduledItemDetails.ashx.cs|20354|cmdPriceChange.CommandText = "[V10].[spDALRetailZoneGetScheduledItemByScheduleID]";
+
+spBLItemDescriptionFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Classes\POSItemInternalLookup.cs|121769|//            cmdTemp.CommandText = "spBLItemDescriptionFind";
+
+spBLItemDescriptionFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Classes\POSItemInternalLookup.cs|122854|//            cmdTemp.CommandText = "spBLItemDescriptionFind";
+
+spBLCustomerCreditAccountSync|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Classes\POSSync.cs|465462|cmdPOSTemp.CommandText = "spBLCustomerCreditAccountSync";
+
+spDALPURInvoiceRetailingLogInsert|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Classes\PURInvoice.cs|30186|cmdTemp.CommandText = "[dbo].[spDALPURInvoiceRetailingLogInsertPreValues]";
+
+spINVIncrementForAllLinkedItem|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Classes\PURInvoice.cs|61880|cmdTemp.CommandText = "inv.spINVIncrementForAllLinkedItem";
+
+spBLPURRetailingPURToVendorLink|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Classes\PURInvoice.cs|74083|cmdTemp.CommandText = "spBLPURRetailingPURToVendorLink";
+
+spDALPURInvoiceRetailingLogInsert|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Classes\PURInvoiceNew.cs|68337|cmdTemp.CommandText = "[V10].[spDALPURInvoiceRetailingLogInsertPreValues]";
+
+spINVIncrementForAllLinkedItem|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Classes\PURInvoiceRetailingLogDelete.cs|66680|cmdInvTemp.CommandText = "inv.spINVIncrementForAllLinkedItem";
+
+spDALPOSItemList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\CPBPromoItemListCreation.aspx.cs|80944|cmdTemp.CommandText = "spDALPOSItemList";
+
+spDALCPBStoreList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\Class\SyncRebate.cs|15488|cmdTemp.CommandText = "spDALCPBStoreListByProgramID";
+
+spDALCPBStoreList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\Class\SyncRebate.cs|145668|cmdTemp.CommandText = "spDALCPBStoreListByProgramID";
+
+spBLCPBItemPriceChangeVerify|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBItemAddNewVerify.ashx.cs|69505|cmdTemp.CommandText = "[V10].[spBLCPBItemPriceChangeVerify]";
+
+spDALCPBCostChangesUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBItemAddNewVerify.ashx.cs|98249|cmdTemp.CommandText = "[V10].[spDALCPBCostChangesUpdate]";
+
+spDALItemGroupDetail|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBItemGroupDetail.ashx.cs|24999|cmdPriceChange.CommandText = "spDALItemGroupDetail";
+
+spBLCPBAddNewItem|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBItemUpdate.ashx.cs|413119|cmdTemp.CommandText = "[V10].spBLCPBAddNewItem";
+
+spDALCPBMarkItemAsVerfied|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBMonitorUnverifiedItems.ashx.cs|35944|cmdTemp.CommandText = "spDALCPBMarkItemAsVerfied";
+
+spBLCPBAddNewItem|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBPOSItemAddNew.ashx.cs|139456|cmdTemp.CommandText = "[V10].spBLCPBAddNewItem";
+
+spBLCPBSaleItemPackAdd|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBPOSPriceChange.ashx.cs|147373|cmdTemp.CommandText = "[V10].[spBLCPBSaleItemPackAdd]";
+
+spBLCPBAddNewItem|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBPOSPriceChange.ashx.cs|170585|cmdTemp.CommandText = "[V10].[spBLCPBAddNewItem]";
+
+spDALCPBStoreList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBPOSPurchaseRebateProgramStoreList.ashx.cs|16653|cmdTemp.CommandText = "spDALCPBStoreListWithProgramAssigned";
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBPriceChangeItemStagging.ashx.cs|90471|cmdTemp.CommandText = "spBLPendingChangeCreateBatch";
+
+spDALPromotionList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBPromoDetails.ashx.cs|22949|cmdPriceChange.CommandText = "spDALPromotionListFind";
+
+spDALPOSKeyDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBRegisterKeyDelete.ashx.cs|11920|cmdTemp.CommandText = "spDALPOSKeyDelete";
+
+spBLCPBSaleItemPackAdd|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBSaleItemPacksAddUpdate.ashx.cs|135977|cmdTemp.CommandText = "[V10].spBLCPBSaleItemPackAdd";
+
+spBLCPBSaleItemPackAdd|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBSalesItemPackUpdate.ashx.cs|389551|cmdTemp.CommandText = "[V10].spBLCPBSaleItemPackAdd";
+
+spDALCPBGetStoreList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\handler\CPBStoreList.ashx.cs|11920|cmdTemp.CommandText = "spDALCPBGetStoreList";
+
+spDALCigaretteReport|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\DataExchange\Resources\Handler\DataExchangeGetReportData.ashx.cs|55275|cmdTemp.CommandText = "spDALCigaretteReportRJR";
+
+spINVAdjBatchDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Inventory\Resources\handler\INVAdjBatchDelete.ashx.cs|10577|cmdTemp.CommandText = "spINVAdjBatchDelete";
+
+spINVAdjBatchDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Inventory\Resources\handler\InventoryAdjBatchDelete.ashx.cs|10532|cmdTemp.CommandText = "[inv].[spINVAdjBatchDelete]";
+
+spBLVendorPOStagingInsert|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Ordering\Resouces\handler\OrderingStaging.ashx.cs|163898|cmdTemp.CommandText = "spBLVendorPOStagingInsertBySalesHistory";
+
+spDALDBDailyGetDashBoardDataFromSQL|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PGSQL\DailyGetDashBoardData.cs|110736|cmdDailySales.CommandText = "[V10].[spDALDBDailyGetDashBoardDataFromSQL]";
+
+spDALODGetStoreOpeningValuesFromSQL|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PGSQL\GetStoreOpeningValues.cs|150632|using (SqlCommand cmdTemp = new SqlCommand("[v10].[spDALODGetStoreOpeningValuesFromSQL]", cnTemp))
+
+spDALLiveGasSalesFromSQL|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PGSQL\LiveGasSales.cs|165466|cmdTemp.CommandText = "[V10].[spDALLiveGasSalesFromSQL]";
+
+spDALSettingsStoreConnection|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PGSQL\LiveGasSales.cs|208668|cmdTemp.CommandText = "spDALSettingsStoreConnection";
+
+spBLGetStoreListExcludingRuby|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PGSQL\TransactionStream.cs|80484|using (SqlCommand cmdTemp = new SqlCommand("spBLGetStoreListExcludingRuby", cnTemp))
+
+spDALLinkedCodeDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSAdmin\Resources\handler\DeleteLinkedCodeField.ashx.cs|9820|cmdTemp.CommandText = "[V10].[spDALLinkedCodeDelete]";
+
+spAdminReBatchPricebook|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSAdmin\Resources\handler\ReBatchPricebook.ashx.cs|12129|cmdTemp.CommandText = "[v10].[spAdminReBatchPricebookNew]";
+
+spDALPOSKeyDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSAdmin\Resources\handler\RegisterKeyDelete.ashx.cs|14168|cmdTemp.CommandText = "[V10].spDALPOSKeyDelete";
+
+spTaxGroupDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSAdmin\Resources\handler\TaxGroupDelete.ashx.cs|15009|cmdTemp.CommandText = "[V10].spTaxGroupDelete";
+
+spTaxGroupDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSAdmin\Resources\handler\TaxGroupDelete.ashx.cs|15329|cmdTemp.CommandText = "[V10].spTaxGroupDelete";
+
+spBLBulkEDIGetDetails|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\EDIUploadBulkProcess.ashx.cs|57377|cmdTemp.CommandText = "[dbo].[spBLBulkEDIGetDetailsInBatches]";
+
+spBLBulkEDIGetDetailsInBatches|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\EDIUploadBulkProcess.ashx.cs|57378|cmdTemp.CommandText = "[dbo].[spBLBulkEDIGetDetailsInBatches]";
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseAddUpdate.ashx.cs|337896|cmdTemp.CommandText = "[V10].[spBOItemAddNewWeb]";
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseAddUpdate.ashx.cs|337897|cmdTemp.CommandText = "[V10].[spBOItemAddNewWeb]";
+
+spBLCostUpdateByCaseID|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseBUCost.ashx.cs|109315|cmdPOSTemp.CommandText = "[V10].[spBLCostUpdateByCaseID]";
+
+spBLGlobalVendorPurchasePack|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseImport.ashx.cs|60031|cmdTemp.CommandText = "[V10].[spBLGlobalVendorPurchasePack]";
+
+spBLImportUpdateNew|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseImport.ashx.cs|234833|cmdTemp.CommandText = "[pur].[spBLImportUpdateNew]";
+
+spBLGlobalVendorPurchasePack|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseImport.ashx.cs|289694|cmdTemp.CommandText = "[V10].[spBLGlobalVendorPurchasePackImportDelete]";
+
+spBLGlobalVendorPurchasePackImportDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseImport.ashx.cs|289695|cmdTemp.CommandText = "[V10].[spBLGlobalVendorPurchasePackImportDelete]";
+
+spBLInputDeliveryScanStaggingToDetails|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseRetailingDeliveryScan.ashx.cs|272400|cmdTemp.CommandText = "[pur].[spBLInputDeliveryScanStaggingToDetails]";
+
+spBLBulkEDIGetDetails|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseRetailingDeliveryScan.ashx.cs|304383|cmdTemp.CommandText = "[pur].[spBLBulkEDIGetDetails]";
+
+spBLInputFileDeliveryScanItemUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseRetailingDeliveryScan.ashx.cs|587060|cmdTemp.CommandText = "[pur].[spBLInputFileDeliveryScanItemUpdateNew]";
+
+spBLInputFileDeliveryScanItemUpdateNew|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseRetailingDeliveryScan.ashx.cs|587061|cmdTemp.CommandText = "[pur].[spBLInputFileDeliveryScanItemUpdateNew]";
+
+spBLInputEDIFileStaggingToDetails|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseRetailingEDI.ashx.cs|724798|cmdTemp.CommandText = "[pur].[spBLInputEDIFileStaggingToDetails]";
+
+spBLInputFileEDINewItemUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseRetailingEDI.ashx.cs|865525|cmdTemp.CommandText = "[pur].[spBLInputFileEDINewItemUpdate]";
+
+spBLBulkEDIGetDetails|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseRetailingEDIBulkProcess.ashx.cs|66713|cmdTemp.CommandText = "[pur].[spBLBulkEDIGetDetailsInBatches]";
+
+spBLBulkEDIGetDetailsInBatches|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseRetailingEDIBulkProcess.ashx.cs|66714|cmdTemp.CommandText = "[pur].[spBLBulkEDIGetDetailsInBatches]";
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseRetailingLogMSRP.ashx.cs|90762|cmdPOSTemp.CommandText = "spBLItemUpdatePriceFromRetailing";
+
+spBLItemUpdatePrice|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseRetailingLogMSRP.ashx.cs|90863|cmdPOSTemp.CommandText = "spBLItemUpdatePriceFromRetailing";
+
+spBLShipperDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\POSPurchaseCaseShipperDelete.ashx.cs|10179|cmdTemp.CommandText = "[pur].[spBLShipperDelete]";
+
+spINVIncrementForAllLinkedItem|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\PURRetailingLogDelete.ashx.cs|79586|cmdInvTemp.CommandText = "inv.spINVIncrementForAllLinkedItem";
+
+spINVIncrementForAllLinkedItem|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\PURRetailingLogDelete.ashx.cs|97921|cmdTemp.CommandText = "inv.spINVIncrementForAllLinkedItem";
+
+spINVIncrementForAllLinkedItem|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\handler\PURRetailingLogDeleteAll.ashx.cs|65394|cmdInvTemp.CommandText = "inv.spINVIncrementForAllLinkedItem";
+
+spDALMerchSalesCompare|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSReports\Resources\Handlers\MerchandiseComparison.ashx.cs|27669|cmdTemp.CommandText = "spDALMerchSalesCompare";
+
+spDALMerchSalesCompare|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSReports\Resources\Handlers\MerchandiseComparison.ashx.cs|38964|cmdTemp.CommandText = "spDALMerchSalesCompare";
+
+spBLUpdateCostBySalesItemID|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSAdvancedBulkUpdate.ashx.cs|66794|cmdTemp.CommandText = "[V10].[spBLUpdateCostBySalesItemID]";
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSAdvancedPriceChange.ashx.cs|108269|cmdTemp.CommandText = "[V10].[spBLItemUpdate]";
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSItemAddNewQuickSend.ashx.cs|12787|cmdTemp.CommandText = "[V10].[spBLItemUpdateQuickSend]";
+
+spDALCostChanges|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSItemAddNewVerify.ashx.cs|71723|cmdTemp.CommandText = "spDALCostChangesUpdate";
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSItemDeleteStagging.ashx.cs|55643|cmdTemp.CommandText = "spBLPendingChangeCreateBatch";
+
+spDALItemGroupDeleteNew|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSItemGroupDelete.ashx.cs|11195|cmdTemp.CommandText = "spDALItemGroupDeleteNew";
+
+spDALItemGroupDetail|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSItemGroupDetail.ashx.cs|24658|cmdPriceChange.CommandText = "spDALItemGroupDetail";
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSPriceChange.ashx.cs|140948|cmdTemp.CommandText = "[V10].spBLItemUpdate";
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSPriceChangeStaging.ashx.cs|99113|cmdTemp.CommandText = "spBLPendingChangeCreateBatch";
+
+spDALPromotionList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSPromoDetails.ashx.cs|22951|cmdPriceChange.CommandText = "spDALPromotionListFind";
+
+spDALPromoPendingChangeDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSPromoPackStagging.ashx.cs|28675|cmdTemp.CommandText = "spDALPromoPendingChangeDelete";
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSPromoPackStagging.ashx.cs|53158|cmdTemp.CommandText = "spBLPendingChangeCreateBatch";
+
+spDALPromoPendingChangeDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSPromoStagging.ashx.cs|43340|cmdTemp.CommandText = "spDALPromoPendingChangeDelete";
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSPromoStagging.ashx.cs|84509|cmdTemp.CommandText = "spBLPendingChangeCreateBatch";
+
+spBLPromoItemListFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Resources\handler\POSSellingItemsSearch.ashx.cs|47578|cmdTemp.CommandText = "[V10].[spBLPromoItemListFindNew]";
+
+spDALCigaretteReport|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Reports\CigaretteReportData.aspx.cs|15914|cmdTemp.CommandText = "spDALCigaretteReportWithPromo";
+
+spDALCigaretteReport|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Reports\CigaretteReportData.aspx.cs|57307|cmdTemp.CommandText = "spDALCigaretteReportWithPromoCustom";
+
+spDALCigaretteReportWithPromoCustom|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Reports\CigaretteReportData.aspx.cs|57325|cmdTemp.CommandText = "spDALCigaretteReportWithPromoCustom";
+
+spDALCigaretteReport|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Reports\CigaretteReportData.aspx.cs|104964|cmdTemp.CommandText = "spDALCigaretteReportWithPromoRJR";
+
+spBLItemReportProgram|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Reports\ItemReportingProgramReportData.aspx.cs|20209|cmdTemp.CommandText = "spBLItemReportProgramPOSCodes";
+
+spBLItemReportProgramPOSCodes|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Reports\ItemReportingProgramReportData.aspx.cs|20210|cmdTemp.CommandText = "spBLItemReportProgramPOSCodes";
+
+spBLItemReportProgram|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Reports\ItemReportingProgramReportData.aspx.cs|29669|cmdTemp.CommandText = "spBLItemReportProgramSettings";
+
+spBLItemReportProgramSettings|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Reports\ItemReportingProgramReportData.aspx.cs|29671|cmdTemp.CommandText = "spBLItemReportProgramSettings";
+
+spRptConsignmentFuel|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Reports\RptConsignmentFuelReport.aspx.cs|14109|cmdTemp.CommandText = "[V10].[spRptConsignmentFuelStoreList]";
+
+spDALGetSalesData|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Reports\Resources\Class\Amcon.cs|9362|cmdTemp.CommandText = "dbo.spDALGetSalesData";
+
+spBLProfitWithdrawerUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Settings\Resources\Handler\ManageDrawersAddUpdate.ashx.cs|128032|cmdAddData.CommandText = "[V10].[spBLProfitWithdrawerUpdate]";
+
+spBLProfitWithdrawerUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Settings\Resources\Handler\ManageDrawersAddUpdate.ashx.cs|146934|cmdCashDrawerTemp.CommandText = "[V10].[spBLProfitWithdrawerUpdate]";
+
+spBLProfitWithdrawerDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Settings\Resources\Handler\ManageDrawersDelete.ashx.cs|15833|cmdDeleteCstore.CommandText = "[V10].[spBLProfitWithdrawerDelete]";
+
+spBLProfitWithdrawerDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Settings\Resources\Handler\ManageDrawersDelete.ashx.cs|34639|cmdCSPPOS.CommandText = "spBLProfitWithdrawerDelete";
+
+spBLProfitWithdrawerUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Settings\Resources\Handler\ManageDrawersDelete.ashx.cs|48502|cmdCSPPOS.CommandText = "spBLProfitWithdrawerUpdate";
+
+spBLLoanAccountDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Settings\Resources\Handler\ManageLoanAccountsDelete.ashx.cs|15448|cmdDeleteCstore.CommandText = "[V10].[spBLLoanAccountDelete]";
+
+spBLLoanAccountDelete|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Settings\Resources\Handler\ManageLoanAccountsDelete.ashx.cs|32155|cmdCSPPOS.CommandText = "spBLLoanAccountDelete";
+
+spBLCustomerCreditAccountSync|C:\CSPData\Development\Rocket\Web\Foundation\Security\AccountManagement.cs|1643307|cmdPOSTemp.CommandText = "spBLCustomerCreditAccountSync";
+
+spBLCustomerCreditAccountSync|C:\CSPData\Development\Rocket\Web\Office\Content\Store\Resources\classes\POSCStoreProSync.cs|465380|cmdPOSTemp.CommandText = "spBLCustomerCreditAccountSync";
+
+spAdminCopyDept|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyDept.sql|1904|CREATE PROCEDURE [adm].[spAdminCopyDept]
+
+spAdminStoreCleanup|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyItemsWithSales.sql|12073|EXEC [adm].[spAdminStoreCleanup]
+
+spAdminReBatchPendingChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyItemsWithSales.sql|71627|EXEC	[adm].[spAdminReBatchPendingChanges]
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyItemsWithSales.sql|75501|EXEC spBLPendingChangeBatchDelete 
+
+spAdminCopyDept|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyItemsWithSales.sql|87555|+ '. Please call the Method ([adm].[spAdminCopyDept]) to sync departsments first. '
+
+spAdminCopyTax|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyItemsWithSales.sql|90469|+ '. Please call the Method ([adm].[spAdminCopyTax]) to sync taxgroups first. '
+
+spAdminCopyPricebook|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyPricebook.sql|1913|CREATE PROCEDURE [adm].[spAdminCopyPricebook]
+
+spAdminStoreCleanup|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyPricebook.sql|12127|EXEC [adm].[spAdminStoreCleanup]
+
+spAdminReBatchPendingChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyPricebook.sql|68852|EXEC	[adm].[spAdminReBatchPendingChanges]
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyPricebook.sql|72778|EXEC spBLPendingChangeBatchDelete 
+
+spAdminCopyDept|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyPricebook.sql|84838|+ '. Please call the Method ([adm].[spAdminCopyDept]) to sync departsments first. '
+
+spAdminCopyTax|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyPricebook.sql|87757|+ '. Please call the Method ([adm].[spAdminCopyTax]) to sync taxgroups first. '
+
+spAdminCopyPricebook|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyPricebookTemp.sql|1903|CREATE PROCEDURE [adm].[spAdminCopyPricebookTemp]
+
+spAdminStoreCleanup|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyPricebookTemp.sql|12125|EXEC [adm].[spAdminStoreCleanup]
+
+spAdminReBatchPendingChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyPricebookTemp.sql|71011|EXEC	[adm].[spAdminReBatchPendingChanges]
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyPricebookTemp.sql|74920|EXEC spBLPendingChangeBatchDelete 
+
+spAdminCopyDept|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyPricebookTemp.sql|87025|+ '. Please call the Method ([adm].[spAdminCopyDept]) to sync departsments first. '
+
+spAdminCopyTax|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyPricebookTemp.sql|89937|+ '. Please call the Method ([adm].[spAdminCopyTax]) to sync taxgroups first. '
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyPromoList.sql|40176|EXEC spBLPendingChangeBatchDelete 
+
+spAdminCopyTax|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCopyTax.sql|1916|CREATE PROCEDURE [adm].[spAdminCopyTax]
+
+spBLCPBAddNewItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminCOVendorPricebook.sql|59074|EXEC [V10].spBLCPBAddNewItem @OutStatus = @intStatus OUTPUT 
+
+spAdminReBatchPendingChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminReBatchPendingChanges.sql|1918|CREATE PROCEDURE [adm].[spAdminReBatchPendingChanges]
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminReBatchPendingChanges.sql|26314|EXEC dbo.spBLPendingChangeCreateBatch @intStatus OUT	 
+
+spAdminReBatchPricebook|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminReBatchPricebook.sql|1910|CREATE PROCEDURE [adm].[spAdminReBatchPricebook]
+
+spAdminReBatchPendingChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminReBatchPricebook.sql|36496|EXEC	[adm].[spAdminReBatchPendingChanges]
+
+spAdminReBatchPricebook|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminReBatchPricebookModifiers.sql|1904|CREATE PROCEDURE [adm].[spAdminReBatchPricebookModifiers]
+
+spAdminReBatchPendingChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminReBatchPricebookModifiers.sql|36436|EXEC	[adm].[spAdminReBatchPendingChanges]
+
+spAdminStoreCleanup|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spAdminStoreCleanup.sql|1923|CREATE PROCEDURE [adm].[spAdminStoreCleanup]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spBLItemUpdatePrice.sql|4058|CREATE PROCEDURE [adm].[spBLItemUpdatePrice]
+
+spBLItemUpdatePrice|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\adm.spBLItemUpdatePrice.sql|4152|CREATE PROCEDURE [adm].[spBLItemUpdatePrice]
+
+spAdminCleanUpBatches|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCleanUpBatches.sql|1905|CREATE PROCEDURE [dbo].[spAdminCleanUpBatches]
+
+spAdminCleanupErrorItems|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCleanupErrorItems.sql|1908|CREATE PROCEDURE [dbo].[spAdminCleanupErrorItems]
+
+spAdminCopyDept|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCopyDept.sql|1892|CREATE PROCEDURE [dbo].[spAdminCopyDept]
+
+spAdminCopyPBFromMasterToChildTest|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCopyPBFromMasterToChildTest.sql|1912|CREATE PROCEDURE [dbo].[spAdminCopyPBFromMasterToChildTest]
+
+spAdminCopyPricebook|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCopyPricebook.sql|1913|CREATE PROCEDURE [dbo].[spAdminCopyPricebook]
+
+spAdminStoreCleanup|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCopyPricebook.sql|12131|EXEC dbo.[spAdminStoreCleanup]
+
+spAdminReBatchPendingChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCopyPricebook.sql|67874|EXEC	dbo.[spAdminReBatchPendingChanges]
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCopyPricebook.sql|71790|--	EXEC spBLPendingChangeBatchDelete 
+
+spAdminCopyDept|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCopyPricebook.sql|83850|+ '. Please call the Method ([adm].[spAdminCopyDept]) to sync departsments first. '
+
+spAdminCopyTax|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCopyPricebook.sql|86782|+ '. Please call the Method ([adm].[spAdminCopyTax]) to sync taxgroups first. '
+
+spAdminCopyPricebook|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCopyPricebookFromChildToMaster.sql|1913|CREATE PROCEDURE [dbo].[spAdminCopyPricebookFromChildToMaster]
+
+spAdminCopyPricebookFromChildToMaster|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCopyPricebookFromChildToMaster.sql|1914|CREATE PROCEDURE [dbo].[spAdminCopyPricebookFromChildToMaster]
+
+spAdminCopyPricebook|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCopyPricebookFromChildToMasterTest.sql|1907|CREATE PROCEDURE [dbo].[spAdminCopyPricebookFromChildToMasterTest]
+
+spAdminCopyPricebookFromChildToMaster|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCopyPricebookFromChildToMasterTest.sql|1908|CREATE PROCEDURE [dbo].[spAdminCopyPricebookFromChildToMasterTest]
+
+spAdminCopyPricebookFromChildToMasterTest|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCopyPricebookFromChildToMasterTest.sql|1909|CREATE PROCEDURE [dbo].[spAdminCopyPricebookFromChildToMasterTest]
+
+spAdminCopyTax|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminCopyTax.sql|1909|CREATE PROCEDURE [dbo].[spAdminCopyTax]
+
+spAdminMigrateFromTempToDefaultStore|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminMigrateFromTempToDefaultStore.sql|3381|CREATE PROCEDURE [dbo].[spAdminMigrateFromTempToDefaultStore]
+
+spAdminReBatchPendingChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminReBatchPendingChanges.sql|1918|CREATE PROCEDURE [dbo].[spAdminReBatchPendingChanges]
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminReBatchPendingChanges.sql|25936|EXEC dbo.spBLPendingChangeCreateBatch @intStatus OUT	 
+
+spAdminReBatchPricebook|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminReBatchPricebook.sql|1919|CREATE PROCEDURE [dbo].[spAdminReBatchPricebook]
+
+spAdminResendMissingItemsFromHistory|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminResendMissingItemsFromHistory.sql|1920|CREATE PROCEDURE [dbo].[spAdminResendMissingItemsFromHistory]
+
+spAdminResendMissingItemsFromISM|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminResendMissingItemsFromISM.sql|2278|CREATE PROCEDURE [dbo].[spAdminResendMissingItemsFromISM]
+
+spAdminCleanUpBatches|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminResendMissingItemsFromISM.sql|15019|SELECT	'EXEC	[dbo].spAdminCleanUpBatches ' + convert(nvarchar, @InStoreID) 
+
+spAdminResendPastBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminResendPastBatch.sql|1921|CREATE PROCEDURE [dbo].[spAdminResendPastBatch]
+
+spAdminStoreCleanup|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminStoreCleanup.sql|1923|CREATE PROCEDURE [dbo].[spAdminStoreCleanup]
+
+spAdminStoreEngagement|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminStoreEngagement.sql|3363|CREATE PROCEDURE [dbo].[spAdminStoreEngagement]
+
+spAdminUpdatePriceFromHistory|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminUpdatePriceFromHistory.sql|2291|CREATE PROCEDURE [dbo].[spAdminUpdatePriceFromHistory]
+
+spAdminCleanUpBatches|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spAdminUpdatePriceFromHistory.sql|15771|SELECT	'EXEC	[dbo].spAdminCleanUpBatches ' + convert(nvarchar, @InStoreID) 
+
+spBLAutoSyncGas|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLAutoSyncGas.sql|3392|CREATE PROCEDURE [dbo].[spBLAutoSyncGas]
+
+spBLAutoSyncIndividualItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLAutoSyncIndividualItem.sql|1563|CREATE PROCEDURE [dbo].[spBLAutoSyncIndividualItem]
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLAutoSyncIndividualItem.sql|48556|EXEC dbo.spBLPendingChangeCreateBatch @intStatus	OUT	 
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLAutoSyncIndividualItem.sql|52869|EXEC spBLPendingChangeBatchDelete @intStatus OUT,@vcMessage OUT , @OutErrorID out, @InStoreID, @intItemID, ','
+
+spBLBulkEDIFileDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLBulkEDIFileDetails.sql|1543|CREATE PROCEDURE [dbo].[spBLBulkEDIFileDetails] 
+
+spBLPURStoreAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLBulkEDIFileDetails.sql|87524|EXEC spBLPURStoreAddNew @isSuccessful OUT
+
+spBLBulkEDIFileDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLBulkEDIFileDetails.sql|132702|, 'spBLBulkEDIFileDetails'
+
+spBLBulkEDIGetDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLBulkEDIGetDetails.sql|1568|CREATE PROCEDURE [dbo].[spBLBulkEDIGetDetails] 
+
+spBLBulkEDIGetDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLBulkEDIGetDetailsInBatches.sql|2263|CREATE PROCEDURE [dbo].[spBLBulkEDIGetDetailsInBatches] 
+
+spBLBulkEDIGetDetailsInBatches|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLBulkEDIGetDetailsInBatches.sql|2264|CREATE PROCEDURE [dbo].[spBLBulkEDIGetDetailsInBatches] 
+
+spBLBulkFileDetailsGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLBulkFileDetailsGlobal.sql|1570|CREATE PROCEDURE [dbo].[spBLBulkFileDetailsGlobal] 
+
+spBLCPBAddNewItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBAddNewItem.sql|1555|CREATE PROCEDURE [dbo].[spBLCPBAddNewItem]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBAddNewItem.sql|27431|EXEC dbo.spBOItemAddNewWeb @OutStatus =@intStatus OUT, -- smallint
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBAddNewItem.sql|27439|EXEC dbo.spBOItemAddNewWeb @OutStatus =@intStatus OUT, -- smallint
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBAddNewItem.sql|47371|EXEC spBLPendingChangeBatchDelete @intStatus OUT,@strMessage OUT , @OutErrorID out, @InStoreID, @intItemID, ','
+
+spBLCPBCopyPromotions|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBCopyPromotions.sql|1574|CREATE PROCEDURE [dbo].[spBLCPBCopyPromotions]
+
+spBLPromoPendingChangeBatchAll|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBPendingPromoChangesBatchAll.sql|30739|EXEC spBLPromoPendingChangeBatchAll	@intStatus	OUT	 
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBPendingPromoChangesBatchAll.sql|37568|EXEC dbo.spBLPendingChangeCreateBatch @intStatus	OUT	 
+
+spBLCPBCopyPromotions|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBPendingPromoChangesBatchAll.sql|77979|PRINT '@spBLCPBCopyPromotions:' + cast(@intStatus as varchar(50))
+
+spBLCPBCopyPromotions|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBPendingPromoChangesBatchAll.sql|78345|PRINT '@spBLCPBCopyPromotions msg'+@strMessage
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBPendingPromoChangesBatchAll.sql|107108|EXEC dbo.spBLPendingChangeCreateBatch @intStatus	OUT	 
+
+spBLCPBAddNewItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBPropogateItemChangesToSpecificStore.sql|39721|--When calling this SP from spBLCPBAddNewItem i.e in MagicScreen,we already have right dept and tax mapped already so
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBPropogateItemChangesToSpecificStore.sql|68953|EXEC spBLItemUpdate @OutStatus = @intStatus OUT, -- smallint
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBPropogateItemChangeToAllStores.sql|64068|EXEC spBLPendingChangeBatchDelete @intStatus OUT,@strMessage OUT , @OutErrorID out, @intCPBStoreID, @intItemID, ','
+
+spBLCPBSaleItemPackAdd|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBSaleItemPackAdd.sql|1896|CREATE PROC [dbo].[spBLCPBSaleItemPackAdd]
+
+spBLCPBAddNewItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBSaleItemPackAdd.sql|72564|EXEC dbo.spBLCPBAddNewItem @OutStatus = @isSuccessful OUTPUT, -- int
+
+spBLCPBUnVerifiedItems|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCPBUnVerifiedItems.sql|1537|CREATE PROCEDURE [dbo].[spBLCPBUnVerifiedItems]
+
+spBLCustomerCreditAccountSync|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLCustomerCreditAccountSync.sql|2287|CREATE PROC [dbo].[spBLCustomerCreditAccountSync]
+
+spBLDBDailySales|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLDBDailySales.sql|3373|CREATE PROCEDURE [dbo].[spBLDBDailySales]
+
+spBLDeleteItemsBatchAll|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLDeleteItemsBatchAll.sql|1471|CREATE PROCEDURE [dbo].[spBLDeleteItemsBatchAll]
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLDeleteItemsBatchAll.sql|14534|EXEC spBLPendingChangeCreateBatch @IsSuccessful OUT
+
+spBLGetStoreListExcludingRuby|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLGetStoreListExcludingRuby.sql|3388|CREATE PROCEDURE [dbo].[spBLGetStoreListExcludingRuby]
+
+spBLGroceryPURAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLGroceryPURAddNew.sql|4398|CREATE PROCEDURE [dbo].[spBLGroceryPURAddNew]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLGroceryPURAddNew.sql|46797|EXECUTE spBOItemAddNewWeb @intStatus OUTPUT
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLGroceryPURAddNew.sql|46798|EXECUTE spBOItemAddNewWeb @intStatus OUTPUT
+
+spBLVendorGlobalGetByStoreVendorID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLGroceryPURAddNew.sql|53687|--		EXECUTE spBLVendorGlobalGetByStoreVendorID @intStatus OUTPUT
+
+spBLVendorGlobalGetByStoreVendorID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLGroceryPURAddNew.sql|55870|--		print 'spBLVendorGlobalGetByStoreVendorID @intStatus = '+cast(@intStatus as nvarchar)
+
+spBLVendorGlobalGetByStoreVendorID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLGroceryPURAddNew.sql|56236|--		print 'spBLVendorGlobalGetByStoreVendorID @intCSPVendorID = '+cast(@intCSPVendorID as nvarchar)
+
+spBLPURStoreAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLGroceryPURAddNew.sql|59133|EXECUTE spBLPURStoreAddNew  @intStatus OUTPUT
+
+spBLInputDeliveryScanStaggingToDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputDeliveryScanStaggingToDetails.sql|3349|CREATE PROCEDURE [dbo].[spBLInputDeliveryScanStaggingToDetails] 
+
+spBLPURGetPackInfo|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputDeliveryScanStaggingToDetails.sql|34216|EXEC spBLPURGetPackInfo 
+
+spBLInputEDIFileStaggingToDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputEDIFileStaggingToDetails.sql|3388|CREATE PROCEDURE [dbo].[spBLInputEDIFileStaggingToDetails]
+
+spBLBulkEDIFileDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputEDIFileStaggingToDetails.sql|37747|EXEC [dbo].[spBLBulkEDIFileDetails] @TempIsSuccesful OUTPUT
+
+spBLInputFileDeliveryGetNewItems|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputFileDeliveryGetNewItems.sql|1590|CREATE PROCEDURE [dbo].[spBLInputFileDeliveryGetNewItems]
+
+spBLInputFileDeliveryScanItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputFileDeliveryScanItemUpdate.sql|1570|CREATE PROCEDURE [dbo].[spBLInputFileDeliveryScanItemUpdate]
+
+spBLPURGetPackInfo|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputFileDeliveryScanItemUpdate.sql|15068|EXEC spBLPURGetPackInfo 
+
+spBLInputFileDeliveryScanItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputFileDeliveryScanItemUpdateNew.sql|3686|CREATE PROCEDURE [dbo].[spBLInputFileDeliveryScanItemUpdateNew]
+
+spBLInputFileDeliveryScanItemUpdateNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputFileDeliveryScanItemUpdateNew.sql|3687|CREATE PROCEDURE [dbo].[spBLInputFileDeliveryScanItemUpdateNew]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputFileDeliveryScanItemUpdateNew.sql|24702|-- Call [spBOItemAddNewWeb] adn it decides whether the item is already present and it is an update or add
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputFileDeliveryScanItemUpdateNew.sql|24703|-- Call [spBOItemAddNewWeb] adn it decides whether the item is already present and it is an update or add
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputFileDeliveryScanItemUpdateNew.sql|30880|EXECUTE  [CSPPOS].[dbo].[spBOItemAddNewWeb]  @OutStatus		 = @isSuccessful OUTPUT
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputFileDeliveryScanItemUpdateNew.sql|30880|EXECUTE  [CSPPOS].[dbo].[spBOItemAddNewWeb]  @OutStatus		 = @isSuccessful OUTPUT
+
+spBLPURStoreAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputFileDeliveryScanItemUpdateNew.sql|37765|EXECUTE [CSPPOS].[dbo].[spBLPURStoreAddNew]  @OutStatus			 = @isSuccessful OUTPUT
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputFileDetailsToStore.sql|54019|EXEC [V10].[spBLItemUpdate] @isSuccessful OUT
+
+spBLInputFileEDINewItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputFileEDINewItemUpdate.sql|1585|CREATE PROCEDURE [dbo].[spBLInputFileEDINewItemUpdate]
+
+spBLPURStoreAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputFileEDINewItemUpdate.sql|43056|EXEC [dbo].[spBLPURStoreAddNew]
+
+spBLBulkFileDetailsGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLInputFileStaggingToDetails.sql|40063|EXEC spBLBulkFileDetailsGlobal @TempIsSuccesful OUT
+
+spBLItemDescriptionFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemDescriptionFind.sql|3420|CREATE PROCEDURE [dbo].[spBLItemDescriptionFind]
+
+spBLItemGlobalUpdateItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemGlobalUpdateItem.sql|3428|CREATE PROCEDURE [dbo].[spBLItemGlobalUpdateItem] 
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemMaintenanceAddUpdate.sql|32325|EXEC [v10].spBLItemUpdate @OutStatus = @intStatus OUT, -- smallint
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemMaintenanceAddUpdate.sql|45638|EXEC spBLPendingChangeBatchDelete @intStatus OUT,@vcMessage OUT , @OutErrorID out, @InStoreID, @intItemID, ','
+
+spBLItemToVendorUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemToVendorUpdate.sql|3378|CREATE PROCEDURE [dbo].[spBLItemToVendorUpdate]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemUpdate.sql|3294|CREATE PROCEDURE [dbo].[spBLItemUpdate]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemUpdate.sql|108013|--IN THIS CASE, we cannot simply call spBLItemUpdateCost
+
+spDALPurchasePackUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemUpdate.sql|109699|-- the cost of a Purchase Pack during retailing ([spDALPurchasePackUpdate])
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemUpdate.sql|109793|--Note, that SP in turn calls spBLItemUpdateCost
+
+spDALPurchasePackUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemUpdate.sql|110391|EXEC	[dbo].[spDALPurchasePackUpdate] @OutStatus = @isSuccessful OUTPUT
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemUpdate.sql|115910|EXEC spBLItemUpdateCost @isSuccessful OUT
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemUpdateCost.sql|2938|CREATE PROCEDURE [dbo].[spBLItemUpdateCost]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemUpdatePrice.sql|3320|CREATE PROCEDURE [dbo].[spBLItemUpdatePrice] 
+
+spBLItemUpdatePrice|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemUpdatePrice.sql|3414|CREATE PROCEDURE [dbo].[spBLItemUpdatePrice] 
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemUpdatePrice.sql|25432|EXEC spBLItemUpdateCost @isSuccessful OUT
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemUpdatePriceFromRetailing.sql|3276|CREATE PROCEDURE [dbo].[spBLItemUpdatePriceFromRetailing]
+
+spBLItemUpdatePrice|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemUpdatePriceFromRetailing.sql|3370|CREATE PROCEDURE [dbo].[spBLItemUpdatePriceFromRetailing]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLItemUpdatePriceFromRetailing.sql|23135|EXEC [V10].[spBLItemUpdate] @OutStatus		 = @intStatus OUTPUT
+
+spBLLoanAccountDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLLoanAccountDelete.sql|1607|CREATE PROC [dbo].[spBLLoanAccountDelete]
+
+spBLLoggerCount|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLLoggerCount.sql|3411|CREATE PROCEDURE [dbo].[spBLLoggerCount] 
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPendingChangeBatchAll.sql|30107|EXEC spBLPendingChangeCreateBatch @IsSuccessful OUT
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPendingChangeBatchDelete.sql|3275|CREATE PROCEDURE [dbo].[spBLPendingChangeBatchDelete]
+
+spBLPendingChangeBatchError|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPendingChangeBatchError.sql|3333|CREATE PROCEDURE [dbo].[spBLPendingChangeBatchError]
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPendingChangeCreateBatch.sql|3255|CREATE PROCEDURE [dbo].[spBLPendingChangeCreateBatch] 
+
+spBLPendingChangeGetByBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPendingChangeGetByBatch.sql|1939|CREATE PROCEDURE [dbo].[spBLPendingChangeGetByBatch] 
+
+spBLPendingChangesCloseLoop|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPendingChangesCloseLoop.sql|1611|CREATE PROCEDURE [dbo].[spBLPendingChangesCloseLoop]
+
+spBLPendingChangesCloseLoop|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPendingChangesCloseLoopold.sql|1616|CREATE PROCEDURE [dbo].[spBLPendingChangesCloseLoopold]
+
+spBLPendingChangesCloseLoopold|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPendingChangesCloseLoopold.sql|1617|CREATE PROCEDURE [dbo].[spBLPendingChangesCloseLoopold]
+
+spBLPendingChangesCloseLoop|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPendingChangeUpdateBatchStatus.sql|17306|EXEC spBLPendingChangesCloseLoop @OutStatus	= @isSuccessful OUTPUT
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPriceGroupPropogatePriceChange.sql|25213|EXEC [V10].[spBLItemUpdate] @OutStatus			= @intStatus OUTPUT
+
+spBLProfitWithdrawerDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLProfitWithdrawerDelete.sql|1976|CREATE PROC [dbo].[spBLProfitWithdrawerDelete]
+
+spBLProfitWithdrawerUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLProfitWithdrawerUpdate.sql|1625|CREATE PROC [dbo].[spBLProfitWithdrawerUpdate]
+
+spDALPromoPendingChangeInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPromoChanged.sql|23617|EXEC spDALPromoPendingChangeInsertByPromoID @isSuccessful OUT
+
+spDALPromoPendingChangeInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPromoChanged.sql|27572|EXEC spDALPromoPendingChangeInsertByPromoID @isSuccessful OUT
+
+spBLPromoItemListFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPromoItemListFind.sql|3452|CREATE PROCEDURE [dbo].[spBLPromoItemListFind] 
+
+spDALPromoPendingChangeInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPromoListChanged.sql|26897|EXEC spDALPromoPendingChangeInsertByPromoID @isSuccessful OUT
+
+spBLPromoPendingChangeBatchAll|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPromoPendingChangeBatchAll.sql|1995|CREATE PROCEDURE [dbo].[spBLPromoPendingChangeBatchAll]
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPromoPendingChangeBatchAll.sql|15749|EXEC spBLPendingChangeCreateBatch @IsSuccessful OUT
+
+spBLPromoPendingChangeConfirmationBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPromoPendingChangeConfirmationBatch.sql|3441|CREATE PROCEDURE [dbo].[spBLPromoPendingChangeConfirmationBatch]
+
+spBLPromoPendingChangeUnBatchedPack|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPromoPendingChangeUnBatchedPack.sql|1625|CREATE PROCEDURE [dbo].[spBLPromoPendingChangeUnBatchedPack]
+
+spDALPromoFindBatchByPromoID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPromoPendingChangeUpdatePromoStatus.sql|12317|--		EXEC spDALPromoFindBatchByPromoID	@intBatchID OUT
+
+spBLPromoPendingChangeConfirmationBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPromoPendingChangeUpdatePromoStatus.sql|14357|EXEC spBLPromoPendingChangeConfirmationBatch @IsBatchAvailable OUTPUT
+
+spBLPURAddNewPackRecommendation|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURAddNewPackRecommendationSaleData.sql|3463|CREATE PROCEDURE [dbo].[spBLPURAddNewPackRecommendationSaleData]
+
+spBLPURAddNewPackRecommendationSaleData|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURAddNewPackRecommendationSaleData.sql|3465|CREATE PROCEDURE [dbo].[spBLPURAddNewPackRecommendationSaleData]
+
+spBLPURGetPackInfo|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGetPackInfo.sql|3825|CREATE PROCEDURE [dbo].[spBLPURGetPackInfo]
+
+spBLPURGlobalAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGetPackInfo.sql|46398|EXEC spBLPURGlobalAddNewItemValidation @intStatus	OUTPUT
+
+spBLPURGlobalAddNewItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGetPackInfo.sql|46399|EXEC spBLPURGlobalAddNewItemValidation @intStatus	OUTPUT
+
+spBLPURGlobalAddNewItemValidation|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGetPackInfo.sql|46403|EXEC spBLPURGlobalAddNewItemValidation @intStatus	OUTPUT
+
+spBLPURGlobalAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNew.sql|4201|CREATE PROCEDURE [dbo].[spBLPURGlobalAddNew]
+
+spBLPURGlobalAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNew.sql|22459|EXEC spBLPURGlobalAddNewItem @OutStatus			= @IsSuccessGetCspItemID OUTPUT
+
+spBLPURGlobalAddNewItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNew.sql|22460|EXEC spBLPURGlobalAddNewItem @OutStatus			= @IsSuccessGetCspItemID OUTPUT
+
+spBLPURGlobalAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNew.sql|25701|--PRINT 'spBLPURGlobalAddNewItem: ' + CAST(@PURCspItemIDGlobal AS NVARCHAR)
+
+spBLPURGlobalAddNewItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNew.sql|25702|--PRINT 'spBLPURGlobalAddNewItem: ' + CAST(@PURCspItemIDGlobal AS NVARCHAR)
+
+spDALPURtoPOSGlobalInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNew.sql|30191|EXEC spDALPURtoPOSGlobalInsert
+
+spDALPURtoVendorGlobalInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNew.sql|42960|EXEC spDALPURtoVendorGlobalInsert
+
+spBLPURGlobalAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNewItem.sql|5631|CREATE PROCEDURE [dbo].[spBLPURGlobalAddNewItem] 
+
+spBLPURGlobalAddNewItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNewItem.sql|5632|CREATE PROCEDURE [dbo].[spBLPURGlobalAddNewItem] 
+
+spBLPURGlobalAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNewItem.sql|14361|EXEC spBLPURGlobalAddNewItemValidation @isSuccessful	OUTPUT
+
+spBLPURGlobalAddNewItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNewItem.sql|14362|EXEC spBLPURGlobalAddNewItemValidation @isSuccessful	OUTPUT
+
+spBLPURGlobalAddNewItemValidation|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNewItem.sql|14363|EXEC spBLPURGlobalAddNewItemValidation @isSuccessful	OUTPUT
+
+spDALPURItemGlobalInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNewItem.sql|39612|EXEC spDALPURItemGlobalInsert @isSuccessful OUTPUT
+
+spBLPURGlobalAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNewItemValidation.sql|5649|CREATE PROCEDURE [dbo].[spBLPURGlobalAddNewItemValidation]
+
+spBLPURGlobalAddNewItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNewItemValidation.sql|5650|CREATE PROCEDURE [dbo].[spBLPURGlobalAddNewItemValidation]
+
+spBLPURGlobalAddNewItemValidation|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNewItemValidation.sql|5651|CREATE PROCEDURE [dbo].[spBLPURGlobalAddNewItemValidation]
+
+spBLPURGlobalFindByPOSCode|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalAddNewItemValidation.sql|16238|EXEC spBLPURGlobalFindByPOSCode @isSuccessful		OUTPUT
+
+spBLPURGlobalFindByPOSCode|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURGlobalFindByPOSCode.sql|4202|CREATE PROCEDURE [dbo].[spBLPURGlobalFindByPOSCode]
+
+spBLPURItemStoreUpdateCost|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURItemStoreUpdateCost.sql|3471|CREATE PROCEDURE [dbo].[spBLPURItemStoreUpdateCost]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURItemStoreUpdateCost.sql|68964|EXEC spBLItemUpdateCostByPURItemID @isSuccessful OUTPUT
+
+spBLItemUpdateCostByPURItemID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURItemStoreUpdateCost.sql|69057|EXEC spBLItemUpdateCostByPURItemID @isSuccessful OUTPUT
+
+spBLPURItemToPOSItemCompare|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURItemToPOSItemComparePrice.sql|3467|CREATE PROCEDURE [dbo].[spBLPURItemToPOSItemComparePrice]
+
+spBLPURItemToPOSItemComparePrice|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURItemToPOSItemComparePrice.sql|3468|CREATE PROCEDURE [dbo].[spBLPURItemToPOSItemComparePrice]
+
+spBLPURRetailingPriceChange|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURRetailingPriceChange.sql|2744|CREATE PROCEDURE [dbo].[spBLPURRetailingPriceChange]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURRetailingPriceChange.sql|23758|EXEC spBLItemUpdatePrice @isSuccessful OUT
+
+spBLItemUpdatePrice|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURRetailingPriceChange.sql|23852|EXEC spBLItemUpdatePrice @isSuccessful OUT
+
+spBLPURRetailingPURToVendorLink|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURRetailingPURToVendorLink.sql|3483|CREATE PROCEDURE [dbo].[spBLPURRetailingPURToVendorLink]
+
+spDALPURtoVendorStoreInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURRetailingPURToVendorLink.sql|10190|EXEC spDALPURtoVendorStoreInsert
+
+spDALPURtoVendorStoreUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURRetailingPURToVendorLink.sql|14924|EXEC spDALPURtoVendorStoreUpdate
+
+spBLPURStoreAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURStoreAddNew.sql|3487|CREATE PROCEDURE [dbo].[spBLPURStoreAddNew]
+
+spBLVendorGlobalGetByStoreVendorID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURStoreAddNew.sql|22846|EXEC spBLVendorGlobalGetByStoreVendorID
+
+spBLPURGlobalAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURStoreAddNew.sql|36321|EXEC spBLPURGlobalAddNew
+
+spBLPURGlobalAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURStoreAddNew.sql|41422|--	if spBLPURGlobalAddNew is successful add item to Store PURCHASE table    
+
+spDALPURStoreInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURStoreAddNew.sql|45586|EXEC spDALPURStoreInsert
+
+spDALPURtoPOSStoreInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURStoreAddNew.sql|54319|EXEC spDALPURtoPOSStoreInsert
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURStoreAddNew.sql|61313|EXEC spBLItemUpdateCost @isSuccessful OUTPUT
+
+spDALPURtoVendorStoreInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURStoreAddNew.sql|68160|EXEC spDALPURtoVendorStoreInsert
+
+spDALPURtoVendorStoreInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURStoreAddNew.sql|74001|ELSE --  spDALPURtoVendorStoreInsert failed
+
+spDALPURtoPOSStoreInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURStoreAddNew.sql|76545|ELSE --  spDALPURtoPOSStoreInsert is successful and @GlobalVendorID is NULL
+
+spDALPURtoPOSStoreInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURStoreAddNew.sql|79107|ELSE  --  spDALPURtoPOSStoreInsert failed
+
+spDALPURStoreInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURStoreAddNew.sql|82381|ELSE --  spDALPURStoreInsert failed
+
+spBLPURGlobalAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLPURStoreAddNew.sql|85459|ELSE --  spBLPURGlobalAddNew failed
+
+spBLSaleItemPackInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLSaleItemPackInsert.sql|2023|CREATE PROC [dbo].[spBLSaleItemPackInsert]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLSaleItemPacksUpdateParentData.sql|4066|NOTE:  This SP is Called everytime spBLItemUpdate is called.  The purpose of this sp is to 
+
+spBLVendorGlobalGetByStoreVendorID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLVendorGlobalGetByStoreVendorID.sql|2758|CREATE PROCEDURE [dbo].[spBLVendorGlobalGetByStoreVendorID]
+
+spBLVendorPOStagingInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLVendorPOStagingInsert.sql|3470|CREATE PROCEDURE [dbo].[spBLVendorPOStagingInsert]
+
+spBLVendorPOStagingInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBLVendorPOStagingInsertBySalesHistory.sql|3491|CREATE PROCEDURE [dbo].[spBLVendorPOStagingInsertBySalesHistory]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBOItemAddNew.sql|3493|CREATE PROCEDURE [dbo].[spBOItemAddNew] 
+
+spBLDBDailySales|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBOItemAddNew.sql|36962|-- EXEC spBLDBDailySales @isSuccessful OUT
+
+spDALDailyTransactionUnknown|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBOItemAddNew.sql|45826|EXEC spDALDailyTransactionUnknown	 @isSuccessful OUT
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBOItemAddNewWeb.sql|4955|CREATE PROCEDURE [dbo].[spBOItemAddNewWeb]
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBOItemAddNewWeb.sql|4956|CREATE PROCEDURE [dbo].[spBOItemAddNewWeb]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spBOItemAddNewWeb.sql|30364|EXEC [pur].[spBLItemUpdate] @isSuccessful OUTPUT
+
+spDALBankAccountByStore|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALBankAccountByStore.sql|1683|CREATE PROC [dbo].[spDALBankAccountByStore]
+
+spDALBrandByID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALBrandByID.sql|1677|CREATE PROC [dbo].[spDALBrandByID]
+
+spBLDBDailySales|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALCategoryDailyEntryInsert.sql|48491|--EXEC spBLDBDailySales @isSuccessful OUT
+
+spDALCigaretteReport|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALCigaretteReport.sql|3468|CREATE PROCEDURE [dbo].[spDALCigaretteReport]
+
+spDALCigaretteReport|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALCigaretteReportWithPromo.sql|3508|CREATE PROCEDURE [dbo].[spDALCigaretteReportWithPromo]
+
+spDALCigaretteReport|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALCigaretteReportWithPromoCustom.sql|3517|CREATE PROCEDURE [dbo].[spDALCigaretteReportWithPromoCustom]
+
+spDALCigaretteReportWithPromoCustom|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALCigaretteReportWithPromoCustom.sql|3519|CREATE PROCEDURE [dbo].[spDALCigaretteReportWithPromoCustom]
+
+spDALCigaretteReport|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALCigaretteReportWithPromoRJR.sql|3458|CREATE PROCEDURE [dbo].[spDALCigaretteReportWithPromoRJR]
+
+spDALCostChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALCostChangesUpdate.sql|2056|CREATE proc [dbo].[spDALCostChangesUpdate]
+
+spDALCPBGetStoreList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALCPBGetStoreList.sql|3887|CREATE PROCEDURE [dbo].[spDALCPBGetStoreList]
+
+spDALCPBGetStoreList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALCPBGetStoreListFromCPBID.sql|1691|CREATE PROCEDURE [dbo].[spDALCPBGetStoreListFromCPBID]
+
+spDALCPBGetStoreList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALCPBGetStoreListFromCPBIDExcludingCPBStore.sql|1691|CREATE PROCEDURE [dbo].[spDALCPBGetStoreListFromCPBIDExcludingCPBStore]
+
+spDALCPBMarkItemAsVerfied|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALCPBMarkItemAsVerfied.sql|1707|CREATE PROCEDURE [dbo].[spDALCPBMarkItemAsVerfied]
+
+spDALCPBStoreList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALCPBStoreList.sql|3435|CREATE PROCEDURE [dbo].[spDALCPBStoreList]
+
+spDALCPBStoreList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALCPBStoreListPriceGroup.sql|1694|CREATE PROCEDURE [dbo].[spDALCPBStoreListPriceGroup]
+
+spDALDailyLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALDailyLog.sql|1690|CREATE PROC [dbo].[spDALDailyLog]
+
+spDALDailyLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALDailyLogList.sql|2062|CREATE procedure [dbo].[spDALDailyLogList]
+
+spDALDailyLogList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALDailyLogList.sql|2063|CREATE procedure [dbo].[spDALDailyLogList]
+
+spDALDailyTransactionUnknown|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALDailyTransactionUnknown.sql|3525|CREATE PROCEDURE [dbo].[spDALDailyTransactionUnknown]
+
+spDALErrorLogInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALDailyTransactionUnknown.sql|39970|EXEC spDALErrorLogInsert @isErrorLogged	OUTPUT
+
+spDALDBDailyHouseAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALDBDailyHouseAccountLog.sql|3521|CREATE PROCEDURE [dbo].[spDALDBDailyHouseAccountLog]
+
+spDALDBDailyHouseAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALDBDailyHouseAccountLogInsert.sql|1707|CREATE PROCEDURE [dbo].[spDALDBDailyHouseAccountLogInsert]
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALDBDailyPayInOutAccountLog.sql|3525|CREATE PROCEDURE [dbo].[spDALDBDailyPayInOutAccountLog]
+
+spDALDBDailySalesFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALDBDailySalesFind.sql|1707|CREATE PROCEDURE [dbo].[spDALDBDailySalesFind]
+
+spDALDBDailySalesNewItemLogFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALDBDailySalesNewItemLogFind.sql|1710|CREATE PROCEDURE [dbo].[spDALDBDailySalesNewItemLogFind]
+
+spDALErrorLogInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALErrorLogInsert.sql|3536|CREATE PROCEDURE [dbo].[spDALErrorLogInsert]
+
+spBLAutoSyncGas|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGasDailyEntryInsert.sql|38012|EXECUTE [spBLAutoSyncGas]  @OutStatus		= @intStatus OUTPUT
+
+spDALGasSalesByHour|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGasSalesByHour.sql|5373|CREATE PROCEDURE [dbo].[spDALGasSalesByHour] 
+
+spDALGetGlobalTaxGroup|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGetGlobalTaxGroup.sql|2080|CREATE procedure [dbo].[spDALGetGlobalTaxGroup]
+
+spDALGetMaxPendingChangeID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGetMaxPendingChangeID.sql|1715|CREATE PROCEDURE [dbo].[spDALGetMaxPendingChangeID]
+
+spDALGetSalesData|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGetSalesData.sql|3539|CREATE PROCEDURE [dbo].[spDALGetSalesData]
+
+spDALGlobalDeptByItemID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGlobalDeptByItemID.sql|1702|CREATE PROC [dbo].[spDALGlobalDeptByItemID]
+
+spDALGlobalItemPriceGroupList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGlobalItemPriceGroupList.sql|3525|CREATE PROCEDURE [dbo].[spDALGlobalItemPriceGroupList] 
+
+spDALGlobalItemTrusted|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGlobalItemTrusted.sql|3488|CREATE PROCEDURE [dbo].[spDALGlobalItemTrusted]
+
+spDALGlobalPOSByDeptID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGlobalPOSByDeptID.sql|1720|CREATE PROC [dbo].[spDALGlobalPOSByDeptID]
+
+spDALGlobalPosKeysList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGlobalPosKeysList.sql|3551|CREATE PROCEDURE [dbo].[spDALGlobalPosKeysList]
+
+spDALGlobalPriceByID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGlobalPriceByID.sql|1722|CREATE PROC [dbo].[spDALGlobalPriceByID]
+
+spDALGlobalTaxByID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGlobalTaxByID.sql|1713|CREATE PROC [dbo].[spDALGlobalTaxByID]
+
+spDALGlobalTaxGroupList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGlobalTaxGroupList.sql|3523|CREATE PROCEDURE [dbo].[spDALGlobalTaxGroupList]
+
+spDALGlobalUnverified|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGlobalUnverified.sql|1725|CREATE PROC [dbo].[spDALGlobalUnverified]
+
+spDALGroceryCategoryDeleteNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGroceryCategoryDeleteNew.sql|4606|CREATE PROCEDURE [dbo].[spDALGroceryCategoryDeleteNew]
+
+spDALGroceryCategoryFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGroceryCategoryFind.sql|3531|CREATE PROCEDURE [dbo].[spDALGroceryCategoryFind]
+
+spDALGroceryCategoryUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGroceryCategoryUpdate.sql|3547|CREATE PROCEDURE [dbo].[spDALGroceryCategoryUpdate]
+
+spDALGroceryCategoryUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGroceryCategoryUpdateNew.sql|4290|CREATE PROCEDURE [dbo].[spDALGroceryCategoryUpdateNew]
+
+spDALGroceryPurchaseByID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALGroceryPurchaseByID.sql|1717|CREATE PROC [dbo].[spDALGroceryPurchaseByID]
+
+spDALItemByMargin|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALItemByMargin.sql|3558|CREATE PROCEDURE [dbo].[spDALItemByMargin]
+
+spDALItemGroupDeleteNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALItemGroupDeleteNew.sql|2097|CREATE procedure [dbo].[spDALItemGroupDeleteNew]
+
+spDALItemGroupDetail|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALItemGroupDetail.sql|1696|CREATE PROC [dbo].[spDALItemGroupDetail]
+
+spDALItemPriceGroupList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALItemPriceGroupList.sql|3558|CREATE PROCEDURE [dbo].[spDALItemPriceGroupList] 
+
+spBLAutoSyncIndividualItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALItemSalesDailyEntryInsert.sql|63089|EXEC spBLAutoSyncIndividualItem @intTempStatus OUT
+
+spDALItemSalesFromCPJR|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALItemSalesFromCPJR.sql|1729|CREATE PROCEDURE [dbo].[spDALItemSalesFromCPJR]
+
+spINVIncrementForAllLinkedItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALItemSalesFromCPJR.sql|16047|EXEC	 [dbo].[spINVIncrementForAllLinkedItem]
+
+spDALItemSalesLogSlow50|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALItemSalesLogSlow50.sql|3550|CREATE PROCEDURE [dbo].[spDALItemSalesLogSlow50]
+
+spDALItemSalesLogTop50|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALItemSalesLogTop50.sql|3527|CREATE PROCEDURE [dbo].[spDALItemSalesLogTop50] 
+
+spDALItemUpdatePriceGroup|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALItemUpdatePriceGroup.sql|2102|CREATE PROCEDURE [dbo].[spDALItemUpdatePriceGroup]
+
+spDALLogRequestInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALLogRequestInsert.sql|2099|CREATE PROCEDURE [dbo].[spDALLogRequestInsert]
+
+spDALMerchSalesCompare|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALMerchSalesCompare.sql|3930|CREATE PROCEDURE [dbo].[spDALMerchSalesCompare] 
+
+spDALMobileDailySales|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALMobileDailySales.sql|1723|CREATE PROCEDURE [dbo].[spDALMobileDailySales]
+
+spDALMonitoringStoreList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALMonitoringStoreList.sql|2472|CREATE PROC [dbo].[spDALMonitoringStoreList]  
+
+spDALMonitoringStoreList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALMonitoringStoreListByStoreID.sql|2473|CREATE PROC [dbo].[spDALMonitoringStoreListByStoreID]  
+
+spDALMultiStoreRptSales|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALMultiStoreRptSales.sql|5032|CREATE PROCEDURE [dbo].[spDALMultiStoreRptSales] 
+
+spDALNACSCategory|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALNACSCategoryByID.sql|1497|CREATE PROC [dbo].[spDALNACSCategoryByID]
+
+spDALNACSCategoryByID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALNACSCategoryByID.sql|1743|CREATE PROC [dbo].[spDALNACSCategoryByID]
+
+spDALNACSCategory|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALNACSCategoryList.sql|1489|CREATE PROC [dbo].[spDALNACSCategoryList]
+
+spDALNACSCategoryList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALNACSCategoryList.sql|1736|CREATE PROC [dbo].[spDALNACSCategoryList]
+
+spDALNACSSubCategoryByID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALNACSSubCategoryByID.sql|1755|CREATE PROC [dbo].[spDALNACSSubCategoryByID]
+
+spDALNACSSubCategoryList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALNACSSubCategoryList.sql|1762|CREATE PROC [dbo].[spDALNACSSubCategoryList]
+
+spDALNACSubSCategory|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALNACSubSCategory.sql|3545|CREATE PROCEDURE [dbo].[spDALNACSubSCategory]
+
+spDALPackItemByID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPackItemByID.sql|1748|CREATE PROC [dbo].[spDALPackItemByID]
+
+spDALPendingPriceChangeIDFromItemID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPendingPriceChangeIDFromItemID.sql|1748|CREATE PROCEDURE [dbo].[spDALPendingPriceChangeIDFromItemID]
+
+spDALPOSBrand|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPOSBrand.sql|1750|CREATE PROC [dbo].[spDALPOSBrand]
+
+spDALPOSItemList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPOSItemList.sql|1751|CREATE PROC [dbo].[spDALPOSItemList]
+
+spDALPOSItemToPURStore|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPOSItemToPURStore.sql|3582|CREATE PROCEDURE [dbo].[spDALPOSItemToPURStore]
+
+spDALPOSKeyDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPOSKeyDelete.sql|3583|CREATE PROCEDURE [dbo].[spDALPOSKeyDelete]
+
+spDALPOSNACSCategory|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPOSNACSCategory.sql|1738|CREATE PROC [dbo].[spDALPOSNACSCategory]
+
+spDALPOSPriceChangeBatchLogError|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPOSPriceChangeBatchLogError.sql|1744|CREATE PROC [dbo].[spDALPOSPriceChangeBatchLogError] 
+
+spDALPriceBatchList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPriceBatchList.sql|1759|CREATE PROC  [dbo].[spDALPriceBatchList]
+
+spDALPriceChangeBatchList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPriceChangeBatchList.sql|2855|CREATE PROC [dbo].[spDALPriceChangeBatchList]
+
+spDALPriceChangeBatchLogHistoryDetail|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPriceChangeBatchLogHistoryDetail.sql|1757|CREATE PROC [dbo].[spDALPriceChangeBatchLogHistoryDetail]
+
+spDALPriceGrpListByStoreID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPriceGrpListByStoreID.sql|1759|CREATE PROC [dbo].[spDALPriceGrpListByStoreID]
+
+SPDALProfitWithDrawerNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.SPDALProfitWithDrawerNew.sql|1760|CREATE PROC [dbo].[SPDALProfitWithDrawerNew]
+
+spDALPromoComboListDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoComboListDelete.sql|3582|CREATE PROCEDURE [dbo].[spDALPromoComboListDelete]
+
+spDALPromoComboListInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoComboListInsert.sql|3586|CREATE PROCEDURE [dbo].[spDALPromoComboListInsert]
+
+spDALPromoComboListUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoComboListUpdate.sql|3593|CREATE PROCEDURE [dbo].[spDALPromoComboListUpdate]
+
+spDALPromoDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoDelete.sql|3552|CREATE PROCEDURE [dbo].[spDALPromoDelete]
+
+spDALPromoFindBatchByPromoID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoFindBatchByPromoID.sql|3595|CREATE PROCEDURE [dbo].[spDALPromoFindBatchByPromoID]
+
+spDALPromoFindByPromoID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoFindByPromoID.sql|1732|CREATE PROCEDURE [dbo].[spDALPromoFindByPromoID] 
+
+spDALPromoFindByPromotionID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoFindByPromotionID.sql|1762|CREATE PROCEDURE [dbo].[spDALPromoFindByPromotionID] 
+
+spDALPromoFindByPromoType|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoFindByPromoType.sql|1751|CREATE PROCEDURE [dbo].[spDALPromoFindByPromoType] 
+
+spDALPromoItemGroupDetail|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoItemGroupDetail.sql|1761|CREATE PROC [dbo].[spDALPromoItemGroupDetail]
+
+spDALPromoItemListCreation|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoItemListCreation.sql|3610|CREATE PROCEDURE [dbo].[spDALPromoItemListCreation] 
+
+spDALPromoListDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoListDelete.sql|3587|CREATE PROCEDURE [dbo].[spDALPromoListDelete] 
+
+spDALPromoPendingChangeDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoPendingChangeDelete.sql|3599|CREATE PROCEDURE [dbo].[spDALPromoPendingChangeDelete]
+
+spDALPromoPendingChangeInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoPendingChangeInsert.sql|3601|CREATE PROCEDURE [dbo].[spDALPromoPendingChangeInsert] 
+
+spDALPromoPendingChangeInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoPendingChangeInsertByPromoID.sql|3586|CREATE PROCEDURE [dbo].[spDALPromoPendingChangeInsertByPromoID] 
+
+spDALPromoRELPromoToListFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoRELPromoToListFind.sql|1774|CREATE PROCEDURE [dbo].[spDALPromoRELPromoToListFind]
+
+spDALPromotionList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromotionList.sql|1773|CREATE PROC [dbo].[spDALPromotionList]
+
+spDALPromotionList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromotionListByPromoID.sql|2130|CREATE Procedure [dbo].[spDALPromotionListByPromoID]
+
+spDALPromotionListByPromoID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromotionListByPromoID.sql|2139|CREATE Procedure [dbo].[spDALPromotionListByPromoID]
+
+spDALPromotionList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromotionListByStoreID.sql|1776|CREATE PROC [dbo].[spDALPromotionListByStoreID]
+
+spDALPromotionList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromotionListFind.sql|2135|CREATE PROC [dbo].[spDALPromotionListFind]
+
+spDALPromoTypeFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoTypeFind.sql|3597|CREATE PROCEDURE [dbo].[spDALPromoTypeFind]
+
+spDALPromoTypeInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPromoTypeInsert.sql|3618|CREATE PROCEDURE [dbo].[spDALPromoTypeInsert] 
+
+spDALPurchaseInvoiceRetailLogHistoryFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPurchaseInvoiceRetailLogHistoryFind.sql|3618|CREATE PROCEDURE [dbo].[spDALPurchaseInvoiceRetailLogHistoryFind]
+
+spDALPurchasePackByID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPurchasePackByID.sql|1785|CREATE PROC [dbo].[spDALPurchasePackByID]
+
+spDALPurchasePackByVendorID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPurchasePackByVendorID.sql|1774|CREATE PROC [dbo].[spDALPurchasePackByVendorID]
+
+spDALPurchasePackUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPurchasePackUpdate.sql|1782|CREATE PROC [dbo].[spDALPurchasePackUpdate]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPurchasePackUpdate.sql|35798|EXEC spBLItemUpdateCost @intStatus OUT
+
+spDALPurchaseSearchCode|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPurchaseSearchCode.sql|3613|CREATE PROCEDURE [dbo].[spDALPurchaseSearchCode]
+
+spDALPURInvoiceRetailingLogInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURInvoiceRetailingLogInsert.sql|3612|CREATE PROCEDURE [dbo].[spDALPURInvoiceRetailingLogInsert]
+
+spDALPURItemGlobalInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURItemGlobalInsert.sql|3608|CREATE PROCEDURE [dbo].[spDALPURItemGlobalInsert]
+
+spDALPURItemStoreFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURItemStoreFind.sql|3597|CREATE PROCEDURE [dbo].[spDALPURItemStoreFind]
+
+spDALPURItemStoreFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURItemStoreFindBySaleItem.sql|3616|CREATE PROCEDURE [dbo].[spDALPURItemStoreFindBySaleItem]
+
+spDALPURItemStoreFindBySaleItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURItemStoreFindBySaleItem.sql|3617|CREATE PROCEDURE [dbo].[spDALPURItemStoreFindBySaleItem]
+
+spDALPURItemStoreFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURItemStoreFindDetail.sql|1801|CREATE PROC [dbo].[spDALPURItemStoreFindDetail]
+
+spDALPURPurchaseItemPacks|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURPurchaseItemPacks.sql|1803|CREATE PROC [dbo].[spDALPURPurchaseItemPacks]
+
+spDALPURSalesItems|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURSalesItems.sql|1789|CREATE PROC [dbo].[spDALPURSalesItems]
+
+spDALPURStoreInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURStoreInsert.sql|3986|CREATE PROCEDURE [dbo].[spDALPURStoreInsert]
+
+spBLVendorGlobalGetByStoreVendorID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURStoreInsert.sql|27167|EXEC spBLVendorGlobalGetByStoreVendorID
+
+spBLPURGlobalAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURStoreInsert.sql|30412|EXEC spBLPURGlobalAddNew 
+
+spDALPURtoPOSGlobalInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURtoPOSGlobalInsert.sql|2888|CREATE PROCEDURE [dbo].[spDALPURtoPOSGlobalInsert]
+
+spDALPURtoPOSStoreInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURtoPOSStoreInsert.sql|2154|CREATE PROCEDURE [dbo].[spDALPURtoPOSStoreInsert]
+
+spDALPURtoPOSGlobalInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURtoPOSStoreInsert.sql|15307|EXEC spDALPURtoPOSGlobalInsert
+
+spDALPURtoPOSGlobalInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURtoPOSStoreInsert.sql|17503|-- NOTE:  No need to check if spDALPURtoPOSGlobalInsert becuase the we will insert into POStoPURStore 
+
+spDALPURtoPOSGlobalInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURtoPOSStoreInsert.sql|18235|--print ' Executing global spDALPURtoPOSGlobalInsert Msg: '+@OutGblTblMessage
+
+spDALPOSItemToPURStore|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURtoPOSStoreInsert.sql|31666|EXEC spDALPOSItemToPURStore @isSuccessful OUTPUT
+
+spDALPURtoVendorGlobalInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURtoVendorGlobalInsert.sql|2519|CREATE PROCEDURE [dbo].[spDALPURtoVendorGlobalInsert]
+
+spDALPURtoVendorStoreInActivate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURtoVendorStoreInActivate.sql|3585|CREATE PROCEDURE [dbo].[spDALPURtoVendorStoreInActivate]
+
+spDALPURtoVendorStoreInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURtoVendorStoreInsert.sql|2165|CREATE PROCEDURE [dbo].[spDALPURtoVendorStoreInsert]
+
+spBLVendorGlobalGetByStoreVendorID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURtoVendorStoreInsert.sql|27072|EXEC spBLVendorGlobalGetByStoreVendorID
+
+spDALPURtoVendorGlobalInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURtoVendorStoreInsert.sql|30140|EXEC spDALPURtoVendorGlobalInsert
+
+spDALPURtoVendorStoreUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALPURtoVendorStoreUpdate.sql|3604|CREATE PROCEDURE [dbo].[spDALPURtoVendorStoreUpdate]
+
+spDALSaleItemPacks|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALSaleItemPacks.sql|3262|CREATE PROC [dbo].[spDALSaleItemPacks]
+
+spDALSettingsStoreConnection|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALSettingsStoreConnection.sql|3628|CREATE PROCEDURE [dbo].[spDALSettingsStoreConnection]
+
+spDALSettingsStoreConnection|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALSettingsStoreConnectionUpdate.sql|2530|CREATE PROC [dbo].[spDALSettingsStoreConnectionUpdate]
+
+spDALStoreList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALStoreList.sql|1796|CREATE PROC [dbo].[spDALStoreList]
+
+spDALStorePromotionList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALStorePromotionList.sql|1788|CREATE PROC [dbo].[spDALStorePromotionList]
+
+spDALStoreSettingPriceLevelUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALStoreSettingPriceLevelUpdate.sql|3615|CREATE PROCEDURE [dbo].[spDALStoreSettingPriceLevelUpdate] 
+
+spDALStoreToFunctionalityDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALStoreToFunctionalityDelete.sql|3630|CREATE PROCEDURE [dbo].[spDALStoreToFunctionalityDelete]
+
+spDALStoreToFunctionalityInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALStoreToFunctionalityInsert.sql|3633|CREATE PROCEDURE [dbo].[spDALStoreToFunctionalityInsert]
+
+spBLAutoSyncIndividualItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALTransJournalEventDtlsInsert.sql|258641|EXEC spBLAutoSyncIndividualItem @isSuccessful OUT,@Message OUT,@intCspItemID OUT,@InStoreID,@InPOSCode,
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALTransJournalEventDtlsInsert.sql|259796|--EXEC spBOItemAddNew @isSuccessful OUT,@Message OUT,@InStoreID,@intDayAdjtVal,@InPOSCode,
+
+spDALDBDailyHouseAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALTransJournalEventDtlsInsert.sql|301448|EXEC spDALDBDailyHouseAccountLogInsert @isSuccessful OUT,@InStoreID,@InBusinessDate,@InTenderCode,@InTenderAmt,2,@InIsPrimaryRegister
+
+spDALDBDailyHouseAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALTransJournalEventInsert.sql|132322|EXEC spDALDBDailyHouseAccountLogInsert @isSuccessful OUT,@InStoreID,@InBusinessDate,@InMiscRefNum,@InPayInAmt,1,@InIsPrimaryRegister
+
+spDALUnRetailedInvoicesFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALUnRetailedInvoicesFind.sql|1804|CREATE PROC [dbo].[spDALUnRetailedInvoicesFind]
+
+spDALValidateFileUpload|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALValidateFileUpload.sql|1803|CREATE PROCEDURE [dbo].[spDALValidateFileUpload]
+
+spDALVendorDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALVendorDelete.sql|1808|CREATE PROCEDURE [dbo].[spDALVendorDelete]
+
+spDALVendorFileTypeFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALVendorFileTypeFind.sql|3612|CREATE PROCEDURE [dbo].[spDALVendorFileTypeFind]
+
+spDALVendorInsertCSP|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALVendorInsertCSP.sql|1808|CREATE PROCEDURE [dbo].[spDALVendorInsertCSP]
+
+spDALVendorUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALVendorUpdate.sql|1809|CREATE PROCEDURE [dbo].[spDALVendorUpdate]
+
+spDALVendorUpdateNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALVendorUpdateNew.sql|1806|CREATE PROCEDURE [dbo].[spDALVendorUpdateNew]
+
+spDALVendorUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spDALVendorUpdateNew.sql|1806|CREATE PROCEDURE [dbo].[spDALVendorUpdateNew]
+
+spGetItemPriceGroupListByStoreID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spGetItemPriceGroupListByStoreID.sql|1811|CREATE PROC [dbo].[spGetItemPriceGroupListByStoreID]
+
+spGetTaxGroupDetailsByStoreID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spGetTaxGroupDetailsByStoreID.sql|1812|CREATE PROC [dbo].[spGetTaxGroupDetailsByStoreID]
+
+spGetTempItems|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spGetTempItems.sql|3607|CREATE PROCEDURE [dbo].[spGetTempItems]
+
+spGetVendorListByStoreID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spGetVendorListByStoreID.sql|1814|CREATE PROC [dbo].[spGetVendorListByStoreID]
+
+spINVAdjBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spINVAdjBatchDelete.sql|3635|CREATE PROCEDURE [dbo].[spINVAdjBatchDelete] 
+
+spINVIncrementForAllLinkedItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spINVAdjBatchDelete.sql|15316|EXEC	[dbo].[spINVIncrementForAllLinkedItem]
+
+spInvAdjustmentFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spInvAdjustmentFind.sql|1807|CREATE PROCEDURE [dbo].[spInvAdjustmentFind]
+
+spINVgetGlobalMapping|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spINVgetGlobalMapping.sql|1816|CREATE PROCEDURE [dbo].[spINVgetGlobalMapping]
+
+spINVGlobalMappingAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spINVGlobalMappingAddNew.sql|1818|CREATE PROCEDURE [dbo].[spINVGlobalMappingAddNew]
+
+spINVGlobalMappingDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spINVGlobalMappingDelete.sql|1819|CREATE PROCEDURE [dbo].[spINVGlobalMappingDelete]
+
+spINVGlobalMappingFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spINVGlobalMappingFind.sql|1820|CREATE PROCEDURE [dbo].[spINVGlobalMappingFind]
+
+spINVGlobalMappingUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spINVGlobalMappingUpdate.sql|1821|CREATE PROCEDURE [dbo].[spINVGlobalMappingUpdate]
+
+spINVIncrementForAllLinkedItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spINVIncrementForAllLinkedItem.sql|1805|CREATE PROCEDURE [dbo].[spINVIncrementForAllLinkedItem]
+
+spItemPriceGroupInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spItemPriceGroupInsert.sql|1810|CREATE PROC [dbo].[spItemPriceGroupInsert]
+
+spItemPriceGroupUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spItemPriceGroupUpdate.sql|2556|CREATE PROC [dbo].[spItemPriceGroupUpdate]
+
+spResetAmaxData|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spResetAmaxData.sql|3651|CREATE PROCEDURE [dbo].[spResetAmaxData]
+
+spRptConsignmentDailyDeposit1|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spRptConsignmentDailyDeposit1.sql|3631|CREATE PROCEDURE [dbo].[spRptConsignmentDailyDeposit1]
+
+spRptConsignmentFuel|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spRptConsignmentFuel.sql|3657|CREATE PROCEDURE [dbo].[spRptConsignmentFuel]
+
+spDALLogRequestInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spSECValidateRequest.sql|14897|--EXEC spDALLogRequestInsert @RequestLogID OUT,@CurrentDateTime, @InUsername, @InPassword, @InRequestType, @OutResponseID
+
+spTaxGroupDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spTaxGroupDelete.sql|2606|CREATE PROCedure [dbo].[spTaxGroupDelete]
+
+spTaxGroupDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spTaxGroupDelete.sql|2913|CREATE PROCedure [dbo].[spTaxGroupDelete]
+
+spUpdateTempItems|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spUpdateTempItems.sql|3621|CREATE PROCEDURE [dbo].[spUpdateTempItems]
+
+spUTLIteratorDataSet|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\dbo.spUTLIteratorDataSet.sql|3646|CREATE PROCEDURE [dbo].[spUTLIteratorDataSet]
+
+spINVAdjBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\inv.spINVAdjBatchDelete.sql|3628|CREATE PROCEDURE [inv].[spINVAdjBatchDelete] 
+
+spINVAdjgetBatchItemdetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\inv.spINVAdjgetBatchItemdetails.sql|1529|CREATE PROCEDURE [inv].[spINVAdjgetBatchItemdetails]
+
+spINVAdjgetBatchList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\inv.spINVAdjgetBatchList.sql|1529|CREATE PROCEDURE [inv].[spINVAdjgetBatchList]
+
+spINVIncrementForAllLinkedItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\inv.spINVIncrementForAllLinkedItem.sql|1822|CREATE PROCEDURE [inv].[spINVIncrementForAllLinkedItem]
+
+spINVInventoryChangeByItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\inv.spINVInventoryChangeByItem.sql|1533|CREATE PROCEDURE [inv].[spINVInventoryChangeByItem]
+
+spBLInputFileDeliveryScanItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\mob.spBLInputFileDeliveryScanItemUpdate.sql|1591|CREATE PROCEDURE [mob].[spBLInputFileDeliveryScanItemUpdate]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\mob.spBLInputFileDeliveryScanItemUpdate.sql|28257|-- Call [spBOItemAddNewWeb] adn it decides whether the item is already present and it is an update or add
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\mob.spBLInputFileDeliveryScanItemUpdate.sql|28258|-- Call [spBOItemAddNewWeb] adn it decides whether the item is already present and it is an update or add
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\mob.spBLInputFileDeliveryScanItemUpdate.sql|34431|EXECUTE [V10].[spBOItemAddNewWeb]  @OutStatus		 = @isSuccessful OUTPUT
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\mob.spBLInputFileDeliveryScanItemUpdate.sql|34432|EXECUTE [V10].[spBOItemAddNewWeb]  @OutStatus		 = @isSuccessful OUTPUT
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\mob.spBLItemAddUpdate.sql|33947|EXEC v10.spBLItemUpdate @OutStatus = @intStatus OUT, -- smallint
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\mob.spBLPendingChangeCreateBatch.sql|2249|CREATE PROCEDURE [mob].[spBLPendingChangeCreateBatch] 
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\mob.spBLRetailLogUpdate.sql|28068|EXEC [V10].[spBLItemUpdate]  @OutStatus		= @intStatus OUTPUT
+
+spDALPurchasingInvoiceGetDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\mob.spDALPurchasingInvoiceGetDetails.sql|1526|CREATE PROCEDURE [mob].[spDALPurchasingInvoiceGetDetails]
+
+spBLBulkEDIFileDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLBulkEDIFileDetails.sql|1567|CREATE PROCEDURE [pur].[spBLBulkEDIFileDetails] 
+
+spBLBulkEDIFileDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLBulkEDIFileDetails.sql|209306|, 'spBLBulkEDIFileDetails'
+
+spBLBulkEDIGetDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLBulkEDIGetDetails.sql|1568|CREATE PROCEDURE [pur].[spBLBulkEDIGetDetails] 
+
+spBLBulkEDIGetDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLBulkEDIGetDetailsInBatches.sql|2297|CREATE PROCEDURE [pur].[spBLBulkEDIGetDetailsInBatches] 
+
+spBLBulkEDIGetDetailsInBatches|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLBulkEDIGetDetailsInBatches.sql|2298|CREATE PROCEDURE [pur].[spBLBulkEDIGetDetailsInBatches] 
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLCreateCase.sql|92607|EXEC spBLItemUpdateCost @OutStatus  = @intStatus OUTPUT
+
+spBLImportUpdateNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLImportUpdateNew.sql|3652|CREATE PROCEDURE [pur].[spBLImportUpdateNew]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLImportUpdateNew.sql|26717|-- Call [spBOItemAddNewWeb] adn it decides whether the item is already present and it is an update or add
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLImportUpdateNew.sql|26718|-- Call [spBOItemAddNewWeb] adn it decides whether the item is already present and it is an update or add
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLImportUpdateNew.sql|32922|EXECUTE [V10].[spBOItemAddNewWeb]  @OutStatus		 = @isSuccessful OUTPUT
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLImportUpdateNew.sql|32923|EXECUTE [V10].[spBOItemAddNewWeb]  @OutStatus		 = @isSuccessful OUTPUT
+
+spBLInputDeliveryScanStaggingToDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLInputDeliveryScanStaggingToDetails.sql|3417|CREATE PROCEDURE [pur].[spBLInputDeliveryScanStaggingToDetails] 
+
+spBLInputEDIFileStaggingToDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLInputEDIFileStaggingToDetails.sql|3418|CREATE PROCEDURE [pur].[spBLInputEDIFileStaggingToDetails]
+
+spBLBulkEDIFileDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLInputEDIFileStaggingToDetails.sql|41232|EXEC [pur].[spBLBulkEDIFileDetails] @TempIsSuccesful OUTPUT
+
+spBLInputEDIFileStaggingToDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLInputEDIFileStaggingToDetails1.sql|3418|CREATE PROCEDURE [pur].[spBLInputEDIFileStaggingToDetails1]
+
+spBLInputEDIFileStaggingToDetails1|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLInputEDIFileStaggingToDetails1.sql|3419|CREATE PROCEDURE [pur].[spBLInputEDIFileStaggingToDetails1]
+
+spBLBulkEDIFileDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLInputEDIFileStaggingToDetails1.sql|40182|EXEC [pur].[spBLBulkEDIFileDetails] @TempIsSuccesful OUTPUT
+
+spBLInputFileDeliveryGetNewItems|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLInputFileDeliveryGetNewItems.sql|1590|CREATE PROCEDURE [pur].[spBLInputFileDeliveryGetNewItems]
+
+spBLInputFileDeliveryScanItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLInputFileDeliveryScanItemUpdateNew.sql|3768|CREATE PROCEDURE [pur].[spBLInputFileDeliveryScanItemUpdateNew]
+
+spBLInputFileDeliveryScanItemUpdateNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLInputFileDeliveryScanItemUpdateNew.sql|3769|CREATE PROCEDURE [pur].[spBLInputFileDeliveryScanItemUpdateNew]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLInputFileDeliveryScanItemUpdateNew.sql|27120|-- Call [spBOItemAddNewWeb] adn it decides whether the item is already present and it is an update or add
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLInputFileDeliveryScanItemUpdateNew.sql|27121|-- Call [spBOItemAddNewWeb] adn it decides whether the item is already present and it is an update or add
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLInputFileDeliveryScanItemUpdateNew.sql|33254|EXECUTE [V10].[spBOItemAddNewWeb]  @OutStatus		 = @isSuccessful OUTPUT
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLInputFileDeliveryScanItemUpdateNew.sql|33255|EXECUTE [V10].[spBOItemAddNewWeb]  @OutStatus		 = @isSuccessful OUTPUT
+
+spBLInputFileEDINewItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLInputFileEDINewItemUpdate.sql|1594|CREATE PROCEDURE [pur].[spBLInputFileEDINewItemUpdate]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLItemUpdate.sql|3311|CREATE PROCEDURE [pur].[spBLItemUpdate]
+
+spBLUpdateCostBySalesItemID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLItemUpdate.sql|77359|EXEC [pur].[spBLUpdateCostBySalesItemID] @OutStatus =  @isSuccessful OUTPUT
+
+spBLPurchaseCaseStaggingNewItemsUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLPurchaseCaseStaggingNewItemsUpdate.sql|3709|CREATE PROCEDURE [pur].[spBLPurchaseCaseStaggingNewItemsUpdate]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLPurchaseCaseStaggingNewItemsUpdate.sql|16238|-- Call [spBOItemAddNewWeb] adn it decides whether the item is already present and it is an update or add
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLPurchaseCaseStaggingNewItemsUpdate.sql|16244|-- Call [spBOItemAddNewWeb] adn it decides whether the item is already present and it is an update or add
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLPurchaseCaseStaggingNewItemsUpdate.sql|24956|EXECUTE [V10].[spBOItemAddNewWeb]  @OutStatus		 = @isSuccessful OUTPUT
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLPurchaseCaseStaggingNewItemsUpdate.sql|24957|EXECUTE [V10].[spBOItemAddNewWeb]  @OutStatus		 = @isSuccessful OUTPUT
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLShipperCreate.sql|66696|EXEC spBLPendingChangeBatchDelete @OutStatus	 = @intStatus OUTPUT
+
+spBLShipperDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLShipperDelete.sql|3324|CREATE PROCEDURE [pur].[spBLShipperDelete] 
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLShipperUpdate.sql|52009|EXEC [V10].[spBOItemAddNewAndBatchWeb]  @OutStatus			= @intStatus OUTPUT
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLShipperUpdate.sql|61248|EXEC spBLPendingChangeBatchDelete @OutStatus	 = @intStatus OUTPUT
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLUpdateCost.sql|121606|EXEC spBLItemUpdateCost @OutStatus  = @intStatus OUTPUT
+
+spBLUpdateCostBySalesItemID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLUpdateCostBySalesItemID.sql|3339|CREATE PROCEDURE [pur].[spBLUpdateCostBySalesItemID]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spBLUpdateCostBySalesItemID.sql|71358|EXEC spBLItemUpdateCost @OutStatus			= @intStatus OUTPUT
+
+spDALPurchaseCaseStaggingGetItems|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spDALPurchaseCaseStaggingGetItems.sql|2248|CREATE PROCEDURE [pur].[spDALPurchaseCaseStaggingGetItems]
+
+spDALPurchaseCaseStaggingNewItemsDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spDALPurchaseCaseStaggingNewItemsDelete.sql|3347|CREATE PROCEDURE [pur].[spDALPurchaseCaseStaggingNewItemsDelete]
+
+spDALPurchaseCaseStaggingNewItemsDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\pur.spDALPurchaseCaseStaggingNewItemsDeleteOlderBatch.sql|3347|CREATE PROCEDURE [pur].[spDALPurchaseCaseStaggingNewItemsDeleteOlderBatch]
+
+spAdminCopyTax|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\Support.spAdminCopyStore.sql|8806|EXEC    [adm].[spAdminCopyTax]
+
+spAdminCopyDept|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\Support.spAdminCopyStore.sql|12819|EXEC	[adm].[spAdminCopyDept]
+
+spAdminCopyPricebook|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\Support.spAdminCopyStore.sql|16834|EXEC	[adm].[spAdminCopyPricebook]
+
+spAdminCopyTax|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\Support.spAdminCopyStoreItemsWithSales.sql|7359|EXEC @return_value = [adm].[spAdminCopyTax] @OutStatus = @intStatus OUTPUT,
+
+spAdminCopyDept|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\Support.spAdminCopyStoreItemsWithSales.sql|11638|EXEC @return_value = [adm].[spAdminCopyDept] @OutStatus = @intStatus OUTPUT,
+
+spDALStoreDataprogramInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\Support.spBLEnableStoreDataProgram.sql|9147|EXEC [V10].[spDALStoreDataprogramInsert]
+
+spAdminAddNewStore|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spAdminAddNewStore.sql|1540|CREATE PROCEDURE [unused].[spAdminAddNewStore]
+
+spAdminImportModifierItemsByDept|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spAdminImportModifierItemsByDept.sql|1831|CREATE PROCEDURE [unused].[spAdminImportModifierItemsByDept]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spAdminImportModifierItemsByDept.sql|66922|EXEC [V10].spBOItemAddNewWeb @OutStatus =@intStatus OUT, -- smallint]
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spAdminImportModifierItemsByDept.sql|66923|EXEC [V10].spBOItemAddNewWeb @OutStatus =@intStatus OUT, -- smallint]
+
+spBLAddNewPURItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLAddNewPURItem.sql|1926|CREATE PROCEDURE [unused].[spBLAddNewPURItem]
+
+spDALPURStoreInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLAddNewPURItem.sql|37837|EXECUTE spDALPURStoreInsert @isSuccessful OUTPUT
+
+spDALPURtoPOSStoreInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLAddNewPURItem.sql|44060|EXEC spDALPURtoPOSStoreInsert @isSuccessful OUT
+
+spBLAppVersionGetUpdateRecord|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLAppVersionGetUpdateRecord.sql|1561|CREATE PROCEDURE [unused].[spBLAppVersionGetUpdateRecord]
+
+spBLAutoSyncItems|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLAutoSyncItems.sql|3385|CREATE PROCEDURE [unused].[spBLAutoSyncItems]
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLAutoSyncItems.sql|44789|EXEC spBLPendingChangeBatchDelete @intStatus OUT,@vcMessage OUT , @OutErrorID out, @InStoreID, @intItemID, ','
+
+spBLBrandInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLBrandInsert.sql|1557|CREATE PROC [unused].[spBLBrandInsert]
+
+spBLBrandUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLBrandUpdate.sql|1565|CREATE PROC [unused].[spBLBrandUpdate]
+
+spBLBulkFileProcess|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLBulkFileProcess.sql|3381|CREATE PROCEDURE [unused].[spBLBulkFileProcess]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLBulkFileProcess.sql|45116|EXEC [dbo].[spBLItemUpdate] @isSuccessful OUT
+
+spBLCopyStoreItems|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLCopyStoreItems.sql|3391|CREATE PROCEDURE [unused].[spBLCopyStoreItems]
+
+spBLCOVendorUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLCOVendorUpdate.sql|1468|CREATE PROC  [unused].[spBLCOVendorUpdate]
+
+spBLCPBPendingChangesBatchAll|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLCPBPendingChangesBatchAll.sql|1576|CREATE PROCEDURE [unused].[spBLCPBPendingChangesBatchAll]
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLCPBPendingChangesBatchAll.sql|44780|EXEC dbo.spBLPendingChangeCreateBatch @intStatus	OUT	 
+
+spBLCPBPendingChangesBatchByBatchSize|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLCPBPendingChangesBatchByBatchSize.sql|1576|CREATE PROCEDURE [unused].[spBLCPBPendingChangesBatchByBatchSize]
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLCPBPendingChangesBatchByBatchSize.sql|45260|EXEC dbo.spBLPendingChangeCreateBatch @intStatus	OUT	 
+
+spAdminReBatchPendingChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLCPBPendingChangesBatchByBatchSize.sql|106389|--			EXEC	[dbo].[spAdminReBatchPendingChanges]
+
+spBLGetItemAndDeptID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLGetItemAndDeptID.sql|1583|CREATE PROCEDURE [unused].[spBLGetItemAndDeptID]
+
+spBLGetPOSPLUCode|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLGetPOSPLUCode.sql|3410|CREATE PROCEDURE [unused].[spBLGetPOSPLUCode] 
+
+spBLImportPurchaseCaseStaggingToDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLImportPurchaseCaseStaggingToDetails.sql|3276|CREATE PROCEDURE [unused].[spBLImportPurchaseCaseStaggingToDetails] 
+
+spBLInputDeliveryScanStaggingToDetails_TroubleShoot|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLInputDeliveryScanStaggingToDetails_TroubleShoot.sql|3339|CREATE PROCEDURE [unused].[spBLInputDeliveryScanStaggingToDetails_TroubleShoot] 
+
+spBLInputDeliveryScanStaggingToDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLInputDeliveryScanStaggingToDetails_TroubleShoot.sql|3415|CREATE PROCEDURE [unused].[spBLInputDeliveryScanStaggingToDetails_TroubleShoot] 
+
+spBLInputEDIFileStaggingToDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLInputEDIFileStaggingToDetails1.sql|3416|CREATE PROCEDURE [unused].[spBLInputEDIFileStaggingToDetails1]
+
+spBLInputEDIFileStaggingToDetails1|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLInputEDIFileStaggingToDetails1.sql|3417|CREATE PROCEDURE [unused].[spBLInputEDIFileStaggingToDetails1]
+
+spBLBulkEDIFileDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLInputEDIFileStaggingToDetails1.sql|38038|EXEC [dbo].[spBLBulkEDIFileDetails] @TempIsSuccesful OUTPUT
+
+spBLInputFileDetailsToGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLInputFileDetailsToGlobal.sql|3423|CREATE PROCEDURE [unused].[spBLInputFileDetailsToGlobal]
+
+spBLItemGlobalUpdateItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLInputFileDetailsToGlobal.sql|48338|EXEC spBLItemGlobalUpdateItem @isSuccessful OUT
+
+spBLInventoryMgmt|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLInventoryMgmt.sql|3425|CREATE PROCEDURE [unused].[spBLInventoryMgmt]
+
+spBLItemAddNewUnVerified|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLItemAddNewUnVerified.sql|1594|CREATE PROCEDURE [unused].[spBLItemAddNewUnVerified] 
+
+spBLItemImport|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLItemImport.sql|3039|CREATE PROCEDURE [unused].[spBLItemImport]
+
+spBLItemReportProgram|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLItemReportProgram.sql|3430|CREATE PROCEDURE [unused].[spBLItemReportProgram]
+
+spBLItemReportProgram|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLItemReportProgramPOSCodes.sql|3415|CREATE PROCEDURE [unused].[spBLItemReportProgramPOSCodes]
+
+spBLItemReportProgramPOSCodes|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLItemReportProgramPOSCodes.sql|3416|CREATE PROCEDURE [unused].[spBLItemReportProgramPOSCodes]
+
+spBLItemReportProgram|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLItemReportProgramSettings.sql|3416|CREATE PROCEDURE [unused].[spBLItemReportProgramSettings]
+
+spBLItemReportProgramSettings|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLItemReportProgramSettings.sql|3418|CREATE PROCEDURE [unused].[spBLItemReportProgramSettings]
+
+spBLItemToPriceGroupUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLItemToPriceGroupUpdate.sql|3433|CREATE PROCEDURE [unused].[spBLItemToPriceGroupUpdate]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLItemUpdateCostByPURItemID.sql|2954|CREATE PROCEDURE [unused].[spBLItemUpdateCostByPURItemID]
+
+spBLItemUpdateCostByPURItemID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLItemUpdateCostByPURItemID.sql|3047|CREATE PROCEDURE [unused].[spBLItemUpdateCostByPURItemID]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLItemUpdateCostByPURItemID.sql|27410|EXEC spBLItemUpdateCost @isSuccessful OUTPUT
+
+spBLNACSCategoryInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLNACSCategoryInsert.sql|1609|CREATE PROC [unused].[spBLNACSCategoryInsert]
+
+spBLNACSCategoryUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLNACSCategoryUpdate.sql|1608|CREATE PROC [unused].[spBLNACSCategoryUpdate]
+
+spBLNACSSubCategoryInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLNACSSubCategoryInsert.sql|1611|CREATE PROC [unused].[spBLNACSSubCategoryInsert]
+
+spBLNACSSubCategoryUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLNACSSubCategoryUpdate.sql|1612|CREATE PROC [unused].[spBLNACSSubCategoryUpdate]
+
+spBLNACSSubCategoryInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLNACSSubCategoryUpdate.sql|9251|EXEC spBLNACSSubCategoryInsert @isSuccessful OUT
+
+spBLPendingChangeBatchAllFromGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPendingChangeBatchAllFromGlobal.sql|3432|CREATE PROCEDURE [unused].[spBLPendingChangeBatchAllFromGlobal] 
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPendingChangeBatchAllFromGlobal.sql|21161|EXEC spBLPendingChangeCreateBatch @IsSuccessful OUT
+
+spBLPendingChangeBatchLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPendingChangeBatchLog.sql|3418|CREATE PROCEDURE [unused].[spBLPendingChangeBatchLog] 
+
+spBLPendingChangeBatchLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPendingChangeBatchLogPromotion.sql|3421|CREATE PROCEDURE [unused].[spBLPendingChangeBatchLogPromotion] 
+
+spBLPendingChangeBatchLogPromotion|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPendingChangeBatchLogPromotion.sql|3422|CREATE PROCEDURE [unused].[spBLPendingChangeBatchLogPromotion] 
+
+spBLPendingChangeBatchStatus|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPendingChangeBatchStatus.sql|3435|CREATE PROCEDURE [unused].[spBLPendingChangeBatchStatus]
+
+spBLPendingChangeByItemID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPendingChangeByItemID.sql|3432|CREATE PROCEDURE [unused].[spBLPendingChangeByItemID]
+
+spBLPendingChangeGetByBatchOld|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPendingChangeGetByBatchOld.sql|2209|CREATE PROCEDURE [unused].[spBLPendingChangeGetByBatchOld] 
+
+spBLPendingChangeGetByBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPendingChangeGetByBatchOld.sql|2351|CREATE PROCEDURE [unused].[spBLPendingChangeGetByBatchOld] 
+
+spBLPendingChangeGetByBatchRetailX|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPendingChangeGetByBatchRetailX.sql|2183|CREATE PROCEDURE [unused].[spBLPendingChangeGetByBatchRetailX] 
+
+spBLPendingChangeGetByBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPendingChangeGetByBatchRetailX.sql|2324|CREATE PROCEDURE [unused].[spBLPendingChangeGetByBatchRetailX] 
+
+spBLPOSResendBatchold|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPOSResendBatchold.sql|1622|CREATE PROCEDURE [unused].[spBLPOSResendBatchold]
+
+spBLPriceGroupItemPriceMisMatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPriceGroupItemPriceMisMatch.sql|1476|CREATE PROCEDURE [unused].[spBLPriceGroupItemPriceMisMatch] 
+
+spBLProfitWithdrawerSync|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLProfitWithdrawerSync.sql|1624|CREATE PROC [unused].[spBLProfitWithdrawerSync]
+
+spBLPromoCreatePackValidate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPromoCreatePackValidate.sql|3450|CREATE PROCEDURE [unused].[spBLPromoCreatePackValidate] 
+
+spBLPromoFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPromoFind.sql|1627|CREATE PROCEDURE [unused].[spBLPromoFind]
+
+spBLPromoPendingBatchAddUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPromoPendingBatchAddUpdate.sql|2187|CREATE PROCEDURE [unused].[spBLPromoPendingBatchAddUpdate]
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPromoPendingBatchAddUpdate.sql|13499|EXECUTE [dbo].[spBLPendingChangeCreateBatch] 
+
+spBLPromoUpdatePack|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPromoUpdatePack.sql|3452|CREATE PROCEDURE [unused].[spBLPromoUpdatePack]
+
+spBLPromoUpdatePack|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPromoUpdatePackValidate.sql|3453|CREATE PROCEDURE [unused].[spBLPromoUpdatePackValidate] 
+
+spBLPromoUpdatePackValidate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPromoUpdatePackValidate.sql|3454|CREATE PROCEDURE [unused].[spBLPromoUpdatePackValidate] 
+
+spBLPURAddNewPackRecommendation|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURAddNewPackRecommendation.sql|3450|CREATE PROCEDURE [unused].[spBLPURAddNewPackRecommendation]
+
+spBLPURAddNewPackRecommendation|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURAddNewPackRecommendation.sql|26062|EXEC spBLPURAddNewPackRecommendationPurchaseID @intStatus OUT
+
+spBLPURAddNewPackRecommendationPurchaseID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURAddNewPackRecommendation.sql|26063|EXEC spBLPURAddNewPackRecommendationPurchaseID @intStatus OUT
+
+spBLPURAddNewPackRecommendation|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURAddNewPackRecommendation.sql|31885|EXEC spBLPURAddNewPackRecommendationPurchaseData @vcPURScanCode OUT
+
+spBLPURAddNewPackRecommendation|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURAddNewPackRecommendation.sql|35908|EXEC spBLPURAddNewPackRecommendationSaleData @intSaleItemID OUT
+
+spBLPURAddNewPackRecommendationSaleData|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURAddNewPackRecommendation.sql|35910|EXEC spBLPURAddNewPackRecommendationSaleData @intSaleItemID OUT
+
+spBLPURAddNewPackRecommendation|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURAddNewPackRecommendation.sql|41016|EXEC spBLPURAddNewPackRecommendationVendorData @intVendorID OUT
+
+spBLPURAddNewPackRecommendationVendorData|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURAddNewPackRecommendation.sql|41019|EXEC spBLPURAddNewPackRecommendationVendorData @intVendorID OUT
+
+spBLPURAddNewPackRecommendation|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURAddNewPackRecommendationPurchaseID.sql|3418|CREATE PROCEDURE [unused].[spBLPURAddNewPackRecommendationPurchaseID]
+
+spBLPURAddNewPackRecommendationPurchaseID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURAddNewPackRecommendationPurchaseID.sql|3419|CREATE PROCEDURE [unused].[spBLPURAddNewPackRecommendationPurchaseID]
+
+spBLPURAddNewPackRecommendation|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURAddNewPackRecommendationVendorData.sql|3446|CREATE PROCEDURE [unused].[spBLPURAddNewPackRecommendationVendorData] 
+
+spBLPURAddNewPackRecommendationVendorData|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURAddNewPackRecommendationVendorData.sql|3449|CREATE PROCEDURE [unused].[spBLPURAddNewPackRecommendationVendorData] 
+
+spBLPURGlobalMarkPurchasable|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURGlobalMarkPurchasable.sql|3839|CREATE PROCEDURE [unused].[spBLPURGlobalMarkPurchasable]
+
+spDALPURtoPOSGlobalInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURGlobalMarkPurchasable.sql|26899|EXEC spDALPURtoPOSGlobalInsert
+
+spBLPURItemToPOSItemCompare|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURItemToPOSItemCompare.sql|3457|CREATE PROCEDURE [unused].[spBLPURItemToPOSItemCompare]
+
+spBLPURPackRecByPosScanCode|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURPackRecByPosScanCode.sql|1647|CREATE PROCEDURE [unused].[spBLPURPackRecByPosScanCode]
+
+spBLPURPackRecByPurScanCode|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURPackRecByPurScanCode.sql|1648|CREATE PROCEDURE [unused].[spBLPURPackRecByPurScanCode]
+
+spBLPURPackRecByVendorItemCode|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURPackRecByVendorItemCode.sql|1649|CREATE PROCEDURE [unused].[spBLPURPackRecByVendorItemCode]
+
+spBLPURRetailingCostChange|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURRetailingCostChange.sql|2726|CREATE PROCEDURE [unused].[spBLPURRetailingCostChange]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURRetailingCostChange.sql|10960|EXEC spBLItemUpdateCost @isSuccessful OUT
+
+spBLPURRetailingCostPriceChange|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURRetailingCostPriceChange.sql|2735|CREATE PROCEDURE [unused].[spBLPURRetailingCostPriceChange]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURRetailingCostPriceChange.sql|11332|EXEC spBLItemUpdateCost @isSuccessful OUT
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURRetailingCostPriceChange.sql|20092|EXEC spBLItemUpdatePrice @isSuccessful OUT
+
+spBLItemUpdatePrice|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURRetailingCostPriceChange.sql|20186|EXEC spBLItemUpdatePrice @isSuccessful OUT
+
+spBLPURRetailingEligibility|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURRetailingEligibility.sql|3482|CREATE PROCEDURE [unused].[spBLPURRetailingEligibility]
+
+spBLPURRetailingManualUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURRetailingManualUpdate.sql|3441|CREATE PROCEDURE [unused].[spBLPURRetailingManualUpdate]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURRetailingManualUpdate.sql|24618|-- Call [spBOItemAddNewWeb] adn it decides whether the item is already present and it is an update or add
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURRetailingManualUpdate.sql|24619|-- Call [spBOItemAddNewWeb] adn it decides whether the item is already present and it is an update or add
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURRetailingManualUpdate.sql|30808|EXECUTE  [CSPPOS].[dbo].[spBOItemAddNewWeb]  @OutStatus		 = @isSuccessful OUTPUT
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURRetailingManualUpdate.sql|30809|EXECUTE  [CSPPOS].[dbo].[spBOItemAddNewWeb]  @OutStatus		 = @isSuccessful OUTPUT
+
+spBLPURStoreAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURRetailingManualUpdate.sql|38095|EXECUTE [CSPPOS].[dbo].[spBLPURStoreAddNew]  @OutStatus			 = @isSuccessful OUTPUT
+
+spBLPURRetailingSummary|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLPURRetailingSummary.sql|3471|CREATE PROCEDURE [unused].[spBLPURRetailingSummary]
+
+spBLUnVerifiedPriceBookChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLUnVerifiedPriceBookChanges.sql|1468|CREATE PROCEDURE [unused].[spBLUnVerifiedPriceBookChanges] 
+
+spBLValidateSetLnkdDuplicateTransaction|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLValidateSetLnkdDuplicateTransaction.sql|3476|CREATE PROCEDURE [unused].[spBLValidateSetLnkdDuplicateTransaction]
+
+spBLVendorUpdateNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBLVendorUpdateNew.sql|1662|CREATE PROC  [unused].[spBLVendorUpdateNew]
+
+spBOPromoCreate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBOPromoCreate.sql|3462|CREATE PROCEDURE [unused].[spBOPromoCreate]
+
+spBOPromoCreate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBOPromoCreateList.sql|3478|CREATE PROCEDURE [unused].[spBOPromoCreateList]
+
+spBOPromoCreateList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBOPromoCreateList.sql|3479|CREATE PROCEDURE [unused].[spBOPromoCreateList]
+
+spBOPromoCreate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBOPromoCreatePacks.sql|4227|CREATE PROCEDURE [unused].[spBOPromoCreatePacks]
+
+spBOPromoCreatePacks|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBOPromoCreatePacks.sql|4229|CREATE PROCEDURE [unused].[spBOPromoCreatePacks]
+
+spBOPromoCreate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBOPromoCreatePacks.sql|28289|EXEC dbo.spBOPromoCreateList @isSuccessful OUT
+
+spBOPromoCreateList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBOPromoCreatePacks.sql|28290|EXEC dbo.spBOPromoCreateList @isSuccessful OUT
+
+spBOPromoCreate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spBOPromoCreatePacks.sql|31934|EXEC dbo.spBOPromoCreate @isSuccessful OUT
+
+spDALAppVersionGetUpdateCommands|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionGetUpdateCommands.sql|1656|CREATE PROCEDURE  [unused].[spDALAppVersionGetUpdateCommands]
+
+spDALAppVersionGroupAdd|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionGroupAdd.sql|1662|CREATE PROCEDURE [unused].[spDALAppVersionGroupAdd]
+
+spDALAppVersionGroupDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionGroupDelete.sql|2036|CREATE PROCEDURE [unused].[spDALAppVersionGroupDelete]
+
+spDALAppVersionGroupFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionGroupFind.sql|1671|CREATE PROCEDURE [unused].[spDALAppVersionGroupFind]
+
+spDALAppVersionUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdate.sql|1661|CREATE PROCEDURE [unused].[spDALAppVersionUpdate]
+
+spDALAppVersionUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateAdd.sql|1662|CREATE PROCEDURE [unused].[spDALAppVersionUpdateAdd]
+
+spDALAppVersionUpdateAdd|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateAdd.sql|1663|CREATE PROCEDURE [unused].[spDALAppVersionUpdateAdd]
+
+spDALAppVersionUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateCommandAdd.sql|2037|CREATE PROCEDURE [unused].[spDALAppVersionUpdateCommandAdd]
+
+spDALAppVersionUpdateCommandAdd|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateCommandAdd.sql|2039|CREATE PROCEDURE [unused].[spDALAppVersionUpdateCommandAdd]
+
+spDALAppVersionUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateCommandFind.sql|1672|CREATE PROCEDURE [unused].[spDALAppVersionUpdateCommandFind]
+
+spDALAppVersionUpdateCommandFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateCommandFind.sql|1675|CREATE PROCEDURE [unused].[spDALAppVersionUpdateCommandFind]
+
+spDALAppVersionUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateCommandUpdate.sql|1672|CREATE PROCEDURE [unused].[spDALAppVersionUpdateCommandUpdate]
+
+spDALAppVersionUpdateCommandUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateCommandUpdate.sql|1676|CREATE PROCEDURE [unused].[spDALAppVersionUpdateCommandUpdate]
+
+spDALAppVersionUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateDelete.sql|1672|CREATE PROCEDURE [unused].[spDALAppVersionUpdateDelete]
+
+spDALAppVersionUpdateDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateDelete.sql|1677|CREATE PROCEDURE [unused].[spDALAppVersionUpdateDelete]
+
+spDALAppVersionUpdateFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateFind.sql|1666|CREATE PROCEDURE [unused].[spDALAppVersionUpdateFind]
+
+spDALAppVersionUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateLogAdd.sql|1672|CREATE PROCEDURE  [unused].[spDALAppVersionUpdateLogAdd]
+
+spDALAppVersionUpdateLogAdd|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateLogAdd.sql|1679|CREATE PROCEDURE  [unused].[spDALAppVersionUpdateLogAdd]
+
+spDALAppVersionUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateUpdate.sql|2038|CREATE PROCEDURE [unused].[spDALAppVersionUpdateUpdate]
+
+spDALAppVersionUpdateUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAppVersionUpdateUpdate.sql|2046|CREATE PROCEDURE [unused].[spDALAppVersionUpdateUpdate]
+
+spDALAutoSyncSettingsFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAutoSyncSettingsFind.sql|2047|CREATE PROC [unused].[spDALAutoSyncSettingsFind]
+
+spDALAutoSyncSettingsUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALAutoSyncSettingsUpdate.sql|2414|CREATE PROC [unused].[spDALAutoSyncSettingsUpdate]
+
+spDALBrandList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALBrandList.sql|1680|CREATE PROC [unused].[spDALBrandList] 
+
+spDALBulkEDIFileBatchUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALBulkEDIFileBatchUpdate.sql|3497|CREATE PROCEDURE [unused].[spDALBulkEDIFileBatchUpdate] 
+
+spDALCigaretteReport|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALCigaretteReportFromPrimaryDB.sql|3511|CREATE PROCEDURE [unused].[spDALCigaretteReportFromPrimaryDB]
+
+spDALCigaretteReportFromPrimaryDB|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALCigaretteReportFromPrimaryDB.sql|3512|CREATE PROCEDURE [unused].[spDALCigaretteReportFromPrimaryDB]
+
+spDALCOAddUpdateCaseFromScheduler|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALCOAddUpdateCaseFromSchedulerAll.sql|1459|CREATE PROCEDURE [unused].[spDALCOAddUpdateCaseFromSchedulerAll]
+
+spDALCOAddUpdateCaseFromSchedulerAll|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALCOAddUpdateCaseFromSchedulerAll.sql|1460|CREATE PROCEDURE [unused].[spDALCOAddUpdateCaseFromSchedulerAll]
+
+spDALCOAddUpdateCaseFromScheduler|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALCOAddUpdateCaseFromSchedulerAll.sql|13117|EXECUTE [V10].spDALCOAddUpdateCaseFromScheduler 
+
+spDALCOScheduleBatchAdd|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALCOScheduleBatchAdd.sql|1483|CREATE PROCEDURE [unused].[spDALCOScheduleBatchAdd]
+
+spDALCostChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALCostChanges.sql|2422|CREATE PROC [unused].[spDALCostChanges]
+
+spDALCPBGetStoreList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALCPBGetStoreListFromBatchID.sql|1691|CREATE PROCEDURE [unused].[spDALCPBGetStoreListFromBatchID]
+
+spDALCPBGetStoreListFromBatchID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALCPBGetStoreListFromBatchID.sql|1692|CREATE PROCEDURE [unused].[spDALCPBGetStoreListFromBatchID]
+
+spDALCPBPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALCPBPendingChangeBatchDelete.sql|1694|CREATE PROCEDURE [unused].[spDALCPBPendingChangeBatchDelete]
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALCPBPendingChangeBatchDelete.sql|9108|EXEC spBLPendingChangeBatchDelete 	@OutStatus	OUT, @OutMessage OUT, @OutErrorID out, @InCPBStoreID, @tempItemList, @InDelimiter
+
+spDALCPBPriceBatchStatusUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALCPBPriceBatchStatusUpdate.sql|1695|CREATE PROCEDURE [unused].[spDALCPBPriceBatchStatusUpdate]
+
+spDALCurrentInventoryList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALCurrentInventoryList.sql|1697|CREATE PROC [unused].[spDALCurrentInventoryList] 
+
+spDALDailyPayInOutLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALDailyPayInOutLog.sql|1700|CREATE procedure  [unused].[spDALDailyPayInOutLog]
+
+spDALDailyPayInOutLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALDailyPayInOutLogAdd.sql|2066|CREATE procedure [unused].[spDALDailyPayInOutLogAdd]
+
+spDALDailyPayInOutLogAdd|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALDailyPayInOutLogAdd.sql|2067|CREATE procedure [unused].[spDALDailyPayInOutLogAdd]
+
+spDALDailyPayInOutLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALDailyPayInOutLogDelete.sql|1700|CREATE procedure [unused].[spDALDailyPayInOutLogDelete]
+
+spDALDailyPayInOutLogDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALDailyPayInOutLogDelete.sql|1702|CREATE procedure [unused].[spDALDailyPayInOutLogDelete]
+
+spDALDataAnalyticsGetSalesSummary|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALDataAnalyticsGetSalesSummary.sql|3534|CREATE PROCEDURE [unused].[spDALDataAnalyticsGetSalesSummary]
+
+spDALDBCategoryDailyEntryFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALDBCategoryDailyEntryFind.sql|1707|CREATE PROCEDURE [unused].[spDALDBCategoryDailyEntryFind]
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALDBDailyPayInOutAccountLogPurchaseRebateTotal.sql|3494|CREATE PROCEDURE [unused].[spDALDBDailyPayInOutAccountLogPurchaseRebateTotal]
+
+spDALGetTransactionStreamold|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALGetTransactionStreamold.sql|1889|CREATE PROCEDURE [unused].[spDALGetTransactionStreamold]
+
+spDALLiveDeptSalesFromSQL|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALLiveDeptSalesFromSQL.sql|1875|CREATE PROCEDURE [unused].[spDALLiveDeptSalesFromSQL]
+
+spDALLiveGetTransactionStream|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALLiveGetTransactionStream.sql|1891|CREATE PROCEDURE [unused].[spDALLiveGetTransactionStream]
+
+spDALLiveTransactionAlerts|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALLiveTransactionAlerts.sql|1526|CREATE PROCEDURE [unused].[spDALLiveTransactionAlerts]
+
+spDALODGetTransactionStream1|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALODGetTransactionStream1.sql|1865|CREATE PROCEDURE [unused].[spDALODGetTransactionStream1]
+
+spDALPromoIDByBatchID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALPromoIDByBatchID.sql|1466|CREATE PROCEDURE [unused].[spDALPromoIDByBatchID]
+
+spDALtblTransJournalEventDtls|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALtblTransJournalEventDtls.sql|3333|CREATE PROCEDURE [unused].[spDALtblTransJournalEventDtls]
+
+spDALTransactionJournalEvent|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spDALTransactionJournalEvent.sql|3335|CREATE PROCEDURE [unused].[spDALTransactionJournalEvent]
+
+spGetVendorPricebookTest|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spGetVendorPricebookTest.sql|3339|CREATE PROCEDURE [unused].[spGetVendorPricebookTest]
+
+spINVAdjBathes|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spINVAdjBathes.sql|1516|CREATE PROCEDURE [unused].[spINVAdjBathes]
+
+spINVCheckPOSCodeExists|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spINVCheckPOSCodeExists.sql|3297|CREATE PROCEDURE [unused].[spINVCheckPOSCodeExists]
+
+spINVgetBatchDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spINVgetBatchDetails.sql|1532|CREATE PROCEDURE [unused].[spINVgetBatchDetails]
+
+spPriceGroupAdd|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spPriceGroupAdd.sql|1528|CREATE PROC [unused].[spPriceGroupAdd]
+
+spTestPurchaseCaseUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spTestPurchaseCaseUpdate.sql|3343|CREATE PROCEDURE [unused].[spTestPurchaseCaseUpdate]
+
+spTestPurchaseCaseUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spTestPurchaseCaseUpdateData.sql|3339|CREATE PROCEDURE [unused].[spTestPurchaseCaseUpdateData]
+
+spTestPurchaseCaseUpdateData|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spTestPurchaseCaseUpdateData.sql|3340|CREATE PROCEDURE [unused].[spTestPurchaseCaseUpdateData]
+
+spTestPurchaseCaseUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spTestPurchaseCaseUpdateDataCleanup.sql|3337|CREATE PROCEDURE [unused].[spTestPurchaseCaseUpdateDataCleanup]
+
+spTestPurchaseCaseUpdateData|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spTestPurchaseCaseUpdateDataCleanup.sql|3338|CREATE PROCEDURE [unused].[spTestPurchaseCaseUpdateDataCleanup]
+
+spTestPurchaseCaseUpdateDataCleanup|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.spTestPurchaseCaseUpdateDataCleanup.sql|3339|CREATE PROCEDURE [unused].[spTestPurchaseCaseUpdateDataCleanup]
+
+sp_BlitzIndex|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.sp_BlitzIndex.sql|1881|CREATE PROCEDURE [unused].[sp_BlitzIndex]
+
+sp_BlitzIndex|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.sp_BlitzIndex.sql|11708|sp_BlitzIndex from http://FirstResponderKit.org
+
+sp_BlitzIndex|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.sp_BlitzIndex.sql|39729|SELECT @ScriptVersionName = 'sp_BlitzIndex(TM) v' + @Version + ' - ' + DATENAME(MM, @VersionDate) + ' ' + RIGHT('0'+DATENAME(DD, @VersionDate),2) + ', ' + DATENAME(YY, @VersionDate)
+
+sp_BlitzIndex|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.sp_BlitzIndex.sql|96498|[more_info] AS N'EXEC dbo.sp_BlitzIndex @DatabaseName=' + QUOTENAME([database_name],'''') + 
+
+sp_BlitzIndex|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.sp_BlitzIndex.sql|175590|[more_info] AS N'EXEC dbo.sp_BlitzIndex @DatabaseName=' + QUOTENAME([database_name],'''') + 
+
+sp_BlitzIndex|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.sp_BlitzIndex.sql|217227|N'You''re trying to run sp_BlitzIndex on a server with ' + CAST(@NumDatabases AS NVARCHAR(8)) + N' databases. ',
+
+sp_BlitzIndex|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.sp_BlitzIndex.sql|217593|N'Running sp_BlitzIndex on a server with 50+ databases may cause temporary insanity for the server and/or user.',
+
+sp_BlitzIndex|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.sp_BlitzIndex.sql|248201|SET @msg=N'sp_BlitzIndex is only supported on SQL Server 2005 and higher. The version of this instance is: ' + @SQLServerProductVersion;
+
+sp_BlitzIndex|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.sp_BlitzIndex.sql|1187264|'Outdated sp_BlitzIndex', 'sp_BlitzIndex is Over 6 Months Old', 'http://FirstResponderKit.org/', 
+
+_DeleteItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused._DeleteItem.sql|1902|CREATE PROCEDURE [unused].[_DeleteItem]
+
+_spAdminDeleteStoreData|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused._spAdminDeleteStoreData.sql|1537|CREATE PROCEDURE  [unused].[_spAdminDeleteStoreData]
+
+_spTempMonitorFileType|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused._spTempMonitorFileType.sql|1537|CREATE PROCEDURE [unused].[_spTempMonitorFileType]
+
+__spAdminBulkAddToPendingPriceChange|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.__spAdminBulkAddToPendingPriceChange.sql|1900|CREATE PROCEDURE [unused].[__spAdminBulkAddToPendingPriceChange]
+
+__spAdminClearPendingBatches|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\unused.__spAdminClearPendingBatches.sql|1892|CREATE PROCEDURE [unused].[__spAdminClearPendingBatches]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spAdminImportItemsByDept.sql|65959|EXEC [V10].spBOItemAddNewWeb @OutStatus =@intStatus OUT, -- smallint]
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spAdminImportItemsByDept.sql|65968|EXEC [V10].spBOItemAddNewWeb @OutStatus =@intStatus OUT, -- smallint]
+
+spAdminReBatchPendingChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spAdminReBatchPendingChanges.sql|1907|CREATE PROCEDURE [V10].[spAdminReBatchPendingChanges]
+
+spAdminReBatchPendingChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spAdminReBatchPendingChanges.sql|22340|PRINT 'in [spAdminReBatchPendingChanges]'
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spAdminReBatchPendingChanges.sql|27039|EXEC dbo.spBLPendingChangeCreateBatch @intStatus OUT	 
+
+spAdminReBatchPricebook|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spAdminReBatchPricebookNew.sql|1911|CREATE PROCEDURE [V10].[spAdminReBatchPricebookNew]
+
+spAdminReBatchPendingChanges|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spAdminReBatchPricebookNew.sql|40417|EXEC	[V10].[spAdminReBatchPendingChanges]
+
+spBLCOFindPURPacksinAllZone|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCOFindPURPacksinAllZone.sql|1466|CREATE PROCEDURE [V10].[spBLCOFindPURPacksinAllZone]
+
+spBLCOFindPURPacksinAllZone|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCOFindPURPacksinAllZoneByCaseID.sql|1466|CREATE PROCEDURE [V10].[spBLCOFindPURPacksinAllZoneByCaseID]
+
+spBLCostUpdateByCaseID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCostUpdateByCaseID.sql|3293|CREATE PROCEDURE [V10].[spBLCostUpdateByCaseID]
+
+spBLCPBAddNewItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBAddNewItem.sql|1574|CREATE PROCEDURE [V10].[spBLCPBAddNewItem]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBAddNewItem.sql|29719|EXEC [V10].spBOItemAddNewWeb @OutStatus =@intStatus OUT, -- smallint]
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBAddNewItem.sql|29720|EXEC [V10].spBOItemAddNewWeb @OutStatus =@intStatus OUT, -- smallint]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBAddNewItem.sql|40631|print 'status from  spBOItemAddNewWeb'
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBAddNewItem.sql|40632|print 'status from  spBOItemAddNewWeb'
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBDeleteItemStoreWeb.sql|9926|EXEC dbo.spBLPendingChangeCreateBatch @intStatus	OUT	 
+
+spBLCPBItemPriceChangeVerify|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBItemPriceChangeVerify.sql|1468|CREATE PROCEDURE [V10].[spBLCPBItemPriceChangeVerify] 
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBPendingPromoChangesBatchAll.sql|42217|EXEC dbo.spBLPendingChangeCreateBatch @intStatus	OUT	 
+
+spBLCPBCopyPromotions|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBPendingPromoChangesBatchAll.sql|70484|PRINT '@spBLCPBCopyPromotions:' + cast(@intStatus as varchar(50))
+
+spBLCPBCopyPromotions|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBPendingPromoChangesBatchAll.sql|70850|PRINT '@spBLCPBCopyPromotions msg'+@strMessage
+
+spBLCPBCopyPromotions|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBPendingPromoChangesBatchAll.sql|78879|PRINT '@spBLCPBCopyPromotions1:' + cast(@intStatus as varchar(50))
+
+spBLCPBCopyPromotions|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBPendingPromoChangesBatchAll.sql|79245|PRINT '@spBLCPBCopyPromotions1 msg'+@strMessage
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBPendingPromoChangesBatchAll.sql|102067|EXEC dbo.spBLPendingChangeCreateBatch @intStatus	OUT	 
+
+spBLCPBAddNewItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBPropogateItemChangesToSpecificStore.sql|55916|--When calling this SP from spBLCPBAddNewItem i.e in MagicScreen,we already have right dept and tax mapped already so
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBPropogateItemChangesToSpecificStore.sql|101656|EXEC [V10].spBLItemUpdate @OutStatus = @intStatus OUT, -- smallint
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBPropogateItemChangeToAllStores.sql|67054|EXEC spBLPendingChangeBatchDelete @intStatus OUT,@strMessage OUT , @OutErrorID out, @intCPBStoreID, @intItemID, ','
+
+spBLCPBSaleItemPackAdd|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBSaleItemPackAdd.sql|1944|CREATE PROC [V10].[spBLCPBSaleItemPackAdd]
+
+spBLCPBAddNewItem|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLCPBSaleItemPackAdd.sql|77755|EXEC [V10].spBLCPBAddNewItem @OutStatus = @isSuccessful OUTPUT, -- int]
+
+spBLDeleteItemsBatchAll|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLDeleteItemsBatchAll.sql|1471|CREATE PROCEDURE [V10].[spBLDeleteItemsBatchAll]
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLDeleteItemsBatchAll.sql|17550|EXEC spBLPendingChangeCreateBatch @IsSuccessful OUT
+
+spBLGlobalVendorPurchasePack|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLGlobalVendorPurchasePack.sql|3302|CREATE PROCEDURE [V10].[spBLGlobalVendorPurchasePack]
+
+spBLImportPurchaseCaseStaggingToDetails|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLGlobalVendorPurchasePack.sql|34652|EXEC  [V10].[spBLImportPurchaseCaseStaggingToDetails]   @OutStatus = @intStatus OUTPUT
+
+spBLGlobalVendorPurchasePack|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLGlobalVendorPurchasePackImportDelete.sql|3300|CREATE PROCEDURE [V10].[spBLGlobalVendorPurchasePackImportDelete]
+
+spBLGlobalVendorPurchasePackImportDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLGlobalVendorPurchasePackImportDelete.sql|3301|CREATE PROCEDURE [V10].[spBLGlobalVendorPurchasePackImportDelete]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLItemUpdate.sql|4064|CREATE PROCEDURE [V10].[spBLItemUpdate]
+
+spBLUpdateCostBySalesItemID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLItemUpdate.sql|118736|EXEC [v10].[spBLUpdateCostBySalesItemID] @OutStatus =  @isSuccessful OUTPUT
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLItemUpdateAndBatchWeb.sql|2244|CREATE PROCEDURE [V10].[spBLItemUpdateAndBatchWeb]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLItemUpdateAndBatchWeb.sql|14281|EXECUTE [V10].[spBLItemUpdate] 
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLItemUpdateAndBatchWeb.sql|29166|EXECUTE [dbo].[spBLPendingChangeCreateBatch] 
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLItemUpdateQuickSend.sql|4070|CREATE PROCEDURE [V10].[spBLItemUpdateQuickSend]
+
+spBLPendingChangeBatchDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLPendingChangeBatchDelete.sql|4025|CREATE PROCEDURE [V10].[spBLPendingChangeBatchDelete]
+
+spBLPendingChangeBatchLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLPendingChangeBatchLogHistory.sql|4175|CREATE PROCEDURE [V10].[spBLPendingChangeBatchLogHistory] 
+
+spBLPendingChangeGetByBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLPendingChangeGetByBatch.sql|2298|CREATE PROCEDURE [V10].[spBLPendingChangeGetByBatch] 
+
+spBLPendingChangesCloseLoop|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLPendingChangesCloseLoop.sql|2352|CREATE PROCEDURE [V10].[spBLPendingChangesCloseLoop]
+
+spBLPendingChangesCloseLoop|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLPendingChangeUpdateBatchStatus.sql|22456|EXEC [V10].spBLPendingChangesCloseLoop @OutStatus	= @isSuccessful OUTPUT
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLPricebookUploadAddItemToPricebook.sql|36649|EXEC [V10].spBOItemAddNewWeb 
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLPricebookUploadAddItemToPricebook.sql|36650|EXEC [V10].spBOItemAddNewWeb 
+
+spBLProfitWithdrawerUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLProfitWithdrawerUpdate.sql|1622|CREATE PROC [V10].[spBLProfitWithdrawerUpdate]
+
+spBLPromoItemListFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLPromoItemListFindNew.sql|3427|CREATE PROCEDURE [V10].[spBLPromoItemListFindNew] 
+
+spBLPromoPendingChangeBatchAll|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLPromoPendingChangeBatchAll.sql|1995|CREATE PROCEDURE [V10].[spBLPromoPendingChangeBatchAll]
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLPromoPendingChangeBatchAll.sql|19030|EXEC spBLPendingChangeCreateBatch @IsSuccessful OUT
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLPropogateCostChangedToLinkedItems.sql|79554|EXEC spBLItemUpdateCost  @OutStatus  = @intStatus OUTPUT
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLPropogateCostChangedToLinkedItems.sql|149685|EXEC spBLItemUpdateCost  @OutStatus  = @intStatus OUTPUT
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLRetailLogUpdate.sql|44850|EXEC [V10].[spBLItemUpdate]  @OutStatus		= @intStatus OUTPUT
+
+spBLSaleItemPackInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLSaleItemPackInsert.sql|2017|CREATE PROC [V10].[spBLSaleItemPackInsert]
+
+spBLSaleItemPackInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLSaleItemPackInsertAndBatch.sql|2390|CREATE PROCEDURE [V10].[spBLSaleItemPackInsertAndBatch]
+
+spBLSaleItemPackInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLSaleItemPackInsertAndBatch.sql|12611|EXEC [v10].spBLSaleItemPackInsert 
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLSaleItemPackInsertAndBatch.sql|24179|EXECUTE [dbo].[spBLPendingChangeCreateBatch] 
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLSaleItemPacksUpdate.sql|16121|EXEC [V10].[spBLItemUpdate]
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLSaleItemPacksUpdateAndBatch.sql|20765|EXECUTE [dbo].[spBLPendingChangeCreateBatch] 
+
+spBLScheduleCreateCase|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLScheduleCreateCase.sql|1464|CREATE PROCEDURE [V10].[spBLScheduleCreateCase]
+
+spBLUpdateCostBySalesItemID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLUpdateCostBySalesItemID.sql|4056|CREATE PROCEDURE [V10].[spBLUpdateCostBySalesItemID]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBLUpdateCostBySalesItemID.sql|78543|EXEC spBLItemUpdateCost @OutStatus		= @intStatus OUTPUT
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBOItemAddNewAndBatchWeb.sql|2383|CREATE PROCEDURE [V10].[spBOItemAddNewAndBatchWeb]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBOItemAddNewAndBatchWeb.sql|16475|EXECUTE [V10].[spBOItemAddNewWeb] 
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBOItemAddNewAndBatchWeb.sql|16476|EXECUTE [V10].[spBOItemAddNewWeb] 
+
+spBLPendingChangeCreateBatch|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBOItemAddNewAndBatchWeb.sql|33323|EXECUTE [dbo].[spBLPendingChangeCreateBatch] 
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBOItemAddNewWeb.sql|1663|CREATE PROCEDURE [V10].[spBOItemAddNewWeb]
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBOItemAddNewWeb.sql|1664|CREATE PROCEDURE [V10].[spBOItemAddNewWeb]
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBOItemAddNewWeb.sql|16173|print '--[spBOItemAddNewWeb]--'
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBOItemAddNewWeb.sql|16174|print '--[spBOItemAddNewWeb]--'
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spBOItemAddNewWeb.sql|29893|EXEC [V10].[spBLItemUpdate] @OutStatus = @isSuccessful OUTPUT
+
+spDALCOAddUpdateCaseFromScheduler|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALCOAddUpdateCaseFromScheduler.sql|1476|CREATE PROCEDURE [V10].[spDALCOAddUpdateCaseFromScheduler]
+
+spDALCOScheduleBatchAdd|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALCOAddUpdateCaseFromScheduler.sql|20420|EXECUTE [V10].[spDALCOScheduleBatchAdd] 
+
+spDALCOGetScheduledPurchaseCaseByBatchID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALCOGetScheduledPurchaseCaseByBatchID.sql|1485|CREATE PROCEDURE [V10].[spDALCOGetScheduledPurchaseCaseByBatchID]
+
+spDALCOGetScheduledPurchaseCaseByScheduleDate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALCOGetScheduledPurchaseCaseByScheduleDate.sql|1486|CREATE PROCEDURE [V10].[spDALCOGetScheduledPurchaseCaseByScheduleDate]
+
+spDALCOGetScheduledPurchaseCaseByScheduleID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALCOGetScheduledPurchaseCaseByScheduleID.sql|1487|CREATE PROCEDURE [V10].[spDALCOGetScheduledPurchaseCaseByScheduleID]
+
+spDALCPBCostChangesUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALCPBCostChangesUpdate.sql|1479|CREATE proc [V10].[spDALCPBCostChangesUpdate]
+
+spDALDataprogramCorpGroupFind|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDataprogramCorpGroupFind.sql|1490|CREATE  PROC [V10].[spDALDataprogramCorpGroupFind]
+
+spDALDataprogramCorpGroupInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDataprogramCorpGroupInsert.sql|1480|CREATE PROC [V10].[spDALDataprogramCorpGroupInsert]
+
+spDALDataprogramCorpGroupUpdate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDataprogramCorpGroupUpdate.sql|1489|CREATE PROC [V10].[spDALDataprogramCorpGroupUpdate]
+
+spDALDBDailyEntryCCBatchExists|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDBDailyEntryCCBatchExists.sql|1493|CREATE PROCEDURE [V10].[spDALDBDailyEntryCCBatchExists]
+
+spDALDBDailyGetDashBoardDataFromSQL|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDBDailyGetDashBoardDataFromSQL.sql|1494|CREATE PROCEDURE [V10].[spDALDBDailyGetDashBoardDataFromSQL]
+
+spDALDBDailyHouseAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDBDailyHouseAccountLogLoanPaid.sql|3472|CREATE PROCEDURE [V10].[spDALDBDailyHouseAccountLogLoanPaid]
+
+spDALDBDailyHouseAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDBDailyHouseAccountLogLoanPaidTotal.sql|3478|CREATE PROCEDURE [V10].[spDALDBDailyHouseAccountLogLoanPaidTotal]
+
+spDALDBDailyHouseAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDBDailyHouseAccountLogLoanReceived.sql|1697|CREATE PROCEDURE [V10].[spDALDBDailyHouseAccountLogLoanReceived]
+
+spDALDBDailyHouseAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDBDailyHouseAccountLogLoanReceivedTotal.sql|1711|CREATE PROCEDURE [V10].[spDALDBDailyHouseAccountLogLoanReceivedTotal]
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDBDailyPayInOutAccountLogCashPurchase.sql|3524|CREATE PROCEDURE [V10].[spDALDBDailyPayInOutAccountLogCashPurchase]
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDBDailyPayInOutAccountLogCashPurchaseTotal.sql|3527|CREATE PROCEDURE [V10].[spDALDBDailyPayInOutAccountLogCashPurchaseTotal]
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDBDailyPayInOutAccountLogCustCollection.sql|3509|CREATE PROCEDURE [V10].[spDALDBDailyPayInOutAccountLogCustCollection]
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDBDailyPayInOutAccountLogCustCollectionTotal.sql|3489|CREATE PROCEDURE [V10].[spDALDBDailyPayInOutAccountLogCustCollectionTotal]
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDBDailyPayInOutAccountLogCustCredit.sql|3515|CREATE PROCEDURE [V10].[spDALDBDailyPayInOutAccountLogCustCredit]
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDBDailyPayInOutAccountLogCustCreditTotal.sql|3501|CREATE PROCEDURE [V10].[spDALDBDailyPayInOutAccountLogCustCreditTotal]
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDBDailyPayInOutAccountLogPurchaseRebate.sql|3516|CREATE PROCEDURE [V10].[spDALDBDailyPayInOutAccountLogPurchaseRebate]
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALDBDailyPayInOutAccountLogPurchaseRebateTotal.sql|3512|CREATE PROCEDURE [V10].[spDALDBDailyPayInOutAccountLogPurchaseRebateTotal]
+
+spDALLinkedCodeDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALLinkedCodeDelete.sql|1495|CREATE PROC [V10].[spDALLinkedCodeDelete]
+
+spDALLiveGasSalesFromSQL|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALLiveGasSalesFromSQL.sql|1496|CREATE PROCEDURE [V10].[spDALLiveGasSalesFromSQL]
+
+spDALNACSCategory|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALNACSCategory.sql|3315|CREATE PROCEDURE [V10].[spDALNACSCategory]
+
+spDALODGetStoreOpeningValuesFromSQL|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALODGetStoreOpeningValuesFromSQL.sql|1498|CREATE PROCEDURE [V10].[spDALODGetStoreOpeningValuesFromSQL]
+
+spDALPOSKeyDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALPOSKeyDelete.sql|4306|CREATE PROCEDURE [V10].[spDALPOSKeyDelete]
+
+spDALPromoPendingChangeDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALPromoPendingChangeDelete.sql|3602|CREATE PROCEDURE [V10].[spDALPromoPendingChangeDelete]
+
+spDALPromoPendingChangeDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALPromotionDelete.sql|14552|EXEC [V10].[spDALPromoPendingChangeDelete]  @OutStatus			= @isSuccessful OUTPUT
+
+spDALPromotionList|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALPromotionListForPrintByStoreID.sql|1775|CREATE PROC [V10].[spDALPromotionListForPrintByStoreID]
+
+spDALRetailZoneGetScheduledItemByScheduleID|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALRetailZoneGetScheduledItemByScheduleID.sql|1501|CREATE PROCEDURE [V10].[spDALRetailZoneGetScheduledItemByScheduleID]
+
+spDALRetailZoneScheduledItemListByScheduleDate|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALRetailZoneScheduledItemListByScheduleDate.sql|1502|CREATE PROCEDURE [V10].[spDALRetailZoneScheduledItemListByScheduleDate]
+
+spDALStoreDataprogramInsert|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALStoreDataprogramInsert.sql|1503|CREATE PROC [V10].[spDALStoreDataprogramInsert]
+
+spDALVendorGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALVendorGlobal.sql|3336|CREATE PROCEDURE [V10].[spDALVendorGlobal]
+
+spDALVendorGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALVendorGlobalDelete.sql|1506|CREATE PROCEDURE [V10].[spDALVendorGlobalDelete]
+
+spDALVendorGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALVendorGlobalFind.sql|1485|CREATE PROC [V10].[spDALVendorGlobalFind]
+
+spDALVendorGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALVendorGlobalInsert.sql|1504|CREATE PROCEDURE [V10].[spDALVendorGlobalInsert]
+
+spDALVendorGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALVendorGlobalList.sql|1504|CREATE PROC [V10].[spDALVendorGlobalList]
+
+spDALVendorGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALVendorGlobalPurchasePackDelete.sql|1506|CREATE PROCEDURE [V10].[spDALVendorGlobalPurchasePackDelete]
+
+spDALVendorGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALVendorGlobalPurchasePackFind.sql|1495|CREATE PROC [V10].[spDALVendorGlobalPurchasePackFind]
+
+spDALVendorGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALVendorGlobalPurchasePackInsert.sql|1505|CREATE PROCEDURE [V10].[spDALVendorGlobalPurchasePackInsert]
+
+spDALVendorGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALVendorGlobalPurchasePackList.sql|1505|CREATE PROC [V10].[spDALVendorGlobalPurchasePackList]
+
+spDALVendorGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALVendorGlobalPurchasePackUpdate.sql|1506|CREATE PROC [V10].[spDALVendorGlobalPurchasePackUpdate]
+
+spDALVendorGlobal|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spDALVendorGlobalUpdate.sql|1506|CREATE PROC [V10].[spDALVendorGlobalUpdate]
+
+spTaxGroupDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spTaxGroupDelete.sql|2240|CREATE PROCedure [V10].[spTaxGroupDelete]
+
+spTaxGroupDelete|C:\CSPData\Development\Rocket\DB\CSPPOS\Stored Procedures\V10.spTaxGroupDelete.sql|2560|CREATE PROCedure [V10].[spTaxGroupDelete]
+
+spBLGetStoreListExcludingRuby|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\dbo.spBLGetStoreListExcludingRuby.sql|3406|CREATE PROCEDURE [dbo].[spBLGetStoreListExcludingRuby]
+
+spBLPURItemStoreUpdateCost|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\dbo.spBLPURItemStoreUpdateCost.sql|3474|CREATE PROCEDURE [dbo].[spBLPURItemStoreUpdateCost]
+
+spDALCPBStoreList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\dbo.spDALCPBStoreListByProgramID.sql|3503|CREATE PROCEDURE [dbo].[spDALCPBStoreListByProgramID]
+
+spDALCPBStoreList|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\dbo.spDALCPBStoreListWithProgramAssigned.sql|3523|CREATE PROCEDURE [dbo].[spDALCPBStoreListWithProgramAssigned]
+
+spDALErrorLogInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\dbo.spDALErrorLogInsert.sql|1712|CREATE PROCEDURE [dbo].[spDALErrorLogInsert]
+
+spDALVendorFileTypeFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\dbo.spDALVendorFileTypeFind.sql|3637|CREATE PROCEDURE [dbo].[spDALVendorFileTypeFind]
+
+spDALPurchasingInvoiceGetDetails|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\mob.spDALPurchasingInvoiceGetDetails.sql|1527|CREATE PROCEDURE [mob].[spDALPurchasingInvoiceGetDetails]
+
+spDALBankAccountByStore|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\new.spDALBankAccountByStoreID.sql|2415|CREATE proc [new].[spDALBankAccountByStoreID]
+
+spAdminStoreEngagement|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spAdminStoreEngagement.sql|3346|CREATE PROCEDURE [unused].[spAdminStoreEngagement]
+
+spBLPURRetailingSummary|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBLPURRetailingSummary.sql|3445|CREATE PROCEDURE [unused].[spBLPURRetailingSummary]
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spBOAddNewItemWeb.sql|21608|EXEC spBLItemUpdate @isSuccessful OUTPUT
+
+spDALBankAccountByStore|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALBankAccountByStore.sql|3490|CREATE PROCEDURE [unused].[spDALBankAccountByStore]
+
+spDALItemGroupDeleteNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALItemGroupDeleteNew.sql|1703|CREATE procedure [unused].[spDALItemGroupDeleteNew]
+
+spDALMultiStoreRptSales|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALMultiStoreRptSales.sql|5036|CREATE PROCEDURE [unused].[spDALMultiStoreRptSales] 
+
+spDALPURInvoiceRetailingLogInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALPURInvoiceRetailingLogInsert.sql|3616|CREATE PROCEDURE [unused].[spDALPURInvoiceRetailingLogInsert]
+
+spDALVendorDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorDelete.sql|1806|CREATE PROCEDURE [unused].[spDALVendorDelete]
+
+spDALVendorUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorUpdate.sql|1811|CREATE PROCEDURE [unused].[spDALVendorUpdate]
+
+spDALVendorUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorUpdateNew.sql|1809|CREATE PROCEDURE [unused].[spDALVendorUpdateNew]
+
+spDALVendorUpdateNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spDALVendorUpdateNew.sql|1810|CREATE PROCEDURE [unused].[spDALVendorUpdateNew]
+
+spTaxGroupDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spTaxGroupDelete.sql|2240|CREATE PROCedure [unused].[spTaxGroupDelete]
+
+spTaxGroupDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused.spTaxGroupDelete.sql|2560|CREATE PROCedure [unused].[spTaxGroupDelete]
+
+_spAdminDeleteStoreData|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\unused._spAdminDeleteStoreData.sql|1537|CREATE PROCEDURE  [unused].[_spAdminDeleteStoreData]
+
+spBLCOVendorUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spBLCOVendorUpdate.sql|1468|CREATE PROC  [V10].[spBLCOVendorUpdate]
+
+spDALPURInvoiceRetailingLogInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spBLGroceryPurchaseInsert.sql|80895|EXEC [V10].[spDALPURInvoiceRetailingLogInsertPreValues]  @OutStatus = @IsSuccessful OUTPUT
+
+spDALPURInvoiceRetailingLogInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spBLGroceryPurchaseInsertold.sql|70795|EXEC [V10].[spDALPURInvoiceRetailingLogInsertPreValues]  @OutStatus = @IsSuccessful OUTPUT
+
+spDALPURInvoiceRetailingLogInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spBLGroceryRetailingByCategory.sql|23317|EXEC [V10].[spDALPURInvoiceRetailingLogInsertPreValues]  @OutStatus = @isSuccessful OUTPUT
+
+spBLLoanAccountDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spBLLoanAccountDelete.sql|2339|CREATE PROC [V10].[spBLLoanAccountDelete]
+
+spBLProfitWithdrawerDelete|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spBLProfitWithdrawerDelete.sql|2355|CREATE PROC [V10].[spBLProfitWithdrawerDelete]
+
+spBLProfitWithdrawerUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spBLProfitWithdrawerUpdate.sql|1624|CREATE PROC [V10].[spBLProfitWithdrawerUpdate]
+
+spBLProfitWithdrawerUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spBLProfitWithdrawerUpdateNew.sql|1622|CREATE PROC [V10].[spBLProfitWithdrawerUpdateNew]
+
+spDALPURInvoiceRetailingLogInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spBLPurchaseInvoiceInsert.sql|28463|EXEC [V10].[spDALPURInvoiceRetailingLogInsertPreValues]  @OutStatus = @intStatus OUTPUT
+
+spDALPURInvoiceRetailingLogInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spBLPurchasingRebateInsert.sql|40305|EXEC [V10].[spDALPURInvoiceRetailingLogInsertPreValues]  @OutStatus = @intStatus OUTPUT
+
+spDALGroceryCategoryFind|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spDALGroceryCategoryFind.sql|3536|CREATE PROCEDURE [V10].[spDALGroceryCategoryFind]
+
+spDALGroceryCategoryUpdate|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spDALGroceryCategoryUpdate.sql|3558|CREATE PROCEDURE [V10].[spDALGroceryCategoryUpdate]
+
+SPDALProfitWithDrawerNew|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.SPDALProfitWithDrawerNew.sql|1743|CREATE PROC [V10].[SPDALProfitWithDrawerNew]
+
+spDALPURInvoiceRetailingLogInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spDALPurchaseInvoiceRetailingLog.sql|24417|EXEC [V10].[spDALPURInvoiceRetailingLogInsertPreValues]  @OutStatus = @isSuccessful OUTPUT
+
+spDALPURInvoiceRetailingLogInsert|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spDALPURInvoiceRetailingLogInsertPreValues.sql|3609|CREATE PROCEDURE [V10].[spDALPURInvoiceRetailingLogInsertPreValues]
+
+spRptConsignmentFuel|C:\CSPData\Development\Rocket\DB\CStorePro\Stored Procedures\V10.spRptConsignmentFuelStoreList.sql|3616|CREATE PROCEDURE [V10].[spRptConsignmentFuelStoreList]
+
+spBLProfitWithdrawerUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Admin\Resources\xml\ManageDrawersAddUpdate.config|18380|<procedureName>spBLProfitWithdrawerUpdate</procedureName>
+
+spDALGroceryCategoryUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Admin\Resources\xml\ManageStoreCategoriesAddUpdate.config|30493|<procedureName>[V10].[spDALGroceryCategoryUpdate]</procedureName>
+
+spBLProfitWithdrawerUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Banking\Resources\xml\EnterDirectBankProfit.config|73792|<procedureName>[V10].[spBLProfitWithdrawerUpdateNew]</procedureName>
+
+spDALDataprogramCorpGroupUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\CO\Resources\XML\CODataProgramSettingsAddUpdate.config|24999|<procedureName>[V10].[spDALDataprogramCorpGroupUpdate]</procedureName>
+
+spDALDataprogramCorpGroupFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\CO\Resources\XML\CODataProgramSettingsAddUpdate.config|32206|<procedureName>[V10].[spDALDataprogramCorpGroupFind]</procedureName>
+
+spDALDataprogramCorpGroupInsert|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\CO\Resources\XML\CODataProgramSettingsAddUpdate.config|36911|<procedureName>[V10].[spDALDataprogramCorpGroupInsert]</procedureName>
+
+spDALStoreDataprogramInsert|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\CO\Resources\XML\COStoreDataProgramSettingsAddUpdate.config|69496|<procedureName>[V10].[spDALStoreDataprogramInsert]</procedureName>
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Daily\Components\xml\Collections.config|338422|<procedureName>[V10].[spDALDBDailyPayInOutAccountLogCashPurchase]</procedureName>
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Daily\Components\xml\Collections.config|575541|<procedureName>[V10].[spDALDBDailyPayInOutAccountLogPurchaseRebate]</procedureName>
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Daily\Components\xml\CustomerCredit.config|60835|<procedureName>[V10].[spDALDBDailyPayInOutAccountLogCustCollection]</procedureName>
+
+spDALDBDailyPayInOutAccountLog|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Daily\Components\xml\CustomerCredit.config|129232|<procedureName>[V10].[spDALDBDailyPayInOutAccountLogCustCredit]</procedureName>
+
+spDALDBDailyHouseAccountLog|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Daily\Components\xml\LoanReport.config|66570|<procedureName>[V10].[spDALDBDailyHouseAccountLogLoanReceived]</procedureName>
+
+spDALDBDailyHouseAccountLog|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Daily\Components\xml\LoanReport.config|137833|<procedureName>[V10].[spDALDBDailyHouseAccountLogLoanPaid]</procedureName>
+
+spDALBankAccountByStore|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Grocery\Resources\XML\GroceryInvoicePayment.config|51080|<procedureName>spDALBankAccountByStoreID</procedureName>
+
+spDALGroceryCategoryFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Grocery\Resources\XML\MassRetailingNew.config|53740|<procedureName>[V10].[spDALGroceryCategoryFind]</procedureName>
+
+spBLGroceryPURAddNew|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Grocery\Resources\XML\RetailByItemForm.config|52783|<procedureName>spBLGroceryPURAddNew</procedureName>
+
+spDALCOGetScheduledPurchaseCaseByBatchID|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\xml\COPOSScheduledPurchaseCaseListByBatchID.config|37576|<procedureName>[V10].[spDALCOGetScheduledPurchaseCaseByBatchID]</procedureName>
+
+spDALCOGetScheduledPurchaseCaseByScheduleDate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\xml\COPOSUnProcessedScheduledPurchaseCaseListItems.config|37570|<procedureName>[V10].[spDALCOGetScheduledPurchaseCaseByScheduleDate]</procedureName>
+
+spDALRetailZoneScheduledItemListByScheduleDate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\xml\CORetailZoneUnProcessedScheduledItemList.config|39181|<procedureName>[V10].[spDALRetailZoneScheduledItemListByScheduleDate]</procedureName>
+
+spDALGroceryCategoryFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\xml\COVendorsAddUpdateCorp.config|25941|<procedureName>[V10].[spDALGroceryCategoryFind]</procedureName>
+
+spDALVendorFileTypeFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\xml\COVendorsAddUpdateCorp.config|43908|<procedureName>spDALVendorFileTypeFind</procedureName>
+
+spDALVendorInsertCSP|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\xml\COVendorsAddUpdateCorp.config|232637|<procedureName>spDALVendorInsertCSP1</procedureName>
+
+spDALVendorFileTypeFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\xml\COVendorsZoneStoreList.config|19715|<procedureName>spDALVendorFileTypeFind</procedureName>
+
+spDALVendorFileTypeFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\xml\COViewVendorsList.config|21745|<procedureName>spDALVendorFileTypeFind</procedureName>
+
+spDALVendorFileTypeFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CentralOffice\Resources\xml\COViewVendorsZoneList.config|19960|<procedureName>spDALVendorFileTypeFind</procedureName>
+
+spDALPOSItemList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBItemGroupDetail.config|12648|<procedureName>spDALPOSItemList</procedureName>
+
+spBLCPBUnVerifiedItems|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBMonitorUnverifiedItems.config|3767|<procedureName>spBLCPBUnVerifiedItems</procedureName>
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBPOSItemAddNew.config|159191|<procedureName>spBOItemAddNewWeb</procedureName>
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBPOSItemAddNew.config|159192|<procedureName>spBOItemAddNewWeb</procedureName>
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBPOSItemAddNew.config|170330|<procedureName>spBLItemUpdate</procedureName>
+
+spDALCPBGetStoreList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBPOSItemPriceMisMatchDashboard.config|27213|<procedureName>spDALCPBGetStoreListFromCPBID</procedureName>
+
+spDALCPBGetStoreList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBPOSPriceChange.config|140178|<procedureName>spDALCPBGetStoreListFromCPBID</procedureName>
+
+spDALCPBGetStoreList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBPriceChangeBatchLogHistory.config|26708|<procedureName>spDALCPBGetStoreListFromCPBID</procedureName>
+
+spDALCPBStoreList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBPriceGroupAddUpdate.config|30733|<procedureName>spDALCPBStoreListPriceGroup</procedureName>
+
+spDALCPBStoreList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBPriceGroupAddUpdate.config|35458|<procedureName>spDALCPBStoreListPriceGroup</procedureName>
+
+spDALPromoItemListCreation|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBPromoItemListCreation.config|24892|<procedureName>spDALPromoItemListCreation</procedureName>
+
+spDALCPBGetStoreList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBPromoStagging.config|15533|<procedureName>spDALCPBGetStoreListFromCPBIDExcludingCPBStore</procedureName>
+
+spDALPromoRELPromoToListFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBPromotionAddNew.config|38141|<procedureName>spDALPromoRELPromoToListFind</procedureName>
+
+spDALPromoFindByPromotionID|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBPromotionAddNew.config|97055|<procedureName>spDALPromoFindByPromotionID</procedureName>
+
+spDALPromoItemGroupDetail|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBPromotionGroupDetail.config|12139|<procedureName>spDALPromoItemGroupDetail</procedureName>
+
+spDALPromotionList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBPromotionList.config|49417|<procedureName>spDALPromotionListByStoreID</procedureName>
+
+spDALCPBGetStoreList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBRegisterKeyMapping.config|9959|<procedureName>spDALCPBGetStoreListFromCPBID</procedureName>
+
+spBLSaleItemPackInsert|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\CPB\Resources\xml\CPBSaleItemPacksAddUpdate.config|105998|<procedureName>spBLSaleItemPackInsert</procedureName>
+
+spINVAdjgetBatchItemdetails|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\Inventory\Resources\xml\INVAdjBatchGrid.config|7719|<procedureName>inv.spINVAdjgetBatchItemdetails</procedureName>
+
+spDALNACSCategory|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\ItemImport\Resources\xml\ItemImportGrid.config|20403|<procedureName>[V10].[spDALNACSCategory]</procedureName>
+
+spDALNACSCategory|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\ItemImport\Resources\xml\ItemImportGrid.config|28765|<procedureName>[V10].[spDALNACSCategory]</procedureName>
+
+spDALDailyLog|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSAdmin\Resources\XML\DailyLogList.config|41747|<procedureName>spDALDailyLogList</procedureName>
+
+spDALDailyLogList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSAdmin\Resources\XML\DailyLogList.config|41748|<procedureName>spDALDailyLogList</procedureName>
+
+spDALVendorGlobal|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\XML\POSPurchaseCaseImport.config|7706|<procedureName>[V10].[spDALVendorGlobal]</procedureName>
+
+spBLInputFileDeliveryGetNewItems|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\XML\POSPurchaseCaseImportNewItems.config|4152|<procedureName>[pur].[spBLInputFileDeliveryGetNewItems]</procedureName>
+
+spDALVendorFileTypeFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\XML\POSPurchaseCaseRetailing.config|28794|<procedureName>spDALVendorFileTypeFind</procedureName>
+
+spBLInputFileDeliveryGetNewItems|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\XML\POSPurchaseCaseRetailingDeliveryScanGrid.config|4494|<procedureName>[pur].[spBLInputFileDeliveryGetNewItems]</procedureName>
+
+spBLPURItemStoreUpdateCost|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\POSPurchase\Resources\XML\POSPurchaseCaseRetailingLogUpdate.config|153303|<!--<procedureName>spBLPURItemStoreUpdateCost</procedureName>
+
+spDALCPBGetStoreList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\CPBItemAddNewVerify.config|35604|<procedureName>spDALCPBGetStoreListFromCPBID</procedureName>
+
+spDALCPBGetStoreList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\CPBPOSItemUnScanned.config|25347|<procedureName>spDALCPBGetStoreListFromCPBID</procedureName>
+
+spDALVendorFileTypeFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\ManageVendors.config|18932|<procedureName>spDALVendorFileTypeFind</procedureName>
+
+spDALGroceryCategoryFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\ManageVendorsAddUpdate.config|25314|<procedureName>[V10].[spDALGroceryCategoryFind]</procedureName>
+
+spDALVendorFileTypeFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\ManageVendorsAddUpdate.config|46540|<procedureName>spDALVendorFileTypeFind</procedureName>
+
+spDALVendorInsertCSP|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\ManageVendorsAddUpdate.config|110106|<procedureName>spDALVendorInsertCSP</procedureName>
+
+spDALPackItemByID|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\POSItemAddNew.config|173328|<procedureName>spDALPackItemByID</procedureName>
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\POSItemAddNew.config|232984|<procedureName>[V10].spBOItemAddNewAndBatchWeb</procedureName>
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\POSItemAddNew.config|252122|<procedureName>[V10].spBLItemUpdateAndBatchWeb</procedureName>
+
+spDALPromotionList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\POSItemPrintingForPromo.config|19259|<procedureName>[V10].[spDALPromotionListForPrintByStoreID]</procedureName>
+
+spBOItemAddNew|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\POSItemUpdatePrice.config|101041|<procedureName>spBOItemAddNewWeb</procedureName>
+
+spBOItemAddNewWeb|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\POSItemUpdatePrice.config|101042|<procedureName>spBOItemAddNewWeb</procedureName>
+
+spBLItemUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\POSItemUpdatePrice.config|111084|<procedureName>[dbo].[spBLItemUpdate]</procedureName>
+
+spDALPOSPriceChangeBatchLogError|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\POSPriceChangeBatchError.config|8298|<procedureName>spDALPOSPriceChangeBatchLogError</procedureName>
+
+spBLPendingChangeBatchLog|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\POSPriceChangeBatchLogHistory.config|42762|<procedureName>[V10].spBLPendingChangeBatchLogHistory</procedureName>
+
+spDALPromoRELPromoToListFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\POSPromotionAddNew.config|41355|<procedureName>spDALPromoRELPromoToListFind</procedureName>
+
+spDALPromoFindByPromotionID|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\POSPromotionAddNew.config|99864|<procedureName>spDALPromoFindByPromotionID</procedureName>
+
+spDALPromoItemGroupDetail|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\POSPromotionGroupDetail.config|12378|<procedureName>spDALPromoItemGroupDetail</procedureName>
+
+spDALPromotionList|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\POSPromotionList.config|55312|<procedureName>spDALPromotionListByStoreID</procedureName>
+
+spDALPromoFindByPromoType|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\PromoList.config|11591|<procedureName>spDALPromoFindByPromoType</procedureName>
+
+spBLPromoPendingChangeUnBatchedPack|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\PromoPackStagging.config|3811|<procedureName>spBLPromoPendingChangeUnBatchedPack</procedureName>
+
+spDALPURItemStoreFind|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\PURPurchaseItems.config|45371|<procedureName>spDALPURItemStoreFind</procedureName>
+
+spBLSaleItemPackInsert|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\POSManagement\PriceChangeXML\PURSaleItemPacksAddUpdate.config|141265|<procedureName>[V10].spBLSaleItemPackInsertAndBatch</procedureName>
+
+spRptConsignmentFuel|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Reports\Resources\xml\RptConsignmentFuelReport.config|49981|<procedureName>spRptConsignmentFuel</procedureName>
+
+SPDALProfitWithDrawerNew|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Settings\Resources\XML\ManageDrawers.config|42913|<procedureName>[V10].[SPDALProfitWithDrawerNew]</procedureName>
+
+spBLProfitWithdrawerUpdate|C:\CSPData\Development\Rocket\Web\CSPWeb\Content\Settings\Resources\XML\ManageDrawersAddUpdate.config|18299|<procedureName>[V10].[spBLProfitWithdrawerUpdate]</procedureName>
+
+spDALSettingsStoreConnection|C:\CSPData\Development\Rocket\Web\Office\Content\Store\Resources\xml\POSSettingsConnectionForm.config|62716|<procedureName>spDALSettingsStoreConnectionUpdate</procedureName>
+
