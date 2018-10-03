@@ -18,6 +18,7 @@ namespace SearchText
         public SearchForm()
         {
             InitializeComponent();
+            txtFolderPath.Text = @"C:\CSPData\Development\Rocket\Web\CSPWeb";
         }
 
 
@@ -27,11 +28,11 @@ namespace SearchText
             string strShowStatus = "";
 
             List<string> lstSearchText = null;
-            string strSearchFolder = @"C:\CSPData\Development\Rocket";
+            string strSearchFolder = @"C:\Users\vishnu\Desktop\Temp";
             string strIncludedExtensions = "";
             string strExcludedExtensions = "";
 
-            if(this.txtSearchText.Text != null && this.txtSearchText.Text != "")
+            if (this.txtSearchText.Text != null && this.txtSearchText.Text != "")
             {
 
                 try
@@ -97,16 +98,17 @@ namespace SearchText
         {
             bool isOpSuccessful = false;
             string strShowStatus = "";
-
+            float progressVal;
             Search searchTemp = e.Argument as Search;
-            isOpSuccessful = searchTemp.performSearch(out strShowStatus);
+            isOpSuccessful = searchTemp.performSearch(out strShowStatus, out progressVal);
         }
 
-        private void updateStatus(string inStatus)
+        private void updateStatus(string inStatus, float progressVal)
         {
             // Its another thread so invoke back to UI thread
             base.Invoke((Action)delegate
             {
+                this.progressBar.Value = (int)progressVal;
                 this.lblSearchStatus.Text = "";
                 this.lblSearchStatus.Text += inStatus;
             });
@@ -121,5 +123,7 @@ namespace SearchText
                 this.txtSearchText.Text = filePath;
             }
         }
+
+        
     }
 }

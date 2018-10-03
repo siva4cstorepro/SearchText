@@ -41,13 +41,15 @@
             this.btnFileName = new System.Windows.Forms.Button();
             this.fileDialogSearchText = new System.Windows.Forms.OpenFileDialog();
             this.includedFileTypesTextBox = new System.Windows.Forms.TextBox();
+            this.progressBar = new System.Windows.Forms.ProgressBar();
             this.SuspendLayout();
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(62, 376);
+            this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSearch.Location = new System.Drawing.Point(404, 365);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(120, 23);
+            this.btnSearch.Size = new System.Drawing.Size(120, 36);
             this.btnSearch.TabIndex = 0;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
@@ -55,35 +57,39 @@
             // 
             // txtSearchText
             // 
-            this.txtSearchText.Location = new System.Drawing.Point(62, 50);
+            this.txtSearchText.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearchText.Location = new System.Drawing.Point(298, 45);
             this.txtSearchText.Name = "txtSearchText";
-            this.txtSearchText.Size = new System.Drawing.Size(281, 20);
+            this.txtSearchText.Size = new System.Drawing.Size(327, 23);
             this.txtSearchText.TabIndex = 2;
             // 
             // lblSearchText
             // 
             this.lblSearchText.AutoSize = true;
-            this.lblSearchText.Location = new System.Drawing.Point(62, 31);
+            this.lblSearchText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSearchText.Location = new System.Drawing.Point(294, 22);
             this.lblSearchText.Name = "lblSearchText";
-            this.lblSearchText.Size = new System.Drawing.Size(221, 13);
+            this.lblSearchText.Size = new System.Drawing.Size(331, 20);
             this.lblSearchText.TabIndex = 3;
             this.lblSearchText.Text = "Search Text (Seperate by comma for multiple)";
             // 
             // lblFileFolder
             // 
             this.lblFileFolder.AutoSize = true;
-            this.lblFileFolder.Location = new System.Drawing.Point(62, 99);
+            this.lblFileFolder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFileFolder.Location = new System.Drawing.Point(389, 86);
             this.lblFileFolder.Name = "lblFileFolder";
-            this.lblFileFolder.Size = new System.Drawing.Size(99, 13);
+            this.lblFileFolder.Size = new System.Drawing.Size(135, 20);
             this.lblFileFolder.TabIndex = 5;
-            this.lblFileFolder.Text = "Folders to search in";
+            this.lblFileFolder.Text = "Folders to Search";
             // 
             // lblIncludedFileTypes
             // 
             this.lblIncludedFileTypes.AutoSize = true;
-            this.lblIncludedFileTypes.Location = new System.Drawing.Point(62, 159);
+            this.lblIncludedFileTypes.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIncludedFileTypes.Location = new System.Drawing.Point(392, 152);
             this.lblIncludedFileTypes.Name = "lblIncludedFileTypes";
-            this.lblIncludedFileTypes.Size = new System.Drawing.Size(89, 13);
+            this.lblIncludedFileTypes.Size = new System.Drawing.Size(132, 20);
             this.lblIncludedFileTypes.TabIndex = 6;
             this.lblIncludedFileTypes.Text = "Include File types";
             // 
@@ -97,14 +103,15 @@
             // 
             // txtFolderPath
             // 
-            this.txtFolderPath.Location = new System.Drawing.Point(65, 116);
+            this.txtFolderPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFolderPath.Location = new System.Drawing.Point(298, 109);
             this.txtFolderPath.Name = "txtFolderPath";
-            this.txtFolderPath.Size = new System.Drawing.Size(278, 20);
+            this.txtFolderPath.Size = new System.Drawing.Size(327, 23);
             this.txtFolderPath.TabIndex = 16;
             // 
             // btnFileBrowser
             // 
-            this.btnFileBrowser.Location = new System.Drawing.Point(350, 116);
+            this.btnFileBrowser.Location = new System.Drawing.Point(643, 109);
             this.btnFileBrowser.Name = "btnFileBrowser";
             this.btnFileBrowser.Size = new System.Drawing.Size(29, 23);
             this.btnFileBrowser.TabIndex = 17;
@@ -118,7 +125,7 @@
             // 
             // btnFileName
             // 
-            this.btnFileName.Location = new System.Drawing.Point(350, 50);
+            this.btnFileName.Location = new System.Drawing.Point(643, 45);
             this.btnFileName.Name = "btnFileName";
             this.btnFileName.Size = new System.Drawing.Size(29, 23);
             this.btnFileName.TabIndex = 18;
@@ -128,16 +135,25 @@
             // 
             // includedFileTypesTextBox
             // 
-            this.includedFileTypesTextBox.Location = new System.Drawing.Point(65, 185);
+            this.includedFileTypesTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.includedFileTypesTextBox.Location = new System.Drawing.Point(298, 175);
             this.includedFileTypesTextBox.Name = "includedFileTypesTextBox";
-            this.includedFileTypesTextBox.Size = new System.Drawing.Size(278, 20);
+            this.includedFileTypesTextBox.Size = new System.Drawing.Size(327, 23);
             this.includedFileTypesTextBox.TabIndex = 19;
+            // 
+            // progressBar
+            // 
+            this.progressBar.Location = new System.Drawing.Point(175, 272);
+            this.progressBar.Name = "progressBar";
+            this.progressBar.Size = new System.Drawing.Size(603, 23);
+            this.progressBar.TabIndex = 20;
             // 
             // SearchForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(554, 496);
+            this.ClientSize = new System.Drawing.Size(977, 493);
+            this.Controls.Add(this.progressBar);
             this.Controls.Add(this.includedFileTypesTextBox);
             this.Controls.Add(this.btnFileName);
             this.Controls.Add(this.btnFileBrowser);
@@ -170,6 +186,7 @@
         private System.Windows.Forms.Button btnFileName;
         private System.Windows.Forms.OpenFileDialog fileDialogSearchText;
         private System.Windows.Forms.TextBox includedFileTypesTextBox;
+        private System.Windows.Forms.ProgressBar progressBar;
     }
 }
 
